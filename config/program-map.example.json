@@ -1,0 +1,14 @@
+{
+  "Informatica (linia maghiara)": {
+    "id": "informatica-maghiara",
+    "title": "Informatics - Hungarian track"
+  },
+  "Informatica (linia romana)": {
+    "id": "informatica-romana",
+    "title": "Informatics - Romanian track"
+  },
+  "Informatica (linia engleza)": {
+    "id": "informatica-engleza",
+    "title": "Informatics - English track"
+  }
+}
