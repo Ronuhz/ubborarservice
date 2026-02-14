@@ -51,7 +51,24 @@ Response keys:
 - `rooms[].code`
 - `rooms[].address`
 
-### 4) Timetable (per group)
+### 4) Discounts
+
+- `GET /discounts.json`
+- Purpose: render app discount cards (localized keys + symbol + colors).
+
+Response keys:
+
+- `items[].id`
+- `items[].title` (plain English display text)
+- `items[].subtitle` (plain English display text)
+- `items[].badge` (plain English display text)
+- `items[].url`
+- `items[].symbolName`
+- `items[].topColor.red|green|blue` (0...1)
+- `items[].bottomColor.red|green|blue` (0...1)
+- `items[].accentColor.red|green|blue` (0...1)
+
+### 5) Timetable (per group)
 
 - `GET /{academicYear}/{programId}/y{year}/g{group}.json`
 
@@ -116,3 +133,4 @@ func timetablePath(academicYear: String, programId: String, year: Int, group: In
 - Do not localize backend string enums (`day`, `type`, `frequency`) before decoding.
 - Handle missing optional fields safely (`symbolName`, `roomAddress`, `startsAt`, `endsAt`).
 - Treat timetable `404` as valid empty-state behavior.
+- Map discount color channels (0...1) directly into SwiftUI `Color(red:green:blue:)`.

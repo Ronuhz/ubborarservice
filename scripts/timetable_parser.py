@@ -44,7 +44,8 @@ ROOM_CAPTURE_RE = re.compile(
     re.IGNORECASE,
 )
 GROUP_HEADING_RE = re.compile(r"\bgrupa\s+(\d{3,4})\b", re.IGNORECASE)
-FORMATION_RE = re.compile(r"^(?:[A-Za-z]{1,6}\d{0,3}|\d{3,4}(?:/\d+)?)$", re.IGNORECASE)
+FORMATION_NUMERIC_RE = re.compile(r"^\d{3,4}(?:/\d+)?$")
+FORMATION_TOKEN_RE = re.compile(r"^[A-Za-z]{1,6}\d{0,3}$")
 SUBGROUP_PREFIX_RE = re.compile(r"^(?:sgr\.?|subgr\.?|gr\.?)\s*[\w/-]+\s*:\s*", re.IGNORECASE)
 INLINE_ENTRY_RE = re.compile(
     r"^(?:(?:sapt\.?\s*[12]|week\s*[12])\s*:\s*)?"
@@ -268,9 +269,20 @@ def _is_formation_line(line: str) -> bool:
     cleaned = _strip_subgroup_prefix(line).strip("() ")
     if not cleaned:
         return False
-    if FORMATION_RE.fullmatch(cleaned):
+    if FORMATION_NUMERIC_RE.fullmatch(cleaned):
         return True
-    return bool(re.fullmatch(r"\d{3,4}/\d", cleaned))
+    if not FORMATION_TOKEN_RE.fullmatch(cleaned):
+        return False
+
+    upper = cleaned.upper()
+    # Keep common room-code patterns out of formation detection.
+    if upper.startswith(("CR", "LAB", "AMF", "AULA", "ROOM", "SALA")):
+        return False
+    if re.fullmatch(r"C\d+[A-Z0-9._/-]*", upper):
+        return False
+    if re.fullmatch(r"L\d+[A-Z0-9._/-]*", upper):
+        return False
+    return True
 
 
 def _is_room_line(line: str) -> bool:

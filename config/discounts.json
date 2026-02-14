@@ -1,0 +1,142 @@
+{
+  "items": [
+    {
+      "id": "connect-cluj",
+      "title": "Connect Cluj",
+      "subtitle": "Free 120 bus rides per month for students in Cluj.",
+      "badge": "CITY CARD",
+      "url": "https://ctpcj.ro/index.php/ro/despre-noi/stiri/studentii-masteranzi-doctoranzi/1808",
+      "symbolName": "point.3.connected.trianglepath.dotted",
+      "topColor": {
+        "red": 0.39,
+        "green": 0.07,
+        "blue": 0.45
+      },
+      "bottomColor": {
+        "red": 0.16,
+        "green": 0.04,
+        "blue": 0.27
+      },
+      "accentColor": {
+        "red": 0.62,
+        "green": 0.39,
+        "blue": 0.88
+      }
+    },
+    {
+      "id": "github-pack",
+      "title": "GitHub Student Pack",
+      "subtitle": "Free developer tools, hosting credits, and learning resources.",
+      "badge": "FREE",
+      "url": "https://education.github.com/pack",
+      "symbolName": "chevron.left.forwardslash.chevron.right",
+      "topColor": {
+        "red": 0.09,
+        "green": 0.09,
+        "blue": 0.11
+      },
+      "bottomColor": {
+        "red": 0.22,
+        "green": 0.22,
+        "blue": 0.27
+      },
+      "accentColor": {
+        "red": 0.52,
+        "green": 0.81,
+        "blue": 1.0
+      }
+    },
+    {
+      "id": "apple-music",
+      "title": "Apple Music Student",
+      "subtitle": "Student plan with discounted Apple Music membership.",
+      "badge": "MUSIC",
+      "url": "https://www.apple.com/apple-music/",
+      "symbolName": "music.note.list",
+      "topColor": {
+        "red": 0.78,
+        "green": 0.23,
+        "blue": 0.45
+      },
+      "bottomColor": {
+        "red": 0.4,
+        "green": 0.1,
+        "blue": 0.25
+      },
+      "accentColor": {
+        "red": 1.0,
+        "green": 0.73,
+        "blue": 0.83
+      }
+    },
+    {
+      "id": "youtube-premium",
+      "title": "YouTube Premium Student",
+      "subtitle": "Student discount on YouTube Premium with ad-free videos and offline playback.",
+      "badge": "VIDEO",
+      "url": "https://www.youtube.com/premium/student",
+      "symbolName": "play.rectangle.fill",
+      "topColor": {
+        "red": 0.84,
+        "green": 0.07,
+        "blue": 0.11
+      },
+      "bottomColor": {
+        "red": 0.41,
+        "green": 0.03,
+        "blue": 0.07
+      },
+      "accentColor": {
+        "red": 1.0,
+        "green": 0.67,
+        "blue": 0.68
+      }
+    },
+    {
+      "id": "spotify-student",
+      "title": "Spotify Premium Student",
+      "subtitle": "Discounted Premium plan for students with music and podcasts.",
+      "badge": "MUSIC",
+      "url": "https://www.spotify.com/ro-ro/student/",
+      "symbolName": "music.note",
+      "topColor": {
+        "red": 0.08,
+        "green": 0.51,
+        "blue": 0.29
+      },
+      "bottomColor": {
+        "red": 0.03,
+        "green": 0.18,
+        "blue": 0.11
+      },
+      "accentColor": {
+        "red": 0.5,
+        "green": 1.0,
+        "blue": 0.69
+      }
+    },
+    {
+      "id": "istyle",
+      "title": "iStyle Student Discount",
+      "subtitle": "Student pricing on Apple devices and accessories through iStyle.",
+      "badge": "TECH",
+      "url": "https://istyle.ro/pages/back-to-school",
+      "symbolName": "laptopcomputer",
+      "topColor": {
+        "red": 0.2,
+        "green": 0.23,
+        "blue": 0.3
+      },
+      "bottomColor": {
+        "red": 0.08,
+        "green": 0.1,
+        "blue": 0.14
+      },
+      "accentColor": {
+        "red": 0.74,
+        "green": 0.78,
+        "blue": 0.87
+      }
+    }
+  ]
+}

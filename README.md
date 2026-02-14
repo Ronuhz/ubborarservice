@@ -10,6 +10,7 @@ The pipeline generates:
 
 - `catalog.json`
 - `announcements.json`
+- `discounts.json`
 - `rooms.json` (room code -> address legend)
 - Per-group timetable files:
   - `{academicYear}/{programId}/y{year}/g{group}.json`
@@ -47,6 +48,7 @@ Generate data:
 python scripts/scrape.py --config config/sources.json --out dist --soft-fail-empty
 python scripts/build_catalog.py --config config/sources.json --out dist --status dist/.scrape-status.json
 python scripts/build_announcements.py --out dist --announcements config/announcements.json --status dist/.scrape-status.json
+python scripts/build_discounts.py --out dist --discounts config/discounts.json
 ```
 
 By default `scrape.py` also fetches:
@@ -86,6 +88,7 @@ Expected public URLs:
 
 - `https://<user>.github.io/<repo>/catalog.json`
 - `https://<user>.github.io/<repo>/announcements.json`
+- `https://<user>.github.io/<repo>/discounts.json`
 - `https://<user>.github.io/<repo>/rooms.json`
 - `https://<user>.github.io/<repo>/<academicYear>/<programId>/y<year>/g<group>.json`
 
@@ -96,6 +99,7 @@ JSON schemas are available in:
 - `schemas/catalog.schema.json`
 - `schemas/timetable.schema.json`
 - `schemas/announcements.schema.json`
+- `schemas/discounts.schema.json`
 - `schemas/rooms.schema.json`
 
 ## Failure Behavior

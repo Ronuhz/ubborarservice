@@ -53,6 +53,10 @@ jobs:
         if: steps.cadence.outputs.skip != 'true'
         run: python scripts/build_announcements.py --out dist --announcements config/announcements.json --status dist/.scrape-status.json
 
+      - name: Build discounts
+        if: steps.cadence.outputs.skip != 'true'
+        run: python scripts/build_discounts.py --out dist --discounts config/discounts.json
+
       - name: Publish JSON files to gh-pages
         if: steps.cadence.outputs.skip != 'true'
         uses: peaceiris/actions-gh-pages@v4
