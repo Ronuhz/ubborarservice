@@ -1,332 +1,296 @@
-# UBBOrar Timetable Data Pipeline – Technical Specification
+# UBB FMI Timetable Service Technical Specification
 
-## Goal
-Create a low‑cost, reliable pipeline that converts the university’s public timetable HTML pages into JSON files that the app can fetch and cache. Hosting should be free or near‑free. Updates should be easy and automated. No Vercel.
+## Document Metadata
 
-## Summary of the Chosen Architecture
-- **Scraper/Parser:** Python (BeautifulSoup) or Node (cheerio). (Python recommended for simplicity.)
-- **Scheduler:** GitHub Actions cron (free).
-- **Hosting:** GitHub Pages (free) serving static JSON.
-- **App:** Fetch JSON from GitHub Pages, cache locally, show last updated time, and handle missing data gracefully.
+- Project: UBB FMI Timetable Service
+- Repository: `ubborarservice`
+- Status: Active
+- Purpose: Define the technical contract and operational behavior of the open-source timetable data service powering the UBB FMI app.
 
-## Data Sources
-University timetable pages, one per program/year only for "Studii Licenta" (example):
-- https://www.cs.ubbcluj.ro/files/orar/2025-1/tabelar/index.html
+## 1. Scope
 
-Each HTML page contains multiple groups and their session entries.
+UBB FMI Timetable Service converts publicly available university timetable HTML pages into normalized, static JSON artifacts. These artifacts are published via GitHub Pages and consumed by mobile clients.
 
-## Output JSON Structure
-Two JSONs are required:
+The service is intentionally static-first:
 
-### 1) Catalog JSON (settings data)
-Used to populate subject/program, year, group, and academic year in the app.
+- No runtime API server.
+- No dynamic database dependency.
+- No app-side HTML parsing.
 
-Filename: `catalog.json`
+## 2. System Overview
 
-```json
-{
-  "version": 1,
-  "generatedAt": "2026-02-13T12:00:00Z",
-  "academicYears": ["2024-2025", "2025-2026"],
-  "programs": [
-    {
-      "id": "informatica-maghiara",
-      "title": "Informatics - Hungarian track",
-      "years": [
-        {
-          "year": 1,
-          "groups": [511, 512]
-        },
-        {
-          "year": 2,
-          "groups": [521, 522]
-        }
-      ]
-    }
-  ]
-}
-```
+### 2.1 Architectural Components
 
-Notes:
-- `title` is **display text** only (not localized, per requirement).
-- `programs[].id` should match app `StudyProgram` IDs.
-- If a program/year has no groups listed, the app should hide/disable the Group picker.
+- Data source: Public UBB timetable HTML pages.
+- Scraper/parser: Python scripts (`requests`, `beautifulsoup4`).
+- Build pipeline: Python CLI scripts.
+- Scheduler/orchestration: GitHub Actions.
+- Distribution: GitHub Pages (`gh-pages` branch).
+- Consumer: UBB FMI app and API testing collection (`apitesting.paw`).
 
-### 2) Timetable JSON (actual timetable data)
-One JSON file per program/year/group/academic year, or a single combined JSON with filtering fields. Recommended: **per‑group file** for simpler app fetching.
+### 2.2 Data Flow
 
-Filename format:
-```
-{academicYear}/{programId}/y{year}/g{group}.json
-```
+1. Load source definitions from `config/sources.json`.
+2. Fetch and parse timetable pages into canonical records.
+3. Optionally enrich room codes with addresses from the legend page.
+4. Emit per-group timetable JSON files.
+5. Build aggregate/supporting payloads (`catalog.json`, `announcements.json`, `discounts.json`, `rooms.json`).
+6. Publish `dist/` to GitHub Pages.
 
-Example path:
-```
-2025-2026/informatica-maghiara/y1/g511.json
-```
+## 3. Design Objectives
 
-Schema:
-```json
-{
-  "version": 1,
-  "generatedAt": "2026-02-13T12:00:00Z",
-  "academicYear": "2025-2026",
-  "programId": "informatica-maghiara",
-  "year": 1,
-  "group": 511,
-  "lastUpdatedAtSource": "2026-02-10",
-  "days": [
-    {
-      "day": "monday",
-      "entries": [
-        {
-          "time": "11–13",
-          "frequency": "weekly",
-          "course": "Computer Architecture",
-          "type": "lecture",
-          "room": "CR0001",
-          "instructor": "Asist. Sandor Csanad"
-        }
-      ]
-    }
-  ]
-}
-```
+- Reliability: Partial source failures must not invalidate successful outputs.
+- Contract stability: Payloads follow explicit JSON schemas.
+- Low operational cost: Free-tier hosting and automation.
+- Simplicity: Deterministic files with predictable paths.
+- Consumer resilience: Support offline caching and graceful empty states.
 
-Notes:
-- All strings are **non‑localized**.
-- `frequency` values: `weekly`, `week1`, `week2`.
-- `type` values: `lecture`, `seminar`, `lab`.
-- `day` values: `monday`, `tuesday`, `wednesday`, `thursday`, `friday`.
+## 4. Inputs and Configuration
 
-### 3) Announcements JSON (optional)
-Used for in‑app announcements with severity and optional symbol.
+### 4.1 Timetable Sources (`config/sources.json`)
 
-Filename: `announcements.json`
+Supported root shapes:
+
+- `academicYear` with `programs` list
+- `sources` list (per-entry `academicYear` optional)
+- `academicYears` list containing `programs` and/or `sources`
+
+Each source entry supports:
+
+- `academicYear` (optional if inherited)
+- `programId` (or `id` as fallback key)
+- `title` (or `programTitle`)
+- `year` (integer >= 1)
+- `url` (HTML source)
+- `groups` (list of ints or comma-separated string)
+
+If `title` is omitted, a readable title is derived from `programId`.
+
+### 4.2 Announcements Configuration (`config/announcements.json`)
+
+Optional manual item source consumed by `scripts/build_announcements.py`.
+
+Expected shape:
 
 ```json
 {
-  "version": 1,
-  "generatedAt": "2026-02-13T12:00:00Z",
   "items": [
     {
-      "id": "refresh-delayed-2026-02-13",
-      "title": "Timetable refresh delayed",
-      "message": "We have not received the latest timetable updates yet.",
-      "severity": "warning",
-      "symbolName": "exclamationmark.triangle.fill",
-      "startsAt": "2026-02-13T00:00:00Z",
-      "endsAt": "2026-02-15T00:00:00Z"
+      "id": "string",
+      "title": "string",
+      "message": "string",
+      "severity": "info | warning | critical"
     }
   ]
 }
 ```
 
-Notes:
-- `symbolName` is optional; app can fallback to severity default.
-- If `startsAt`/`endsAt` are omitted, the app shows it always.
+### 4.3 Discounts Configuration (`config/discounts.json`)
 
-## Scraper Details
-### Tools
-- Python 3.11+
-- `requests` for HTTP
-- `beautifulsoup4` for parsing
+Input for `scripts/build_discounts.py`.
 
-### Steps
-1. Read a **source list** of timetable URLs and metadata. Example config file:
+Each discount item requires:
 
-```json
-{
-  "academicYear": "2025-2026",
-  "programs": [
-    {
-      "programId": "informatica-maghiara",
-      "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-1/tabelar/IM1.html",
-      "groups": [511, 512]
-    }
-  ]
-}
+- `id`, `title`, `subtitle`, `badge`, `url`, `symbolName`
+- `topColor`, `bottomColor`, `accentColor`
+- Color channels `red|green|blue` in `[0, 1]`
+
+### 4.4 Optional Source Discovery
+
+`scripts/generate_sources.py` can crawl an index page and generate `config/sources.json`, with optional:
+
+- `--program-map` for stable `programId` mapping
+- `--include-master`
+- `--skip-group-detection`
+
+## 5. Pipeline Components
+
+### 5.1 Scraper (`scripts/scrape.py`)
+
+Responsibilities:
+
+- Fetch all configured timetable sources.
+- Parse timetable structures into normalized entries.
+- Write one file per `(academicYear, programId, year, group)`.
+- Write operational status to `dist/.scrape-status.json`.
+
+Key options:
+
+- `--soft-fail-empty`: create empty timetable files when a failed source has no prior output.
+- `--fail-on-errors`: exit with non-zero status when any source fails.
+- `--room-legend-url`: override legend source.
+- `--skip-room-legend`: disable room enrichment.
+
+### 5.2 Timetable Parsing (`scripts/timetable_parser.py`)
+
+Supported layouts:
+
+- Group-section tables (for example, `Grupa 511` sections).
+- Columnar tables with group columns.
+
+Normalization rules:
+
+- `day`: canonicalized to `monday` ... `friday` (Romanian/English/Hungarian aliases supported).
+- `frequency`: `weekly`, `week1`, `week2`.
+- `type`: `lecture`, `seminar`, `lab`.
+- `time`: normalized to dash-separated ranges (`11-13`, `08:00-10:00`).
+
+De-duplication occurs per day entry key:
+
+- `(time, frequency, course, type, room, instructor)`
+
+### 5.3 Room Legend Enrichment (`scripts/room_legend.py`)
+
+By default, the scraper fetches room legend HTML and writes `rooms.json`.
+
+When room mapping exists:
+
+- timetable entries keep `room`
+- optional `roomAddress` is injected
+
+Legend fetch failure is non-fatal and recorded as a warning.
+
+### 5.4 Catalog Builder (`scripts/build_catalog.py`)
+
+Outputs `catalog.json` from source config.
+
+If `--status` is provided and contains detected groups, those group values override configured groups for catalog accuracy.
+
+### 5.5 Announcements Builder (`scripts/build_announcements.py`)
+
+Outputs `announcements.json`.
+
+Combines:
+
+- Manual announcements (`config/announcements.json`)
+- Optional auto-generated warning item when scrape failures are present
+
+Automatic warning TTL:
+
+- Starts at run date 00:00:00Z
+- Ends at +2 days
+
+### 5.6 Discounts Builder (`scripts/build_discounts.py`)
+
+Outputs `discounts.json` after strict field and color validation.
+
+Duplicate `id` values are deduplicated first-win.
+
+## 6. Output Contracts
+
+All public payload schemas live in `schemas/`.
+
+### 6.1 `catalog.json`
+
+Schema: `schemas/catalog.schema.json`
+
+Required top-level keys:
+
+- `version` (int)
+- `generatedAt` (ISO-8601 datetime)
+- `academicYears` (`YYYY-YYYY`)
+- `programs[]`
+
+### 6.2 Timetable per Group
+
+Path pattern:
+
+```text
+/{academicYear}/{programId}/y{year}/g{group}.json
 ```
 
-2. For each `url`, parse the HTML table.
-3. Extract per‑group timetable rows.
-4. Normalize to the JSON schema.
-5. Write out per‑group JSON files.
-6. Generate/refresh `catalog.json` and `announcements.json`.
+Schema: `schemas/timetable.schema.json`
 
-### HTML Parsing Strategy (high level)
-- Each timetable page is usually a table with days as sections.
-- Identify **group columns** and **day rows** by header labels.
-- Extract time, course, type, room, instructor, and frequency.
-- If the page format changes, update the parser once and re‑run.
+Key fields:
 
-## Hosting (GitHub Pages)
-- Repository `ubb-orar-data` (example)
-- `gh-pages` branch contains `/catalog.json`, `/announcements.json`, and timetable folders.
-- Enable GitHub Pages in settings, serve from `gh-pages` root.
+- `academicYear`, `programId`, `year`, `group`
+- `lastUpdatedAtSource` (ISO date from source `Last-Modified` header, nullable)
+- `days[]` with normalized entries
 
-Expected public URLs:
-```
-https://<user>.github.io/ubb-orar-data/catalog.json
-https://<user>.github.io/ubb-orar-data/announcements.json
-https://<user>.github.io/ubb-orar-data/2025-2026/informatica-maghiara/y1/g511.json
-```
+### 6.3 `announcements.json`
 
-## API Endpoints (Static JSON)
-All endpoints are static files on GitHub Pages. They should be cacheable (long TTL) and include a `generatedAt` timestamp in JSON.
+Schema: `schemas/announcements.schema.json`
 
-### 1) Catalog
-**GET** `/catalog.json`
+- `items[]` with `id`, `title`, `message`, `severity`
+- Optional `symbolName`, `startsAt`, `endsAt`
 
-Returns the settings catalog used to populate subject, year, and group pickers.
+### 6.4 `discounts.json`
 
-Example response:
-```json
-{
-  "version": 1,
-  "generatedAt": "2026-02-13T12:00:00Z",
-  "academicYears": ["2024-2025", "2025-2026"],
-  "programs": [
-    {
-      "id": "informatica-maghiara",
-      "title": "Informatics - Hungarian track",
-      "years": [
-        { "year": 1, "groups": [511, 512] },
-        { "year": 2, "groups": [521, 522] }
-      ]
-    }
-  ]
-}
-```
+Schema: `schemas/discounts.schema.json`
 
-### 2) Announcements
-**GET** `/announcements.json`
+- Presentation metadata for in-app offers
+- Strict color validation (`0..1` channel values)
 
-Returns announcements to display in the app.
+### 6.5 `rooms.json`
 
-Example response:
-```json
-{
-  "version": 1,
-  "generatedAt": "2026-02-13T12:00:00Z",
-  "items": [
-    {
-      "id": "refresh-delayed-2026-02-13",
-      "title": "Timetable refresh delayed",
-      "message": "We have not received the latest timetable updates yet.",
-      "severity": "warning",
-      "symbolName": "exclamationmark.triangle.fill",
-      "startsAt": "2026-02-13T00:00:00Z",
-      "endsAt": "2026-02-15T00:00:00Z"
-    }
-  ]
-}
-```
+Schema: `schemas/rooms.schema.json`
 
-### 3) Timetable (per group)
-**GET** `/{academicYear}/{programId}/y{year}/g{group}.json`
+- `rooms[]` entries with `code` and `address`
 
-Returns the timetable for one program/year/group in a specific academic year.
+### 6.6 `.scrape-status.json` (Operational)
 
-Example response:
-```json
-{
-  "version": 1,
-  "generatedAt": "2026-02-13T12:00:00Z",
-  "academicYear": "2025-2026",
-  "programId": "informatica-maghiara",
-  "year": 1,
-  "group": 511,
-  "lastUpdatedAtSource": "2026-02-10",
-  "days": [
-    {
-      "day": "monday",
-      "entries": [
-        {
-          "time": "11–13",
-          "frequency": "weekly",
-          "course": "Computer Architecture",
-          "type": "lecture",
-          "room": "CR0001",
-          "instructor": "Asist. Sandor Csanad"
-        }
-      ]
-    }
-  ]
-}
-```
+Internal operational payload used by downstream build steps.
 
-### Error/empty responses
-Because these are static files, missing data should result in 404. The app should treat 404 as “no data available yet” and show a friendly message. If you need a soft‑failure, you can generate an empty file like:
-```json
-{
-  "version": 1,
-  "generatedAt": "2026-02-13T12:00:00Z",
-  "academicYear": "2025-2026",
-  "programId": "informatica-maghiara",
-  "year": 1,
-  "group": 511,
-  "lastUpdatedAtSource": null,
-  "days": []
-}
-```
+Primary fields include:
 
-## Automation (GitHub Actions)
-### Schedule
-- Daily at 06:00 UTC during semester
-- Weekly outside semester
+- `sourcesTotal`, `sourcesSucceeded`, `sourcesFailed`
+- `timetableFilesWritten`, `timetableFilesEmpty`
+- `roomsInLegend`
+- `failures[]`, `warnings[]`, `sources[]`
 
-### Example workflow (pseudo)
-```yaml
-name: Update Timetables
-on:
-  schedule:
-    - cron: "0 6 * * *"
-  workflow_dispatch:
+## 7. Static Endpoint Model
 
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - run: pip install -r requirements.txt
-      - run: python scripts/scrape.py --config config/sources.json --out dist
-      - run: python scripts/build_catalog.py --config config/sources.json --out dist
-      - run: python scripts/build_announcements.py --out dist
-      - run: |
-          git checkout --orphan gh-pages
-          cp -R dist/* .
-          git add .
-          git commit -m "Update timetables"
-          git push --force origin gh-pages
-```
+Published endpoints are static files on GitHub Pages:
 
-## App Integration (later)
-- Fetch `catalog.json` at launch with caching.
-- Cache to disk and use cached data if offline.
-- Fetch timetable JSON based on selected program/year/group/academic year.
-- Show a “last updated” date from JSON.
+- `GET /catalog.json`
+- `GET /announcements.json`
+- `GET /discounts.json`
+- `GET /rooms.json`
+- `GET /{academicYear}/{programId}/y{year}/g{group}.json`
 
-## Error Handling / Monitoring
-- If a URL fetch fails, keep the last successful JSON.
-- Add a simple log and summary in GitHub Actions output.
-- Optionally add a “refresh delayed” announcement when scraping fails.
+Behavior expectations for consumers:
 
-## Security / Load Considerations
-- Use caching headers in GitHub Pages if possible.
+- `200`: parse and cache.
+- `404` on group timetable: treat as no data yet, not a fatal API error.
 
-## What to Hand to the Next Agent
-- Create the `ubb-orar-data` repo.
-- Write the Python scraper.
-- Implement the GitHub Actions workflow.
-- Produce the JSON schemas above.
-- Document the public URLs for the app.
+## 8. Scheduling and Deployment
 
-## Non‑Goals
-- No real‑time HTML parsing in app.
-- No Firebase or paid hosting.
-- No localization for the new JSON data (as requested).
+Workflow file:
+
+- `.github/workflows/update-timetables.yml`
+
+Execution model:
+
+- Trigger: `schedule` + `workflow_dispatch`
+- Cron: `0 6 * * *` (06:00 UTC daily)
+- Cadence override: July/August runs only on Monday
+- Publish action: `peaceiris/actions-gh-pages@v4`
+- Publish target: `gh-pages` (orphan history)
+
+## 9. Failure and Continuity Semantics
+
+- Source failures are isolated; successful sources continue.
+- Existing files are not deleted by a failed source run.
+- `--soft-fail-empty` creates explicit empty payloads where needed.
+- Announcements can expose delayed-refresh state to clients.
+- Pipeline can be configured to fail CI with `--fail-on-errors`.
+
+## 10. Compatibility and Versioning
+
+- Payloads include `version` for contract evolution.
+- Schema changes should preserve backward compatibility unless coordinated with app release.
+- Enum values (`day`, `frequency`, `type`) are stable API surface and must not be changed casually.
+
+## 11. Security and Operational Constraints
+
+- Sources are public HTML pages; no authentication secrets required for scraping.
+- Publication uses GitHub Actions `GITHUB_TOKEN` with `contents: write`.
+- No user-generated content ingestion.
+- No PII processing is expected in timetable artifacts.
+
+## 12. Non-Goals
+
+- Real-time backend API with dynamic query execution
+- In-app scraping/parsing of source HTML
+- Paid hosting dependencies or vendor lock-in
+- Localization layer inside service payload generation

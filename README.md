@@ -1,48 +1,55 @@
-# UBBOrar Timetable Pipeline
+# UBB FMI Timetable Service
 
-This repository implements the timetable pipeline from `TIMETABLE_PIPELINE_SPEC.md`.
+UBB FMI Timetable Service is the open-source data pipeline that powers the UBB FMI app.
 
-It scrapes public university timetable HTML pages and publishes static JSON files that can be hosted on GitHub Pages.
+It retrieves public timetable pages from the Faculty of Mathematics and Computer Science (UBB), normalizes them into stable JSON contracts, and publishes static artifacts that the mobile client can fetch and cache.
 
-## Outputs
+## Why This Service Exists
 
-The pipeline generates:
+- Provide a reliable, low-cost backend for timetable delivery.
+- Keep runtime complexity out of the mobile app.
+- Publish versioned, schema-backed JSON with predictable paths.
+- Run unattended through scheduled automation.
 
-- `catalog.json`
-- `announcements.json`
-- `discounts.json`
-- `rooms.json` (room code -> address legend)
-- Per-group timetable files:
-  - `{academicYear}/{programId}/y{year}/g{group}.json`
+## What Gets Published
 
-## Configuration
+The pipeline generates static JSON files under `dist/`:
 
-Edit `config/sources.json` to define sources.
+- `catalog.json`: available academic years, programs, years, and groups.
+- `announcements.json`: manual and auto-generated operational announcements.
+- `discounts.json`: app discount cards and color metadata.
+- `rooms.json`: room code to address mapping from the published legend page.
+- `/{academicYear}/{programId}/y{year}/g{group}.json`: per-group timetable payloads.
+- `.scrape-status.json`: pipeline status, warnings, and failures for operational use.
 
-Supported formats:
+## Runtime Architecture
 
-- Root `academicYear` + `programs` list
-- Root `sources` list (each source has its own `academicYear`)
-- `academicYears` list with nested `programs` or `sources`
+1. `scripts/scrape.py` downloads and parses timetable sources, then writes per-group files.
+2. `scripts/build_catalog.py` builds the catalog from `config/sources.json` and optional scrape status overrides.
+3. `scripts/build_announcements.py` builds announcements and injects a warning notice when scraping fails.
+4. `scripts/build_discounts.py` validates and publishes discounts content.
+5. GitHub Actions publishes `dist/` to the `gh-pages` branch.
 
-Each source/program entry supports:
+## Repository Layout
 
-- `academicYear` (optional if inherited from parent)
-- `programId`
-- `title` (display text used in catalog)
-- `year`
-- `url`
-- `groups` (array or comma-separated string)
+- `scripts/`: scraping, parsing, generation, and build utilities.
+- `config/`: source definitions and content configuration.
+- `schemas/`: JSON schemas for all public payloads.
+- `tests/`: parser and builder unit tests.
+- `.github/workflows/update-timetables.yml`: scheduled pipeline + publication workflow.
+- `apitesting.paw`: API testing collection.
 
-## Local Run
+## Quick Start (Local)
 
-Install dependencies:
+### 1) Install dependencies
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Generate data:
+### 2) Run the full pipeline
 
 ```bash
 python scripts/scrape.py --config config/sources.json --out dist --soft-fail-empty
@@ -51,19 +58,34 @@ python scripts/build_announcements.py --out dist --announcements config/announce
 python scripts/build_discounts.py --out dist --discounts config/discounts.json
 ```
 
-By default `scrape.py` also fetches:
-
-- `https://www.cs.ubbcluj.ro/files/orar/2025-1/sali/legenda.html`
-
-and enriches timetable entries with optional `roomAddress` (when room code matches), while also writing `dist/rooms.json`.
-
-If the semester path changes, override it:
+### 3) Validate with tests
 
 ```bash
-python scripts/scrape.py --config config/sources.json --out dist --room-legend-url https://www.cs.ubbcluj.ro/files/orar/<semester>/sali/legenda.html
+pytest
 ```
 
-Auto-generate `config/sources.json` from the official index (Licenta rows):
+## Source Configuration
+
+Primary input: `config/sources.json`.
+
+Supported shapes:
+
+- Root `academicYear` + `programs`.
+- Root `sources` where each source can define its own `academicYear`.
+- `academicYears` buckets containing nested `programs` or `sources`.
+
+Each source entry supports:
+
+- `academicYear` (optional when inherited from parent)
+- `programId`
+- `title`
+- `year`
+- `url`
+- `groups` (array of ints or comma-separated string)
+
+## Optional Source Discovery
+
+You can generate `config/sources.json` from the official timetable index:
 
 ```bash
 python scripts/generate_sources.py \
@@ -73,16 +95,17 @@ python scripts/generate_sources.py \
   --out config/sources.json
 ```
 
-## GitHub Actions + Pages
+## Publication and Hosting
 
-Workflow file: `.github/workflows/update-timetables.yml`
+The default workflow runs in GitHub Actions and publishes static files via GitHub Pages.
 
-What it does:
+Workflow: `.github/workflows/update-timetables.yml`
 
-1. Runs daily at `06:00 UTC`.
-2. Uses a weekly cadence (Monday only) during July/August.
-3. Runs scraper/build scripts.
-4. Publishes `dist/` to `gh-pages`.
+Behavior:
+
+- Runs daily at `06:00 UTC`.
+- During July and August, only Monday runs are executed.
+- Publishes `dist/` to `gh-pages` using `peaceiris/actions-gh-pages`.
 
 Expected public URLs:
 
@@ -92,9 +115,9 @@ Expected public URLs:
 - `https://<user>.github.io/<repo>/rooms.json`
 - `https://<user>.github.io/<repo>/<academicYear>/<programId>/y<year>/g<group>.json`
 
-## Schemas
+## Data Contracts
 
-JSON schemas are available in:
+Public schemas are versioned in `schemas/`:
 
 - `schemas/catalog.schema.json`
 - `schemas/timetable.schema.json`
@@ -104,7 +127,14 @@ JSON schemas are available in:
 
 ## Failure Behavior
 
-- If a source fetch/parse fails, existing timetable files are kept.
-- If no previous file exists and `--soft-fail-empty` is used, an empty timetable file is written.
-- `scripts/scrape.py` writes `dist/.scrape-status.json`.
-- `scripts/build_announcements.py` can generate an automatic warning announcement when failures are detected.
+- Source-level failures do not stop other sources from processing.
+- Existing timetable files remain valid if a source fails.
+- With `--soft-fail-empty`, missing new files are created as empty payloads.
+- `dist/.scrape-status.json` records failures and warnings for downstream steps.
+- `build_announcements.py` can automatically publish a warning notice if failures occurred.
+
+## License and Contributions
+
+This repository is intended to serve as the public backend for the UBB FMI app.
+
+For external contributions, prefer focused changes with tests and schema compatibility preserved.
