@@ -1,3 +1,11 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "testflight-2026-02-14",
+      "title": "Now on TestFlight",
+      "message": "Happy testing, and please note there might still be bugs.",
+      "severity": "info",
+      "symbolName": "info.circle.fill"
+    }
+  ]
 }
