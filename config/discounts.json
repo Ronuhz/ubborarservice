@@ -1,6 +1,29 @@
 {
   "items": [
     {
+      "id": "test-card",
+      "title": "Proba kartya",
+      "subtitle": "Hahahahahaha",
+      "badge": "Retek",
+      "url": "https://ctpcj.ro/index.php/ro/despre-noi/stiri/studentii-masteranzi-doctoranzi/1808",
+      "symbolName": "point.3.connected.trianglepath.dotted",
+      "topColor": {
+        "red": 0.99,
+        "green": 0.17,
+        "blue": 0.65
+      },
+      "bottomColor": {
+        "red": 0.16,
+        "green": 0.04,
+        "blue": 0.27
+      },
+      "accentColor": {
+        "red": 0.12,
+        "green": 0.09,
+        "blue": 0.28
+      }
+    },
+    {
       "id": "connect-cluj",
       "title": "Connect Cluj",
       "subtitle": "Free 120 bus rides per month for students in Cluj.",
