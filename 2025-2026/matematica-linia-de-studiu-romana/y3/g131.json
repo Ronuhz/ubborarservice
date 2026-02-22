@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "matematica-linia-de-studiu-romana",
+  "year": 3,
+  "group": 131,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Teoria numerelor",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Prof. BREAZ Simion",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Istoria matematicii",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. ILEA Veronica",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Complemente de geometrie",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. VACARETU Daniel",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Complemente de geometrie",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Lect. VACARETU Daniel",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Complemente de geometrie",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Lect. VACARETU Daniel",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Teoria numerelor",
+          "type": "seminar",
+          "room": "A313",
+          "instructor": "Prof. BREAZ Simion",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Etica si integritate academica (in informatica)",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "C.d.asociat ROJA Alexandru",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Analiza stocastica si aplicatii",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. Lang Oana",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Analiza stocastica si aplicatii",
+          "type": "seminar",
+          "room": "6/II",
+          "instructor": "Lect. Lang Oana",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "10–11",
+          "frequency": "weekly",
+          "course": "Managementul clasei de elevi",
+          "type": "lecture",
+          "room": "DPPD-306",
+          "instructor": "Conf. MAGDAS Ioana",
+          "roomAddress": "Sala 306, Departamentul Pentru Pregatirea Personalului Didactic"
+        },
+        {
+          "time": "11–12",
+          "frequency": "weekly",
+          "course": "Managementul clasei de elevi",
+          "type": "seminar",
+          "room": "DPPD-306",
+          "instructor": "Conf. MAGDAS Ioana",
+          "roomAddress": "Sala 306, Departamentul Pentru Pregatirea Personalului Didactic"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Complemente de analiza matematica",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. BERINDE Stefan",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Istoria informaticii",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Conf. STERCA Adrian",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Complemente de analiza matematica",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Lect. BERINDE Stefan",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    }
+  ]
+}

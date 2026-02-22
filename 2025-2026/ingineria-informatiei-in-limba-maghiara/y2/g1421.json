@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "ingineria-informatiei-in-limba-maghiara",
+  "year": 2,
+  "group": 1421,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Ingineria software",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "C.d.asociat USZKAI Gyula",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Retele de calculatoare",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Asist. SANDOR Csanad",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Ingineria software",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Drd. TASNADI Zoltan",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "13–16",
+          "frequency": "weekly",
+          "course": "Proiectare logica",
+          "type": "lecture",
+          "room": "9/I",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–19",
+          "frequency": "weekly",
+          "course": "Semnale si sisteme",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "19–20",
+          "frequency": "weekly",
+          "course": "Semnale si sisteme",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Metode numerice",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. SOOS Anna",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Retele de calculatoare",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. VARGA Levente",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Prof. CSATO Lehel",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Retele de calculatoare",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. VARGA Levente",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Ingineria software",
+          "type": "lab",
+          "room": "Codespring1",
+          "instructor": "C.d.asociat BOTH Bence",
+          "roomAddress": "Sediul Firmei Codespring, lin. magh."
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Drd. KOPACZ Aniko",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Inteligenta artificiala",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Drd. KOPACZ Aniko",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Semnale si sisteme",
+          "type": "lab",
+          "room": "C510",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Metode numerice",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "C.d.asociat SCHEFLER Barna",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Ingineria software",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "C.d.asociat USZKAI Gyula",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Proiectare logica",
+          "type": "seminar",
+          "room": "L321",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Ingineria software",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Lect. SULYOK Csaba",
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}

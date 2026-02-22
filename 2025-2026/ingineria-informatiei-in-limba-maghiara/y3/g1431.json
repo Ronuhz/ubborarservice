@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "ingineria-informatiei-in-limba-maghiara",
+  "year": 3,
+  "group": 1431,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "16–19",
+          "frequency": "weekly",
+          "course": "Semnale si sisteme",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "19–20",
+          "frequency": "weekly",
+          "course": "Semnale si sisteme",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Microcontroleri",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Procesarea semnalelor digitale",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Lect. SZENKOVITS Annamaria",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–17",
+          "frequency": "weekly",
+          "course": "Procesarea semnalelor digitale",
+          "type": "lecture",
+          "room": "pi",
+          "instructor": "Lect. SZENKOVITS Annamaria",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "17–19",
+          "frequency": "weekly",
+          "course": "Business Intelligence",
+          "type": "lecture",
+          "room": "9/I",
+          "instructor": "Conf. VARGA Viorica",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "19–20",
+          "frequency": "weekly",
+          "course": "Business Intelligence",
+          "type": "lab",
+          "room": "9/I",
+          "instructor": "Conf. VARGA Viorica",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Microcontroleri",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Bazele instruirii automate",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Prof. CSATO Lehel",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Bazele instruirii automate",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Prof. CSATO Lehel",
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Semnale si sisteme",
+          "type": "lab",
+          "room": "C510",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Teoria informatiei",
+          "type": "lecture",
+          "room": "AAM",
+          "instructor": "Conf. BODO Zalan",
+          "roomAddress": "Amf Augustin Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M Kogal"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Teoria informatiei",
+          "type": "lab",
+          "room": "9/I",
+          "instructor": "Conf. BODO Zalan",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        }
+      ]
+    }
+  ]
+}

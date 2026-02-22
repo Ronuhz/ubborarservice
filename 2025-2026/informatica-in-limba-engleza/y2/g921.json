@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "informatica-in-limba-engleza",
+  "year": 2,
+  "group": 921,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lab",
+          "room": "neprecizat",
+          "instructor": "Lect. SURDU Sabina",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lab",
+          "room": "neprecizat",
+          "instructor": "Lect. SURDU Sabina",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Ingineria sistemelor soft",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. ZSIGMOND Imre",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Programare Web",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Conf. STERCA Adrian",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "A310",
+          "instructor": "C.d.asociat MANLUP Nicoleta",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Programare Web",
+          "type": "lab",
+          "room": "L439",
+          "instructor": "C.d.asociat MORARU Dora",
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare Web",
+          "type": "lab",
+          "room": "L321",
+          "instructor": "C.d.asociat MORARU Dora",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Lect. MIHOC Tudor",
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. MIHOC Tudor",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. SURDU Sabina",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Lect. MIHOC Tudor",
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Didactica Informaticii",
+          "type": "lecture",
+          "room": "DPPD-205",
+          "instructor": "Lect. MAIER Mariana",
+          "roomAddress": "Sala 205, Departamentul Pentru Pregatirea Personalului didactic"
+        },
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Drd. NADEJDE Camelia",
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Didactica Informaticii",
+          "type": "seminar",
+          "room": "DPPD-205",
+          "instructor": "Lect. MAIER Mariana",
+          "roomAddress": "Sala 205, Departamentul Pentru Pregatirea Personalului didactic"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "L338",
+          "instructor": "C.d.asociat CHIS Tiberiu",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Ingineria sistemelor soft",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Lect. ZSIGMOND Imre",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Ingineria sistemelor soft",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Lect. ZSIGMOND Imre",
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Ingineria sistemelor soft",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Lect. ZSIGMOND Imre",
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "Lect. SURDU Sabina",
+          "roomAddress": "Sala neprecizata"
+        }
+      ]
+    }
+  ]
+}

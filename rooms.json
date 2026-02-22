@@ -1,0 +1,344 @@
+{
+  "rooms": [
+    {
+      "code": "2/I",
+      "address": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+    },
+    {
+      "code": "242",
+      "address": "Sala Fizica, Etaj 2"
+    },
+    {
+      "code": "5/I",
+      "address": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+    },
+    {
+      "code": "6/II",
+      "address": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+    },
+    {
+      "code": "7/I",
+      "address": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+    },
+    {
+      "code": "9/I",
+      "address": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+    },
+    {
+      "code": "A310",
+      "address": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+    },
+    {
+      "code": "A311",
+      "address": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+    },
+    {
+      "code": "A312",
+      "address": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+    },
+    {
+      "code": "A313",
+      "address": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+    },
+    {
+      "code": "A314",
+      "address": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+    },
+    {
+      "code": "AAM",
+      "address": "Amf Augustin Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M Kogal"
+    },
+    {
+      "code": "AVM",
+      "address": "Amf Victor Marian Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M"
+    },
+    {
+      "code": "C036",
+      "address": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "C310",
+      "address": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "C335",
+      "address": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "C510",
+      "address": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "C512",
+      "address": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "Catedra",
+      "address": "Sediul unde are birou indrumatorul"
+    },
+    {
+      "code": "Chimie204",
+      "address": "Laborator 204 (Facultatea de Chimie)"
+    },
+    {
+      "code": "Chimie88",
+      "address": "Sala curs nr. 88 (Facultatea de Chimie)"
+    },
+    {
+      "code": "Codespring1",
+      "address": "Sediul Firmei Codespring, lin. magh."
+    },
+    {
+      "code": "Codespring2",
+      "address": "Sediul Firmei Codespring, lin. magh."
+    },
+    {
+      "code": "DPPD-204",
+      "address": "Sala 204, Departamentul Pentru Pregatirea Personalului didactic"
+    },
+    {
+      "code": "DPPD-205",
+      "address": "Sala 205, Departamentul Pentru Pregatirea Personalului didactic"
+    },
+    {
+      "code": "DPPD-306",
+      "address": "Sala 306, Departamentul Pentru Pregatirea Personalului Didactic"
+    },
+    {
+      "code": "DPPD-A307",
+      "address": "Sala A307, Departamentul Pentru Pregatirea Personalului didactic"
+    },
+    {
+      "code": "Drept_103",
+      "address": "Sala 103 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Drept_104",
+      "address": "Sala 104 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Drept_105",
+      "address": "Sala 105 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Drept_108",
+      "address": "Sala 108 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Drept_203",
+      "address": "Sala 203 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Drept_204",
+      "address": "Sala 204 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Drept_205",
+      "address": "Sala 205 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Drept_208",
+      "address": "Sala 208 (Facultatea de Drept, str T. Mosoiu 10-12)"
+    },
+    {
+      "code": "Fizica-215",
+      "address": "Laborator 215 (Facultatea de Fizica)"
+    },
+    {
+      "code": "Fizica-233",
+      "address": "Laborator 233 (Facultatea de Fizica)"
+    },
+    {
+      "code": "Ionascu",
+      "address": "Sala Ionascu, Facultatea de Psihologie, Str. Avram Iancu, Nr. 11"
+    },
+    {
+      "code": "Ist_406",
+      "address": "Sala curs 407 (Facultatea de Istorie, str. Motilor 11)"
+    },
+    {
+      "code": "Ist_407",
+      "address": "Sala curs 407 (Facultatea de Istorie, str. Motilor 11)"
+    },
+    {
+      "code": "Ist_Blaga",
+      "address": "Cladirea Centrala UBB, Etaj 2 (str. Mihail Kog?lniceanu, nr. 1)"
+    },
+    {
+      "code": "Ist_Goanga",
+      "address": "Cladirea Centrala UBB, Etaj 2 (str. Mihail Kog?lniceanu, nr. 1)"
+    },
+    {
+      "code": "Ist_Rosca",
+      "address": "Cladirea Centrala UBB, Etaj 2 (str. Mihail Kog?lniceanu, nr. 1)"
+    },
+    {
+      "code": "Ist_Vatasianau",
+      "address": "Facultatea de Istorie, Echinox, M. Kog?lniceanu nr. 7-9"
+    },
+    {
+      "code": "KuTi",
+      "address": "Amfiteatrul Kulcsar Tibor - Facultatea de Psihologie (str. Sindicatelor, nr. 7)"
+    },
+    {
+      "code": "L001",
+      "address": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L002",
+      "address": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L320",
+      "address": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L321",
+      "address": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L336",
+      "address": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L338",
+      "address": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L402",
+      "address": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L404",
+      "address": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "L439",
+      "address": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "LFictiv1",
+      "address": "Laborator fictiv"
+    },
+    {
+      "code": "LFictiv2",
+      "address": "Laborator fictiv"
+    },
+    {
+      "code": "LFictiv3",
+      "address": "Laborator fictiv"
+    },
+    {
+      "code": "LFictiv4",
+      "address": "Laborator fictiv"
+    },
+    {
+      "code": "LFictiv5",
+      "address": "Laborator fictiv"
+    },
+    {
+      "code": "Lit-302",
+      "address": "Sala 302 (Facultatea de Litere)"
+    },
+    {
+      "code": "Lit-Puskin",
+      "address": "Sala Puskin (Facultatea de Litere)"
+    },
+    {
+      "code": "MOS-S15",
+      "address": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+    },
+    {
+      "code": "MOS-S16",
+      "address": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+    },
+    {
+      "code": "Multimedia",
+      "address": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+    },
+    {
+      "code": "NTTSocrate",
+      "address": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+    },
+    {
+      "code": "Obs",
+      "address": "Observatorul Astronomic (str. Ciresilor)"
+    },
+    {
+      "code": "Platon",
+      "address": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+    },
+    {
+      "code": "S01",
+      "address": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+    },
+    {
+      "code": "Sala-MHP",
+      "address": "Sala sediu MHP"
+    },
+    {
+      "code": "Saturn",
+      "address": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+    },
+    {
+      "code": "StEur_103",
+      "address": "Facultatea de Studii Europene, str. A Iancu 19"
+    },
+    {
+      "code": "StEur_104",
+      "address": "Facultatea de Studii Europene, str. A Iancu 19"
+    },
+    {
+      "code": "StEur_105",
+      "address": "Facultatea de Studii Europene, str. A Iancu 19"
+    },
+    {
+      "code": "StEur_Ferdinand",
+      "address": "sala Ferdinand, str. Bratianu nr 22"
+    },
+    {
+      "code": "StEur_Jmonnet",
+      "address": "sala Jean Monnet, str Martonne nr 1"
+    },
+    {
+      "code": "StEur_Lovinescu",
+      "address": "Facultatea de Studii Europene, str. A Iancu 19"
+    },
+    {
+      "code": "StEur_Margineanu",
+      "address": "sala Margineanu, Facultatea de Studii Europene, str. A Iancu 19"
+    },
+    {
+      "code": "StEur_Sveil",
+      "address": "sala Simone Veil, str Martonne nr 1"
+    },
+    {
+      "code": "Virtual",
+      "address": "Virtual"
+    },
+    {
+      "code": "e",
+      "address": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+    },
+    {
+      "code": "gamma",
+      "address": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+    },
+    {
+      "code": "lambda",
+      "address": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+    },
+    {
+      "code": "neprecizat",
+      "address": "Sala neprecizata"
+    },
+    {
+      "code": "phi",
+      "address": "Sala \"phi\""
+    },
+    {
+      "code": "pi",
+      "address": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+    }
+  ]
+}

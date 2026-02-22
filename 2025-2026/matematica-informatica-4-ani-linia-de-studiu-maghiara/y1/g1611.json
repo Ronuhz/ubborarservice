@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+  "year": 1,
+  "group": 1611,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Topologie",
+          "type": "seminar",
+          "room": "e",
+          "instructor": "Drd. BAJA Zsolt",
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Algebra 2 (Structuri algebrice de baza)",
+          "type": "seminar",
+          "room": "C510",
+          "instructor": "C.d.asociat SCHEFLER Barna",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Metode avansate de rezolvare a problemelor de matematica si informatica",
+          "type": "lecture",
+          "room": "L001",
+          "instructor": "Lect. PATCAS Csaba",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Metode avansate de rezolvare a problemelor de matematica si informatica",
+          "type": "seminar",
+          "room": "Catedra",
+          "instructor": "Lect. LUKACS Andor",
+          "roomAddress": "Sediul unde are birou indrumatorul"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Programare orientata obiect",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. DARVAY Zsolt",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Structuri de date",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. PATCAS Csaba",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algebra 2 (Structuri algebrice de baza)",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Prof. SZANTO Csaba-Lehel",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Topologie",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. LASZLO Tamas",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Programare orientata obiect",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Drd. KEPES Tamas",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "A310",
+          "instructor": "C.d.asociat LEFERMAN Monika",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential in R^n)",
+          "type": "lecture",
+          "room": "A314",
+          "instructor": "Conf. FINTA Zoltan",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential in R^n)",
+          "type": "seminar",
+          "room": "A314",
+          "instructor": "Conf. FINTA Zoltan",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Programare orientata obiect",
+          "type": "seminar",
+          "room": "lambda",
+          "instructor": "Lect. SZENKOVITS Annamaria",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Structuri de date",
+          "type": "seminar",
+          "room": "Multimedia",
+          "instructor": "Lect. PATCAS Csaba",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Structuri de date",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Lect. PATCAS Csaba",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    }
+  ]
+}

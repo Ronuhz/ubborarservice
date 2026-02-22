@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "informatica-linia-de-studiu-maghiara",
+  "year": 3,
+  "group": 531,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Probleme practice de sisteme de operare si retele de calculatoare",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Conf. ROBU Judit",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Probleme practice de sisteme de operare si retele de calculatoare",
+          "type": "lab",
+          "room": "9/I",
+          "instructor": "Conf. ROBU Judit",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Metode avansate de programare functionala",
+          "type": "lecture",
+          "room": "Catedra",
+          "instructor": "Prof. HORVATH Zoltan",
+          "roomAddress": "Sediul unde are birou indrumatorul"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Securitate IT",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Microcontroleri",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "17–19",
+          "frequency": "weekly",
+          "course": "Business Intelligence",
+          "type": "lecture",
+          "room": "9/I",
+          "instructor": "Conf. VARGA Viorica",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Managementul clasei de elevi",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "Lect. OZSVATH Judith",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Managementul clasei de elevi",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "Lect. OZSVATH Judith",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "19–20",
+          "frequency": "weekly",
+          "course": "Business Intelligence",
+          "type": "lab",
+          "room": "9/I",
+          "instructor": "Conf. VARGA Viorica",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Programare iOS",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Microcontroleri",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Bazele instruirii automate",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Prof. CSATO Lehel",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Bazele instruirii automate",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Prof. CSATO Lehel",
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Programare iOS",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Metode avansate de programare functionala",
+          "type": "lab",
+          "room": "e",
+          "instructor": "Lect. SZOLLOSI Istvan",
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "lecture",
+          "room": "AAM",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Amf Augustin Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M Kogal"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Securitate IT",
+          "type": "lecture",
+          "room": "AAM",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "roomAddress": "Amf Augustin Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M Kogal"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Teoria informatiei",
+          "type": "lecture",
+          "room": "AAM",
+          "instructor": "Conf. BODO Zalan",
+          "roomAddress": "Amf Augustin Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M Kogal"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Teoria informatiei",
+          "type": "lab",
+          "room": "9/I",
+          "instructor": "Conf. BODO Zalan",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        }
+      ]
+    }
+  ]
+}

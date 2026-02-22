@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "informatica-in-limba-germana",
+  "year": 2,
+  "group": 722,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "C.d.asociat MATEI Cristian",
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Conf. CRISTEA Diana",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Ingineria sistemelor soft",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat BARTELT Christian",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Ingineria sistemelor soft",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "C.d.asociat BARTELT Christian",
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat KLUS Holger",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Comunicare in limba germana in industria IT 4",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "C.d.asociat PARASCA Maria",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat Sascha Marton",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Programare web",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. CRETULESCU Radu",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "Platon",
+          "instructor": "C.d.asociat KLUS Holger",
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Ingineria sistemelor soft",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat BARTELT Christian",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Ingineria sistemelor soft",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat BARTELT Christian",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat KLUS Holger",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Drd. TOMESCU Adrian",
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Programare web",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Lect. CRETULESCU Radu",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Programare web",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Lect. CRETULESCU Radu",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat MATEI Cristian",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat MATEI Cristian",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat Sascha Marton",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat Sascha Marton",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    }
+  ]
+}

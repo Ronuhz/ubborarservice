@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "ingineria-informatiei-in-limba-engleza",
+  "year": 1,
+  "group": 1311,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Grafica asistata de calculator 2",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "C.d.asociat COJOCARU Vasile",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Electrotehnica",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "C.d.asociat BUI THU Hang",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Grafica asistata de calculator 2",
+          "type": "lab",
+          "room": "S01",
+          "instructor": "C.d.asociat COJOCARU Vasile",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Electrotehnica",
+          "type": "lab",
+          "room": "L002",
+          "instructor": "C.d.asociat BUI THU Hang",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Grafica asistata de calculator 2",
+          "type": "lab",
+          "room": "S01",
+          "instructor": "C.d.asociat COJOCARU Vasile",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Structuri de date si algoritmi fundamentali",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Asist. ALBU Alexandra",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Algebra liniara, geom analitica si diferentiala 2",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Conf. BLAGA Paul",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Algebra liniara, geom analitica si diferentiala 2",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Conf. BLAGA Paul",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "11–14",
+          "frequency": "weekly",
+          "course": "Electrotehnica",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Prof. CRET Octavian",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential si integral in Rn",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Conf. TRIF Tiberiu",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential si integral in Rn",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Conf. TRIF Tiberiu",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Structuri de date si algoritmi fundamentali",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Asist. ALBU Alexandra",
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Structuri de date si algoritmi fundamentali",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Asist. ALBU Alexandra",
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lab",
+          "room": "L002",
+          "instructor": "Lect. POP Andreea",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lab",
+          "room": "L002",
+          "instructor": "Lect. POP Andreea",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Programare orientata obiecte",
+          "type": "seminar",
+          "room": "L320",
+          "instructor": "Lect. BORZA Diana",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Lect. BORZA Diana",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. CATALANO Constantina",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "seminar",
+          "room": "2/I",
+          "instructor": "C.d.asociat Coste Monica",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Structuri de date si algoritmi fundamentali",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. ONET-MARIAN Zsuzsanna",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Metode avansate de rezolvare a problemelor de matematica si informatica",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "matematica-informatica-linia-de-studiu-engleza",
+  "year": 3,
+  "group": 832,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Istoria matematicii",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. ILEA Veronica",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Programare Web",
+          "type": "lab",
+          "room": "StEur_104",
+          "instructor": "Drd. POPITA Daniela",
+          "roomAddress": "Facultatea de Studii Europene, str. A Iancu 19"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Ingineria sistemelor soft",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. ZSIGMOND Imre",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Algoritmica grafelor",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. MIHAI Andrei",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Programare Web",
+          "type": "lab",
+          "room": "L336",
+          "instructor": "Drd. POPITA Daniela",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "L338",
+          "instructor": "C.d.asociat GABRIAN Andreea",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "L338",
+          "instructor": "C.d.asociat GABRIAN Andreea",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Tehnici de optimizare",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. GRAD Anca",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Tehnici de optimizare",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. GRAD Anca",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Inteligenta artificiala",
+          "type": "seminar",
+          "room": "C510",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Etica si integritate academica (in informatica)",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "C.d.asociat ROJA Alexandru",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Istoria informaticii",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Analiza stocastica si aplicatii",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. Lang Oana",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Analiza stocastica si aplicatii",
+          "type": "seminar",
+          "room": "6/II",
+          "instructor": "Lect. Lang Oana",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "seminar",
+          "room": "C510",
+          "instructor": "Lect. MIHAI Andrei",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Algoritmica grafelor",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Lect. MIHAI Andrei",
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Ingineria sistemelor soft",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Lect. ZSIGMOND Imre",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Ingineria sistemelor soft",
+          "type": "seminar",
+          "room": "L001",
+          "instructor": "Lect. ZSIGMOND Imre",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "10–11",
+          "frequency": "weekly",
+          "course": "Managementul clasei de elevi",
+          "type": "lecture",
+          "room": "DPPD-306",
+          "instructor": "Conf. MAGDAS Ioana",
+          "roomAddress": "Sala 306, Departamentul Pentru Pregatirea Personalului Didactic"
+        },
+        {
+          "time": "11–12",
+          "frequency": "weekly",
+          "course": "Managementul clasei de elevi",
+          "type": "seminar",
+          "room": "DPPD-306",
+          "instructor": "Conf. MAGDAS Ioana",
+          "roomAddress": "Sala 306, Departamentul Pentru Pregatirea Personalului Didactic"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Metode inteligente si aplicatiile lor in ingineria software",
+          "type": "seminar",
+          "room": "L001",
+          "instructor": "Lect. ONET-MARIAN Zsuzsanna",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Metode inteligente si aplicatiile lor in ingineria software",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Lect. ONET-MARIAN Zsuzsanna",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Metode inteligente si aplicatiile lor in ingineria software",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. ONET-MARIAN Zsuzsanna",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare Web",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. BADARINZA Ioan",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}

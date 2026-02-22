@@ -1,0 +1,737 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "sourcesTotal": 37,
+  "sourcesSucceeded": 37,
+  "sourcesFailed": 0,
+  "timetableFilesWritten": 93,
+  "timetableFilesEmpty": 0,
+  "roomsInLegend": 85,
+  "failures": [],
+  "warnings": [],
+  "sources": [
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-in-limba-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IE1.html",
+      "configuredGroups": [
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917
+      ],
+      "detectedGroups": [
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917
+      ],
+      "groupsWritten": [
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-in-limba-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IE2.html",
+      "configuredGroups": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927
+      ],
+      "detectedGroups": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927
+      ],
+      "groupsWritten": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-in-limba-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IE3.html",
+      "configuredGroups": [
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937
+      ],
+      "detectedGroups": [
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937
+      ],
+      "groupsWritten": [
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-in-limba-germana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IG1.html",
+      "configuredGroups": [
+        711,
+        712
+      ],
+      "detectedGroups": [
+        711,
+        712
+      ],
+      "groupsWritten": [
+        711,
+        712
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-in-limba-germana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IG2.html",
+      "configuredGroups": [
+        721,
+        722,
+        723
+      ],
+      "detectedGroups": [
+        721,
+        722,
+        723
+      ],
+      "groupsWritten": [
+        721,
+        722,
+        723
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-in-limba-germana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IG3.html",
+      "configuredGroups": [
+        731,
+        732,
+        733
+      ],
+      "detectedGroups": [
+        731,
+        732,
+        733
+      ],
+      "groupsWritten": [
+        731,
+        732,
+        733
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-linia-de-studiu-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IM1.html",
+      "configuredGroups": [
+        511,
+        512
+      ],
+      "detectedGroups": [
+        511,
+        512
+      ],
+      "groupsWritten": [
+        511,
+        512
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-linia-de-studiu-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IM2.html",
+      "configuredGroups": [
+        521,
+        522,
+        523
+      ],
+      "detectedGroups": [
+        521,
+        522,
+        523
+      ],
+      "groupsWritten": [
+        521,
+        522,
+        523
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-linia-de-studiu-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IM3.html",
+      "configuredGroups": [
+        531,
+        532,
+        533,
+        534
+      ],
+      "detectedGroups": [
+        531,
+        532,
+        533,
+        534
+      ],
+      "groupsWritten": [
+        531,
+        532,
+        533,
+        534
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-linia-de-studiu-romana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/I1.html",
+      "configuredGroups": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "detectedGroups": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "groupsWritten": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-linia-de-studiu-romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/I2.html",
+      "configuredGroups": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "detectedGroups": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "groupsWritten": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "informatica-linia-de-studiu-romana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/I3.html",
+      "configuredGroups": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "detectedGroups": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "groupsWritten": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II1.html",
+      "configuredGroups": [
+        1311
+      ],
+      "detectedGroups": [
+        1311
+      ],
+      "groupsWritten": [
+        1311
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II2.html",
+      "configuredGroups": [
+        1321,
+        1322
+      ],
+      "detectedGroups": [
+        1321,
+        1322
+      ],
+      "groupsWritten": [
+        1321,
+        1322
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II3.html",
+      "configuredGroups": [
+        1331
+      ],
+      "detectedGroups": [
+        1331
+      ],
+      "groupsWritten": [
+        1331
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM1.html",
+      "configuredGroups": [
+        1411
+      ],
+      "detectedGroups": [
+        1411
+      ],
+      "groupsWritten": [
+        1411
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM2.html",
+      "configuredGroups": [
+        1421
+      ],
+      "detectedGroups": [
+        1421
+      ],
+      "groupsWritten": [
+        1421
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM3.html",
+      "configuredGroups": [
+        1431
+      ],
+      "detectedGroups": [
+        1431
+      ],
+      "groupsWritten": [
+        1431
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "inteligenta-artificiala-in-limba-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IA1.html",
+      "configuredGroups": [
+        1011,
+        1012
+      ],
+      "detectedGroups": [
+        1011,
+        1012
+      ],
+      "groupsWritten": [
+        1011,
+        1012
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "inteligenta-artificiala-in-limba-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IA2.html",
+      "configuredGroups": [
+        1021,
+        1022
+      ],
+      "detectedGroups": [
+        1021,
+        1022
+      ],
+      "groupsWritten": [
+        1021,
+        1022
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "inteligenta-artificiala-in-limba-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IA3.html",
+      "configuredGroups": [
+        1031,
+        1032
+      ],
+      "detectedGroups": [
+        1031,
+        1032
+      ],
+      "groupsWritten": [
+        1031,
+        1032
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIMDS1.html",
+      "configuredGroups": [
+        1611
+      ],
+      "detectedGroups": [
+        1611
+      ],
+      "groupsWritten": [
+        1611
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-romana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIDS1.html",
+      "configuredGroups": [
+        1511
+      ],
+      "detectedGroups": [
+        1511
+      ],
+      "groupsWritten": [
+        1511
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIE1.html",
+      "configuredGroups": [
+        811
+      ],
+      "detectedGroups": [
+        811
+      ],
+      "groupsWritten": [
+        811
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIE2.html",
+      "configuredGroups": [
+        821,
+        822
+      ],
+      "detectedGroups": [
+        821,
+        822
+      ],
+      "groupsWritten": [
+        821,
+        822
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIE3.html",
+      "configuredGroups": [
+        831,
+        832
+      ],
+      "detectedGroups": [
+        831,
+        832
+      ],
+      "groupsWritten": [
+        831,
+        832
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIM2.html",
+      "configuredGroups": [
+        621
+      ],
+      "detectedGroups": [
+        621
+      ],
+      "groupsWritten": [
+        621
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIM3.html",
+      "configuredGroups": [
+        631
+      ],
+      "detectedGroups": [
+        631
+      ],
+      "groupsWritten": [
+        631
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-romana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MI1.html",
+      "configuredGroups": [
+        311
+      ],
+      "detectedGroups": [
+        311
+      ],
+      "groupsWritten": [
+        311
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MI2.html",
+      "configuredGroups": [
+        321,
+        322,
+        323
+      ],
+      "detectedGroups": [
+        321,
+        322,
+        323
+      ],
+      "groupsWritten": [
+        321,
+        322,
+        323
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-informatica-linia-de-studiu-romana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MI3.html",
+      "configuredGroups": [
+        331,
+        332,
+        333
+      ],
+      "detectedGroups": [
+        331,
+        332,
+        333
+      ],
+      "groupsWritten": [
+        331,
+        332,
+        333
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-linia-de-studiu-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM1.html",
+      "configuredGroups": [
+        411
+      ],
+      "detectedGroups": [
+        411
+      ],
+      "groupsWritten": [
+        411
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-linia-de-studiu-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM2.html",
+      "configuredGroups": [
+        421
+      ],
+      "detectedGroups": [
+        421
+      ],
+      "groupsWritten": [
+        421
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-linia-de-studiu-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM3.html",
+      "configuredGroups": [
+        431
+      ],
+      "detectedGroups": [
+        431
+      ],
+      "groupsWritten": [
+        431
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-linia-de-studiu-romana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M1.html",
+      "configuredGroups": [
+        111
+      ],
+      "detectedGroups": [
+        111
+      ],
+      "groupsWritten": [
+        111
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-linia-de-studiu-romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M2.html",
+      "configuredGroups": [
+        121
+      ],
+      "detectedGroups": [
+        121
+      ],
+      "groupsWritten": [
+        121
+      ]
+    },
+    {
+      "academicYear": "2025-2026",
+      "programId": "matematica-linia-de-studiu-romana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M3.html",
+      "configuredGroups": [
+        131
+      ],
+      "detectedGroups": [
+        131
+      ],
+      "groupsWritten": [
+        131
+      ]
+    }
+  ]
+}

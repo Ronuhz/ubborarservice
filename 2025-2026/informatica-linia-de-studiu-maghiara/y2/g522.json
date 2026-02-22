@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "informatica-linia-de-studiu-maghiara",
+  "year": 2,
+  "group": 522,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Ingineria sistemelor soft",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "C.d.asociat USZKAI Gyula",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Calcul numeric",
+          "type": "lab",
+          "room": "e",
+          "instructor": "C.d.asociat SCHEFLER Barna",
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Retele de calculatoare",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Asist. SANDOR Csanad",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Sisteme dinamice",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Drd. TOTOS Gyorgy",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Drd. KOPACZ Aniko",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Retele de calculatoare",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Asist. SANDOR Csanad",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Calcul numeric",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. SOOS Anna",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Didactica specialitatii",
+          "type": "lecture",
+          "room": "e",
+          "instructor": "Lect. DOKA MOLNAR Andrea",
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Didactica specialitatii",
+          "type": "seminar",
+          "room": "e",
+          "instructor": "Lect. DOKA MOLNAR Andrea",
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Medii de proiectare si programare",
+          "type": "seminar",
+          "room": "Multimedia",
+          "instructor": "Drd. TASNADI Zoltan",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Retele de calculatoare",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. VARGA Levente",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Drd. TASNADI Zoltan",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Drd. TASNADI Zoltan",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Prof. CSATO Lehel",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Retele de calculatoare",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. VARGA Levente",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Ingineria sistemelor soft",
+          "type": "lab",
+          "room": "Codespring1",
+          "instructor": "C.d.asociat BOTH Bence",
+          "roomAddress": "Sediul Firmei Codespring, lin. magh."
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Ingineria sistemelor soft",
+          "type": "lab",
+          "room": "Codespring1",
+          "instructor": "C.d.asociat BOTH Bence",
+          "roomAddress": "Sediul Firmei Codespring, lin. magh."
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Calcul numeric",
+          "type": "lab",
+          "room": "pi",
+          "instructor": "C.d.asociat SCHEFLER Barna",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Drd. KOPACZ Aniko",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Sisteme dinamice",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Drd. TOTOS Gyorgy",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Inteligenta artificiala",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Drd. KOPACZ Aniko",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Sisteme dinamice",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. LUKACS Andor",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Sisteme dinamice",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. LUKACS Andor",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "A310",
+          "instructor": "C.d.asociat LEFERMAN Monika",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Ingineria sistemelor soft",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "C.d.asociat USZKAI Gyula",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. SULYOK Csaba",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}

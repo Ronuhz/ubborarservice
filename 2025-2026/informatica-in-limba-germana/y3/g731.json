@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "informatica-in-limba-germana",
+  "year": 3,
+  "group": 731,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Elaborarea lucrarii de licenta",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Conf. AVRAM Sanda",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Elaborarea lucrarii de licenta",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Conf. AVRAM Sanda",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Lect. BENTA Iulian",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Lect. BENTA Iulian",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Criptografie",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat FUGACIU Radu",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Dezvoltarea aplicatiilor avansate de business",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat BUI THU Hang",
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Dezvoltarea aplicatiilor avansate de business",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat BUI THU Hang",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Calcul numeric",
+          "type": "lab",
+          "room": "Platon",
+          "instructor": "Lect. VIOREL Adrian",
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Calcul numeric",
+          "type": "lab",
+          "room": "Platon",
+          "instructor": "Lect. VIOREL Adrian",
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Etica si integritate academica (in informatica)",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "C.d.asociat ROJA Alexandru",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Istoria informaticii",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–9",
+          "frequency": "weekly",
+          "course": "Managementul clasei de elevi",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "- Necunoscut",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Blockchain: Smart Contracts",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Conf. CRACIUN Florin",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "9–10",
+          "frequency": "weekly",
+          "course": "Managementul clasei de elevi",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "- Necunoscut",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Blockchain: Smart Contracts",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "C.d.asociat LUKACS Raul",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Criptografie",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat FUGACIU Radu",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Lect. BENTA Iulian",
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Verificarea si validarea sistemelor soft",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. BENTA Iulian",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Calcul numeric",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. VIOREL Adrian",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Modeland ziua de maine: Digitalizarea in economie si societate",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat EIMLER Sabrina",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Modeland ziua de maine: Digitalizarea in economie si societate",
+          "type": "lab",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat HANDMANN Uwe",
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    }
+  ]
+}

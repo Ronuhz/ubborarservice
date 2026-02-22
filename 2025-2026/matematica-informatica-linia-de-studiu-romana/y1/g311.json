@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "matematica-informatica-linia-de-studiu-romana",
+  "year": 1,
+  "group": 311,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential si integral in Rn)",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Lect. BERINDE Stefan",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Structuri de date",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Conf. SERBAN Camelia",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Structuri de date",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Conf. SERBAN Camelia",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Structuri de date",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Conf. SERBAN Camelia",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algebra 2 (Structuri algebrice de baza)",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Prof. BREAZ Simion",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Geometrie 2 (Geometrie afina)",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "Drd. BROJBEANU Andi",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Bazele programarii orientate obiect",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Prof. DIOSAN Laura",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Geometrie 2 (Geometrie afina)",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. PINTEA Cornel",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential si integral in Rn)",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. TRIF Tiberiu",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Algebra 2 (Structuri algebrice de baza)",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Conf. PELEA Cosmin",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Bazele programarii orientate obiect",
+          "type": "seminar",
+          "room": "A313",
+          "instructor": "Conf. GURAN Adriana",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. CATALANO Constantina",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "seminar",
+          "room": "2/I",
+          "instructor": "C.d.asociat Coste Monica",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Bazele programarii orientate obiect",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Drd. PATCAS Rares",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}

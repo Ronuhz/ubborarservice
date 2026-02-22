@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "inteligenta-artificiala-in-limba-engleza",
+  "year": 2,
+  "group": 1022,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Analiza numerica",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. CATINAS Teodora",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Metaeuristici",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Prof. CHIRA Camelia",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Lect. ZGLOBIU Octavia",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Analiza numerica",
+          "type": "seminar",
+          "room": "A310",
+          "instructor": "Drd. MALINA Andra",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Analiza numerica",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Drd. MALINA Andra",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Analiza numerica",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Drd. GRIGORICIUC Eduard",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Introducere in Big Data",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "Lect. ANDOR Camelia",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Introducere in Big Data",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "Lect. ANDOR Camelia",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "C.d.asociat SIMOIU Robert",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "C.d.asociat SIMOIU Robert",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Introducere in Big Data",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Lect. CIUCIU Ioana",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Medii de proiectare si programare",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. MURESAN Horea",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Fundamentele invatarii automate",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. MURSA Bogdan",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Fundamentele invatarii automate",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "Lect. MURSA Bogdan",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Fundamentele invatarii automate",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "Lect. MURSA Bogdan",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Metaeuristici",
+          "type": "lab",
+          "room": "Fizica-215",
+          "instructor": "Drd. BIDASCA Carina-Georgiana",
+          "roomAddress": "Laborator 215 (Facultatea de Fizica)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Metaeuristici",
+          "type": "lab",
+          "room": "Fizica-215",
+          "instructor": "Drd. BIDASCA Carina-Georgiana",
+          "roomAddress": "Laborator 215 (Facultatea de Fizica)"
+        }
+      ]
+    }
+  ]
+}

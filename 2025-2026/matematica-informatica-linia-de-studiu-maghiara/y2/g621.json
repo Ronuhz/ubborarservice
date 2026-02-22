@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "matematica-informatica-linia-de-studiu-maghiara",
+  "year": 2,
+  "group": 621,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Geometrie afina",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Lect. SZILAGYI Zsolt",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Geometrie afina",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. SZILAGYI Zsolt",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Didactica Matematicii",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. ANDRAS Szilard",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Didactica Matematicii",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Conf. ANDRAS Szilard",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Probabilitati",
+          "type": "lecture",
+          "room": "pi",
+          "instructor": "Asist. VAS Orsolya",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Probabilitati",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Asist. VAS Orsolya",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Teoria numerelor",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Lect. LUKACS Andor",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Teoria numerelor",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. LUKACS Andor",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Mecanica teoretica",
+          "type": "lecture",
+          "room": "pi",
+          "instructor": "Lect. KAJANTO Sandor",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Mecanica teoretica",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Lect. KAJANTO Sandor",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Capitole speciale de algebra",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Prof. SZANTO Csaba-Lehel",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Capitole speciale de algebra",
+          "type": "seminar",
+          "room": "5/I",
+          "instructor": "Prof. SZANTO Csaba-Lehel",
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Sisteme de operare",
+          "type": "lecture",
+          "room": "AVM",
+          "instructor": "Lect. RUFF Laura",
+          "roomAddress": "Amf Victor Marian Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Sisteme de operare",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. RUFF Laura",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Sisteme de operare",
+          "type": "lab",
+          "room": "9/I",
+          "instructor": "Lect. RUFF Laura",
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "A314",
+          "instructor": "C.d.asociat LEFERMAN Monika",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    }
+  ]
+}

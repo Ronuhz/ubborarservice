@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "matematica-informatica-linia-de-studiu-engleza",
+  "year": 2,
+  "group": 822,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Teoria probabilitatilor si aplicatii",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Asist. MICU Tudor",
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Analiza numerica",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. CATINAS Teodora",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Analiza reala",
+          "type": "seminar",
+          "room": "A314",
+          "instructor": "Drd. ARON Mihai Alexandru",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Capitole speciale de ecuatii diferentiale ordinare",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. BUICA Adriana",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Capitole speciale de ecuatii diferentiale ordinare",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Conf. BUICA Adriana",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Didactica Matematicii",
+          "type": "lecture",
+          "room": "Ionascu",
+          "instructor": "Conf. MAGDAS Ioana",
+          "roomAddress": "Sala Ionascu, Facultatea de Psihologie, Str. Avram Iancu, Nr. 11"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Didactica Matematicii",
+          "type": "seminar",
+          "room": "Ionascu",
+          "instructor": "Conf. MAGDAS Ioana",
+          "roomAddress": "Sala Ionascu, Facultatea de Psihologie, Str. Avram Iancu, Nr. 11"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Mecanica teoretica si aplicatii",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Drd. P�RVUCEANU Daniel",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Sisteme de operare pentru calculatoare",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Conf. AVRAM Sanda",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Teoria probabilitatilor si aplicatii",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. Lang Oana",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Mecanica teoretica si aplicatii",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Prof. GROSAN Teodor",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Complemente de geometrie",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. TURCAS George",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Complemente de geometrie",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Lect. TURCAS George",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Analiza numerica",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "Drd. MALINA Andra",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Analiza reala",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. NICOLAE Adriana",
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Analiza numerica",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Drd. MALINA Andra",
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Sisteme de operare pentru calculatoare",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "C.d.asociat HORINCAR Diana",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Sisteme de operare pentru calculatoare",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "C.d.asociat HORINCAR Diana",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Complemente de analiza matematica",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. BERINDE Stefan",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Complemente de analiza matematica",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Lect. BERINDE Stefan",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Analiza numerica",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Drd. PASTIU Anamaria",
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "C.d.asociat LEFERMAN Monika",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    }
+  ]
+}

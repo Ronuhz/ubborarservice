@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "informatica-linia-de-studiu-romana",
+  "year": 1,
+  "group": 216,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Geometrie",
+          "type": "seminar",
+          "room": "A314",
+          "instructor": "Drd. POP Robert",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Geometrie",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Conf. BLAGA Paul",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Structuri de date si algoritmi",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Prof. CZIBULA Gabriela",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Sisteme dinamice",
+          "type": "seminar",
+          "room": "A313",
+          "instructor": "Asist. MINUTA Aurelian",
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Structuri de date si algoritmi",
+          "type": "lab",
+          "room": "L321",
+          "instructor": "Drd. SIRBU Alexandru-Gabriel",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Drd. POP Ioan Daniel",
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Sisteme de operare",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Drd. BOTA Daniel",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Sisteme de operare",
+          "type": "seminar",
+          "room": "C510",
+          "instructor": "Drd. BOTA Daniel",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Structuri de date si algoritmi",
+          "type": "lab",
+          "room": "L321",
+          "instructor": "Lect. MAIER Mariana",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Sisteme dinamice",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Drd. P�RVUCEANU Daniel",
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Structuri de date si algoritmi",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Asist. ALBU Alexandra",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Sisteme dinamice",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Drd. P�RVUCEANU Daniel",
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Drd. POP Ioan Daniel",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Sisteme de operare",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Conf. BOIAN Rares",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algoritmica grafelor",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Conf. SUCIU Mihai",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Programare orientata obiecte",
+          "type": "seminar",
+          "room": "C310",
+          "instructor": "Prof. CZIBULA Istvan",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "seminar",
+          "room": "C510",
+          "instructor": "Conf. SUCIU Mihai",
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lab",
+          "room": "L338",
+          "instructor": "C.d.asociat GALAN Sorana-Antonia",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Sisteme dinamice",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. ILEA Veronica",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Prof. CZIBULA Istvan",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Sisteme de operare",
+          "type": "lab",
+          "room": "L439",
+          "instructor": "C.d.asociat JINGA Tudor",
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. CATALANO Constantina",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "seminar",
+          "room": "2/I",
+          "instructor": "C.d.asociat Coste Monica",
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "C.d.asociat MATEI Valentina",
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Metode avansate de rezolvare a problemelor de matematica si informatica",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, parter (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}

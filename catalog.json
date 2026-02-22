@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:40Z",
+  "academicYears": [
+    "2025-2026"
+  ],
+  "programs": [
+    {
+      "id": "informatica-in-limba-engleza",
+      "title": "Informatica - in limba engleza",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937
+          ]
+        }
+      ]
+    },
+    {
+      "id": "informatica-in-limba-germana",
+      "title": "Informatica - in limba germana",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            711,
+            712
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            721,
+            722,
+            723
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            731,
+            732,
+            733
+          ]
+        }
+      ]
+    },
+    {
+      "id": "informatica-linia-de-studiu-maghiara",
+      "title": "Informatica - linia de studiu maghiara",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            511,
+            512
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            521,
+            522,
+            523
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            531,
+            532,
+            533,
+            534
+          ]
+        }
+      ]
+    },
+    {
+      "id": "informatica-linia-de-studiu-romana",
+      "title": "Informatica - linia de studiu romana",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            221,
+            222,
+            223,
+            224,
+            225,
+            226
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingineria-informatiei-in-limba-engleza",
+      "title": "Ingineria Informatiei in limba engleza",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            1311
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            1321,
+            1322
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            1331
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingineria-informatiei-in-limba-maghiara",
+      "title": "Ingineria Informatiei in limba maghiara",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            1411
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            1421
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            1431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inteligenta-artificiala-in-limba-engleza",
+      "title": "Inteligenta Artificiala in limba engleza",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            1011,
+            1012
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            1021,
+            1022
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            1031,
+            1032
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+      "title": "Matematica-Informatica 4 ani - linia de studiu maghiara",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            1611
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-informatica-4-ani-linia-de-studiu-romana",
+      "title": "Matematica-Informatica 4 ani - linia de studiu romana",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            1511
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-informatica-linia-de-studiu-engleza",
+      "title": "Matematica informatica - linia de studiu engleza",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            811
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            821,
+            822
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            831,
+            832
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-informatica-linia-de-studiu-maghiara",
+      "title": "Matematica informatica - linia de studiu maghiara",
+      "years": [
+        {
+          "year": 2,
+          "groups": [
+            621
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            631
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-informatica-linia-de-studiu-romana",
+      "title": "Matematica informatica - linia de studiu romana",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            311
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            321,
+            322,
+            323
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            331,
+            332,
+            333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-linia-de-studiu-maghiara",
+      "title": "Matematica - linia de studiu maghiara",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            411
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            421
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-linia-de-studiu-romana",
+      "title": "Matematica - linia de studiu romana",
+      "years": [
+        {
+          "year": 1,
+          "groups": [
+            111
+          ]
+        },
+        {
+          "year": 2,
+          "groups": [
+            121
+          ]
+        },
+        {
+          "year": 3,
+          "groups": [
+            131
+          ]
+        }
+      ]
+    }
+  ]
+}

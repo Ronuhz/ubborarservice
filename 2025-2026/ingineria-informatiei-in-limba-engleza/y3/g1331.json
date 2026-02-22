@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T11:26:32Z",
+  "academicYear": "2025-2026",
+  "programId": "ingineria-informatiei-in-limba-engleza",
+  "year": 3,
+  "group": 1331,
+  "lastUpdatedAtSource": "2026-02-22",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "S01",
+          "instructor": "C.d.asociat GABRIAN Andreea",
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Microcontroleri",
+          "type": "lab",
+          "room": "e",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "StEur_103",
+          "instructor": "C.d.asociat GABRIAN Andreea",
+          "roomAddress": "Facultatea de Studii Europene, str. A Iancu 19"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Inginerie software",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Conf. VESCAN Andreea",
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Instrumentatie virtuala",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "Prof. HEDESIU Horia",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "11–13",
+          "frequency": "weekly",
+          "course": "Instrumentatie virtuala",
+          "type": "lab",
+          "room": "neprecizat",
+          "instructor": "Prof. HEDESIU Horia",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "13–15",
+          "frequency": "weekly",
+          "course": "Instrumentatie virtuala",
+          "type": "lab",
+          "room": "neprecizat",
+          "instructor": "Prof. HEDESIU Horia",
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Prelucrarea digitala a semnalelor",
+          "type": "lab",
+          "room": "Fizica-215",
+          "instructor": "- Necunoscut",
+          "roomAddress": "Laborator 215 (Facultatea de Fizica)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Prelucrarea digitala a semnalelor",
+          "type": "lecture",
+          "room": "AAM",
+          "instructor": "Lect. Lazar Zsolt-Iosif",
+          "roomAddress": "Amf Augustin Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M Kogal"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Prelucrarea digitala a semnalelor",
+          "type": "lab",
+          "room": "Fizica-215",
+          "instructor": "- Necunoscut",
+          "roomAddress": "Laborator 215 (Facultatea de Fizica)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Microcontroleri",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. LIBAL Andras",
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Inginerie software",
+          "type": "lecture",
+          "room": "AVM",
+          "instructor": "Conf. VESCAN Andreea",
+          "roomAddress": "Amf Victor Marian Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Inginerie software",
+          "type": "seminar",
+          "room": "AVM",
+          "instructor": "Conf. VESCAN Andreea",
+          "roomAddress": "Amf Victor Marian Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Inginerie software",
+          "type": "lab",
+          "room": "Fizica-233",
+          "instructor": "Conf. VESCAN Andreea",
+          "roomAddress": "Laborator 233 (Facultatea de Fizica)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}
