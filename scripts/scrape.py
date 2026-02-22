@@ -31,7 +31,7 @@ def _parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--room-legend-url",
-        default="https://www.cs.ubbcluj.ro/files/orar/2025-1/sali/legenda.html",
+        default="https://www.cs.ubbcluj.ro/files/orar/2025-2/sali/legenda.html",
         help="Legend page used to map room codes to addresses.",
     )
     parser.add_argument(
