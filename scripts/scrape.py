@@ -9,9 +9,9 @@ from typing import Any
 
 import requests
 
-from pipeline_utils import VERSION, SourceEntry, load_source_entries, utc_now_iso, write_json
+from pipeline_utils import TIMETABLE_VERSION, VERSION, SourceEntry, load_source_entries, utc_now_iso, write_json
 from room_legend import build_room_lookup, fetch_room_legend, resolve_room_address, write_room_legend_json
-from timetable_parser import ParsedTimetable, TimetableParseError, parse_timetable_html
+from timetable_parser import ParseContext, ParsedTimetable, TimetableParseError, parse_timetable_html
 
 
 def _parse_args() -> argparse.Namespace:
@@ -67,7 +67,7 @@ def _make_timetable_payload(
     last_updated_at_source: str | None,
 ) -> dict[str, Any]:
     return {
-        "version": VERSION,
+        "version": TIMETABLE_VERSION,
         "generatedAt": generated_at,
         "academicYear": entry.academic_year,
         "programId": entry.program_id,
@@ -113,7 +113,7 @@ def _write_empty_fallback(out_dir: Path, entry: SourceEntry, group: int, generat
 def _run_scrape(entry: SourceEntry, timeout: float, session: requests.Session) -> tuple[ParsedTimetable, str | None]:
     response = session.get(entry.url, timeout=timeout)
     response.raise_for_status()
-    parsed = parse_timetable_html(response.text, entry.groups)
+    parsed = parse_timetable_html(response.text, entry.groups, context=ParseContext.from_source(entry))
     last_updated = _last_updated_from_headers(response)
     return parsed, last_updated
 

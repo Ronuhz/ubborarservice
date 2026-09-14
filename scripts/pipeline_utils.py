@@ -9,6 +9,7 @@ from typing import Any
 
 
 VERSION = 1
+TIMETABLE_VERSION = 2
 
 
 @dataclass(frozen=True)
@@ -19,6 +20,7 @@ class SourceEntry:
     year: int
     url: str
     groups: list[int]
+    cohort_formations: tuple[str, ...] = ()
 
 
 def utc_now_iso() -> str:
@@ -95,6 +97,12 @@ def _parse_source(raw: dict[str, Any], default_academic_year: str | None, source
         raise ValueError(f"{source_label}: 'year' must be >= 1.")
 
     groups = _parse_groups(raw.get("groups", []), source_label)
+    raw_cohorts = raw.get("cohortFormations", [])
+    if not isinstance(raw_cohorts, list) or any(
+        not isinstance(value, str) or not value.strip() for value in raw_cohorts
+    ):
+        raise ValueError(f"{source_label}: 'cohortFormations' must be a list of non-empty strings.")
+    cohort_formations = tuple(sorted({normalize_space(value) for value in raw_cohorts}))
 
     title = str(raw.get("title") or raw.get("programTitle") or "").strip()
     if not title:
@@ -107,6 +115,7 @@ def _parse_source(raw: dict[str, Any], default_academic_year: str | None, source
         year=year,
         url=url,
         groups=groups,
+        cohort_formations=cohort_formations,
     )
 
 
@@ -132,6 +141,7 @@ def _collect_sources(root: dict[str, Any]) -> list[SourceEntry]:
                 year=existing.year,
                 url=existing.url,
                 groups=merged_groups,
+                cohort_formations=tuple(sorted(set(existing.cohort_formations) | set(parsed.cohort_formations))),
             )
 
     direct_sources = root.get("sources")

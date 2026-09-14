@@ -11,7 +11,7 @@ import unicodedata
 import requests
 from bs4 import BeautifulSoup
 
-from pipeline_utils import normalize_space, read_json, write_json
+from pipeline_utils import load_source_entries, normalize_space, read_json, write_json
 from timetable_parser import TimetableParseError, parse_timetable_html
 
 
@@ -161,6 +161,11 @@ def main() -> int:
     args = _parse_args()
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    # Preserve reviewed metadata only for the exact same source and academic year.
+    existing_cohorts = {
+        (source.academic_year, source.program_id, source.year, source.url): list(source.cohort_formations)
+        for source in load_source_entries(out_path)
+    } if out_path.exists() else {}
 
     program_map = _load_program_map(Path(args.program_map)) if args.program_map else {}
 
@@ -186,6 +191,9 @@ def main() -> int:
                     "year": row["year"],
                     "url": row["url"],
                     "groups": [],
+                    "cohortFormations": existing_cohorts.get(
+                        (args.academic_year, program_id, row["year"], row["url"]), []
+                    ),
                 }
                 by_key[key] = source
 

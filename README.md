@@ -61,7 +61,8 @@ python scripts/build_discounts.py --out dist --discounts config/discounts.json
 ### 3) Validate with tests
 
 ```bash
-pytest
+pip install -r requirements-dev.txt
+python -m unittest discover -s tests -v
 ```
 
 ## Source Configuration
@@ -82,6 +83,12 @@ Each source entry supports:
 - `year`
 - `url`
 - `groups` (array of ints or comma-separated string)
+- `cohortFormations` (optional array of whole program/year formation identifiers; defaults to `[]`)
+
+Formation identifiers belong to the specific academic year, program, and study year of each source.
+For example, a source can configure `"groups": [511, 512]` and `"cohortFormations": ["IM1"]`.
+The checked-in cohort identifiers were verified against the configured timetable pages.
+Review them when adding sources or changing academic years; the parser never derives cohorts from a URL or token shape.
 
 ## Optional Source Discovery
 
@@ -94,6 +101,9 @@ python scripts/generate_sources.py \
   --program-map config/program-map.example.json \
   --out config/sources.json
 ```
+
+Discovery preserves `cohortFormations` from the existing output only when academic year, program ID,
+study year, and source URL all match. New sources receive `[]`; add verified cohort identifiers before publishing.
 
 ## Publication and Hosting
 
@@ -124,6 +134,26 @@ Public schemas are versioned in `schemas/`:
 - `schemas/announcements.schema.json`
 - `schemas/discounts.schema.json`
 - `schemas/rooms.schema.json`
+
+Timetable payloads use **version 2**. Every entry includes:
+
+```json
+"audience": {
+  "formation": "512",
+  "scope": "group",
+  "expectedScope": "subgroup",
+  "isStandard": false
+}
+```
+
+`formation` preserves the source identifier (or `null` when absent or ambiguous).
+`scope` is `cohort`, `group`, `subgroup`, or `unknown`, classified using only that source's configured
+cohorts and configured/detected groups. Expected scopes are `lecture → cohort`, `seminar → group`,
+and `lab → subgroup`. Known mismatches set `isStandard` to `false`; unknown formations always use
+`true` so clients keep them visible. The service exposes structural metadata; client UI wording is independent.
+
+Other payloads remain version 1. Cached or retained version 1 timetables have no guaranteed audience metadata;
+clients should default such entries to visible until a successful version 2 refresh.
 
 ## Failure Behavior
 

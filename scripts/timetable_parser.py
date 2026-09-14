@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 import re
 import unicodedata
 from typing import Any
@@ -9,7 +9,7 @@ from typing import Any
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
-from pipeline_utils import normalize_space
+from pipeline_utils import SourceEntry, normalize_space
 
 
 DAY_ORDER = ["monday", "tuesday", "wednesday", "thursday", "friday"]
@@ -46,7 +46,8 @@ ROOM_CAPTURE_RE = re.compile(
 GROUP_HEADING_RE = re.compile(r"\bgrupa\s+(\d{3,4})\b", re.IGNORECASE)
 FORMATION_NUMERIC_RE = re.compile(r"^\d{3,4}(?:/\d+)?$")
 FORMATION_TOKEN_RE = re.compile(r"^[A-Za-z]{1,6}\d{0,3}$")
-SUBGROUP_PREFIX_RE = re.compile(r"^(?:sgr\.?|subgr\.?|gr\.?)\s*[\w/-]+\s*:\s*", re.IGNORECASE)
+SUBGROUP_PREFIX_RE = re.compile(r"^(?:sgr\.?|subgr\.?|gr\.?)\s*(?P<formation>[\w/-]+)\s*:\s*", re.IGNORECASE)
+FORMATION_LABEL_RE = re.compile(r"^(?:formatia|formația|formaţia|formation|audience)\s*:\s*(.+)$", re.IGNORECASE)
 INLINE_ENTRY_RE = re.compile(
     r"^(?:(?:sapt\.?\s*[12]|week\s*[12])\s*:\s*)?"
     r"(?P<course>.+?)\s*\((?P<instructor>[^()]+)\)\s*,\s*(?P<room>[A-Za-z0-9_./-]+)$",
@@ -56,6 +57,80 @@ INLINE_ENTRY_RE = re.compile(
 
 class TimetableParseError(RuntimeError):
     pass
+
+
+@dataclass(frozen=True)
+class ParseContext:
+    academic_year: str = ""
+    program_id: str = ""
+    year: int = 0
+    known_groups: frozenset[int] = frozenset()
+    cohort_formations: frozenset[str] = frozenset()
+
+    @classmethod
+    def from_source(cls, source: SourceEntry) -> ParseContext:
+        return cls(
+            academic_year=source.academic_year,
+            program_id=source.program_id,
+            year=source.year,
+            known_groups=frozenset(source.groups),
+            cohort_formations=frozenset(source.cohort_formations),
+        )
+
+
+def classify_formation_scope(formation: str | None, context: ParseContext) -> str:
+    if formation is None:
+        return "unknown"
+    if formation in context.cohort_formations:
+        return "cohort"
+    groups = {str(group) for group in context.known_groups}
+    if formation in groups:
+        return "group"
+    group, separator, subgroup = formation.partition("/")
+    if separator and group in groups and re.fullmatch(r"[0-9]+", subgroup):
+        return "subgroup"
+    return "unknown"
+
+
+def expected_scope_for_type(class_type: str) -> str:
+    return {"lecture": "cohort", "seminar": "group", "lab": "subgroup"}[class_type]
+
+
+def build_audience(formation: str | None, class_type: str, context: ParseContext) -> dict[str, Any]:
+    scope = classify_formation_scope(formation, context)
+    expected_scope = expected_scope_for_type(class_type)
+    return {
+        "formation": formation,
+        "scope": scope,
+        "expectedScope": expected_scope,
+        "isStandard": scope == "unknown" or scope == expected_scope,
+    }
+
+
+def detect_formation(lines: list[str], context: ParseContext = ParseContext()) -> str | None:
+    """Preserve explicit metadata; token shape only detects candidates, never scope.
+
+    Ambiguous cells stay unknown instead of choosing an arbitrary audience.
+    """
+    formations: set[str] = set()
+    for line in lines:
+        cleaned = normalize_space(line)
+        prefix = SUBGROUP_PREFIX_RE.match(cleaned)
+        label = FORMATION_LABEL_RE.match(cleaned)
+        if prefix:
+            formations.add(prefix.group("formation"))
+        elif label:
+            formations.add(label.group(1).strip())
+        else:
+            token = cleaned.strip("() ")
+            if classify_formation_scope(token, context) != "unknown" or (
+                _is_formation_line(token)
+                and not _is_frequency_line(token)
+                and not _is_time_or_day_token(token)
+                and not TYPE_TAG_RE.fullmatch(cleaned)
+            ):
+                formations.add(token)
+    return next(iter(formations)) if len(formations) == 1 else None
 
 
 @dataclass
@@ -265,10 +340,12 @@ def _strip_subgroup_prefix(line: str) -> str:
     return SUBGROUP_PREFIX_RE.sub("", normalize_space(line)).strip()
 
 
-def _is_formation_line(line: str) -> bool:
+def _is_formation_line(line: str, context: ParseContext = ParseContext()) -> bool:
     cleaned = _strip_subgroup_prefix(line).strip("() ")
     if not cleaned:
         return False
+    if FORMATION_LABEL_RE.match(cleaned) or classify_formation_scope(cleaned, context) != "unknown":
+        return True
     if FORMATION_NUMERIC_RE.fullmatch(cleaned):
         return True
     if not FORMATION_TOKEN_RE.fullmatch(cleaned):
@@ -341,7 +418,9 @@ def _split_cell_chunks(text: str) -> list[str]:
     return [normalize_space(text, keep_newlines=True)] if normalize_space(text) else []
 
 
-def _parse_inline_entry_line(line: str, time_slot: str) -> dict[str, str] | None:
+def _parse_inline_entry_line(
+    line: str, time_slot: str, context: ParseContext, formation: str | None = None,
+) -> dict[str, Any] | None:
     cleaned = normalize_space(line)
     if not cleaned:
         return None
@@ -352,26 +431,34 @@ def _parse_inline_entry_line(line: str, time_slot: str) -> dict[str, str] | None
     course = _strip_inline_metadata(match.group("course"))
     if not course:
         return None
+    class_type = _detect_type(stripped)
+    formation = detect_formation([cleaned], context) or formation
     return {
         "time": time_slot,
         "frequency": _detect_frequency(stripped),
         "course": course,
-        "type": _detect_type(stripped),
+        "type": class_type,
         "room": normalize_space(match.group("room")),
         "instructor": normalize_space(match.group("instructor")),
+        "audience": build_audience(formation, class_type, context),
     }
 
 
-def _parse_inline_chunk(chunk: str, time_slot: str) -> list[dict[str, str]]:
-    entries: list[dict[str, str]] = []
+def _parse_inline_chunk(chunk: str, time_slot: str, context: ParseContext) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+    # Standalone metadata can apply to all inline entries; per-entry prefixes override it.
+    formation = detect_formation([
+        line for line in chunk.splitlines()
+        if not INLINE_ENTRY_RE.match(_strip_subgroup_prefix(line))
+    ], context)
     for line in chunk.splitlines():
-        parsed = _parse_inline_entry_line(line, time_slot)
+        parsed = _parse_inline_entry_line(line, time_slot, context, formation)
         if parsed:
             entries.append(parsed)
     return entries
 
 
-def _parse_cell_entries(text: str, time_slot: str) -> list[dict[str, str]]:
+def _parse_cell_entries(text: str, time_slot: str, context: ParseContext = ParseContext()) -> list[dict[str, Any]]:
     text = normalize_space(text, keep_newlines=True)
     if not text:
         return []
@@ -382,17 +469,18 @@ def _parse_cell_entries(text: str, time_slot: str) -> list[dict[str, str]]:
     if TIME_RE.fullmatch(text):
         return []
 
-    entries: list[dict[str, str]] = []
+    entries: list[dict[str, Any]] = []
     for chunk in _split_cell_chunks(text):
-        inline_entries = _parse_inline_chunk(chunk, time_slot)
+        inline_entries = _parse_inline_chunk(chunk, time_slot, context)
         if inline_entries:
             entries.extend(inline_entries)
             continue
 
         lines = [line for line in chunk.splitlines() if line]
+        formation = detect_formation(lines, context)
         lines = [line for line in lines if not normalize_day(line)]
         lines = [line for line in lines if not TIME_RE.fullmatch(line)]
-        lines = [line for line in lines if not _is_formation_line(line)]
+        lines = [line for line in lines if not _is_formation_line(line, context)]
         if not lines:
             continue
         entry = {
@@ -402,11 +490,12 @@ def _parse_cell_entries(text: str, time_slot: str) -> list[dict[str, str]]:
             "type": _detect_type(chunk),
             "room": _detect_room(lines),
             "instructor": _detect_instructor(lines),
+            "audience": build_audience(formation, _detect_type(chunk), context),
         }
         if entry["course"]:
             entries.append(entry)
-    deduped: list[dict[str, str]] = []
-    seen: set[tuple[str, str, str, str, str, str]] = set()
+    deduped: list[dict[str, Any]] = []
+    seen: set[tuple[Any, ...]] = set()
     for entry in entries:
         key = (
             entry["time"],
@@ -415,6 +504,7 @@ def _parse_cell_entries(text: str, time_slot: str) -> list[dict[str, str]]:
             entry["type"],
             entry["room"],
             entry["instructor"],
+            entry["audience"]["formation"],
         )
         if key in seen:
             continue
@@ -424,7 +514,7 @@ def _parse_cell_entries(text: str, time_slot: str) -> list[dict[str, str]]:
 
 
 def _grouped_to_days(
-    grouped_entries: dict[int, dict[str, list[dict[str, str]]]],
+    grouped_entries: dict[int, dict[str, list[dict[str, Any]]]],
     target_groups: list[int],
 ) -> dict[int, list[dict[str, Any]]]:
     by_group: dict[int, list[dict[str, Any]]] = {}
@@ -450,6 +540,8 @@ def _header_name_to_key(value: str) -> str | None:
         return "room"
     if re.search(r"\btip(?:ul)?\b|\btype\b", folded):
         return "type"
+    if re.search(r"\bformatia\b|\bformation\b|\baudience\b", folded):
+        return "formation"
     if re.search(r"\bdisciplina\b|\bmateria\b|\bcourse\b", folded):
         return "course"
     if re.search(r"\bcadr(?:ul)?\s+didactic\b|\binstructor\b|\bprofesor\b", folded):
@@ -494,7 +586,7 @@ def _extract_table_group(table: Tag) -> int | None:
     return None
 
 
-def _parse_group_table_rows(grid: list[list[str]]) -> tuple[list[dict[str, str]], int]:
+def _parse_group_table_rows(grid: list[list[str]], context: ParseContext) -> tuple[list[dict[str, Any]], int]:
     best_header_idx = -1
     best_header_map: dict[str, int] = {}
     best_score = -1
@@ -517,7 +609,7 @@ def _parse_group_table_rows(grid: list[list[str]]) -> tuple[list[dict[str, str]]
     if "day" not in best_header_map or "time" not in best_header_map:
         return [], -1
 
-    entries: list[dict[str, str]] = []
+    entries: list[dict[str, Any]] = []
     for row in grid[best_header_idx + 1 :]:
         day_col = best_header_map["day"]
         time_col = best_header_map["time"]
@@ -555,7 +647,11 @@ def _parse_group_table_rows(grid: list[list[str]]) -> tuple[list[dict[str, str]]
             instructor_value = row[best_header_map["instructor"]]
 
         row_blob = " ".join(cell for cell in row if cell)
-        lines_for_fallback = [cell for cell in row if cell]
+        formation_col = best_header_map.get("formation")
+        formation = None
+        if formation_col is not None:
+            formation = normalize_space(row[formation_col]) or None
+        lines_for_fallback = [cell for col, cell in enumerate(row) if cell and col != formation_col]
         entry = {
             "day": day,
             "time": time_slot,
@@ -564,6 +660,7 @@ def _parse_group_table_rows(grid: list[list[str]]) -> tuple[list[dict[str, str]]
             "type": _detect_type(type_value or row_blob),
             "room": normalize_space(room_value) or _detect_room(lines_for_fallback),
             "instructor": normalize_space(instructor_value) or _detect_instructor(lines_for_fallback),
+            "audience": build_audience(formation, _detect_type(type_value or row_blob), context),
         }
         if entry["course"]:
             entries.append(entry)
@@ -571,11 +668,14 @@ def _parse_group_table_rows(grid: list[list[str]]) -> tuple[list[dict[str, str]]
     return entries, best_header_idx
 
 
-def _parse_group_section_layout(soup: BeautifulSoup, expected_groups: list[int]) -> ParsedTimetable | None:
+def _parse_group_section_layout(
+    soup: BeautifulSoup, expected_groups: list[int], context: ParseContext,
+) -> ParsedTimetable | None:
     expected_set = set(expected_groups)
-    grouped_entries: dict[int, dict[str, list[dict[str, str]]]] = defaultdict(lambda: defaultdict(list))
+    grouped_entries: dict[int, dict[str, list[dict[str, Any]]]] = defaultdict(lambda: defaultdict(list))
     detected_groups: set[int] = set()
     current_group: int | None = None
+    group_tables: list[tuple[int, list[list[str]]]] = []
 
     for node in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "p", "div", "strong", "b", "table"]):
         if node.name != "table":
@@ -593,7 +693,11 @@ def _parse_group_section_layout(soup: BeautifulSoup, expected_groups: list[int])
         grid = _expand_table(node)
         if not grid:
             continue
-        parsed_rows, _ = _parse_group_table_rows(grid)
+        group_tables.append((table_group, grid))
+
+    context = replace(context, known_groups=context.known_groups | frozenset(group for group, _ in group_tables))
+    for table_group, grid in group_tables:
+        parsed_rows, _ = _parse_group_table_rows(grid, context)
         if not parsed_rows:
             continue
 
@@ -610,7 +714,7 @@ def _parse_group_section_layout(soup: BeautifulSoup, expected_groups: list[int])
     return ParsedTimetable(by_group=by_group, detected_groups=sorted(detected_groups))
 
 
-def _parse_columnar_layout(soup: BeautifulSoup, expected_groups: list[int]) -> ParsedTimetable:
+def _parse_columnar_layout(soup: BeautifulSoup, expected_groups: list[int], context: ParseContext) -> ParsedTimetable:
     table = _select_main_table(soup)
     grid = _expand_table(table)
     if not grid:
@@ -621,9 +725,10 @@ def _parse_columnar_layout(soup: BeautifulSoup, expected_groups: list[int]) -> P
         raise TimetableParseError("Could not detect group columns in timetable table.")
 
     detected_groups = sorted(set(group_columns.values()))
+    context = replace(context, known_groups=context.known_groups | frozenset(detected_groups))
     target_groups = sorted(set(expected_groups) or set(detected_groups))
 
-    grouped_entries: dict[int, dict[str, list[dict[str, str]]]] = {
+    grouped_entries: dict[int, dict[str, list[dict[str, Any]]]] = {
         group: defaultdict(list) for group in target_groups
     }
 
@@ -642,7 +747,7 @@ def _parse_columnar_layout(soup: BeautifulSoup, expected_groups: list[int]) -> P
                 continue
             if column >= len(row):
                 continue
-            parsed_entries = _parse_cell_entries(row[column], time_slot)
+            parsed_entries = _parse_cell_entries(row[column], time_slot, context)
             if parsed_entries:
                 grouped_entries[group][current_day].extend(parsed_entries)
 
@@ -650,11 +755,15 @@ def _parse_columnar_layout(soup: BeautifulSoup, expected_groups: list[int]) -> P
     return ParsedTimetable(by_group=by_group, detected_groups=detected_groups)
 
 
-def parse_timetable_html(html: str, expected_groups: list[int]) -> ParsedTimetable:
+def parse_timetable_html(
+    html: str, expected_groups: list[int], *, context: ParseContext | None = None,
+) -> ParsedTimetable:
     soup = BeautifulSoup(html, "html.parser")
+    context = context or ParseContext()
+    context = replace(context, known_groups=context.known_groups | frozenset(expected_groups))
 
-    grouped_layout = _parse_group_section_layout(soup, expected_groups)
+    grouped_layout = _parse_group_section_layout(soup, expected_groups, context)
     if grouped_layout is not None:
         return grouped_layout
 
-    return _parse_columnar_layout(soup, expected_groups)
+    return _parse_columnar_layout(soup, expected_groups, context)

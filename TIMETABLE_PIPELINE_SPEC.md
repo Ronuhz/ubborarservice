@@ -63,8 +63,14 @@ Each source entry supports:
 - `year` (integer >= 1)
 - `url` (HTML source)
 - `groups` (list of ints or comma-separated string)
+- `cohortFormations` (optional list of non-empty strings; defaults to `[]`)
 
 If `title` is omitted, a readable title is derived from `programId`.
+
+`cohortFormations` identifies whole program/year audiences for this exact source. Values are whitespace-normalized,
+deduplicated, and merged alongside groups when duplicate source definitions occur. They are never shared across
+academic years, programs, study years, or URLs. Invalid values fail configuration loading.
+The checked-in values were verified in the formation columns of the configured source pages.
 
 ### 4.2 Announcements Configuration (`config/announcements.json`)
 
@@ -103,6 +109,10 @@ Each discount item requires:
 - `--include-master`
 - `--skip-group-detection`
 
+Discovery retains reviewed `cohortFormations` from an existing output configuration only for an exact match on
+`(academicYear, programId, year, url)`. New sources receive an empty list and require explicit configuration
+after verifying their cohort identifiers. Neither filenames nor global naming patterns define cohort scope.
+
 ## 5. Pipeline Components
 
 ### 5.1 Scraper (`scripts/scrape.py`)
@@ -133,11 +143,33 @@ Normalization rules:
 - `day`: canonicalized to `monday` ... `friday` (Romanian/English/Hungarian aliases supported).
 - `frequency`: `weekly`, `week1`, `week2`.
 - `type`: `lecture`, `seminar`, `lab`.
-- `time`: normalized to dash-separated ranges (`11-13`, `08:00-10:00`).
+- `time`: normalized to en-dash-separated ranges (`11–13`, `08:00–10:00`).
+- `audience`: emitted for every entry, including multi-line cells, compact inline entries, and group-section rows.
 
-De-duplication occurs per day entry key:
+Cell entries are deduplicated by:
 
-- `(time, frequency, course, type, room, instructor)`
+- `(time, frequency, course, type, room, instructor, audience.formation)`
+
+Distinct formations remain separate even when all other entry fields match.
+
+Parsing receives `ParseContext` built from the current `SourceEntry`, including academic year, program ID,
+study year, known groups, and configured cohort formations. Groups detected in section headings or column headers
+supplement that context. The destination group of an output file does not imply an entry's audience.
+
+Formation extraction preserves dedicated `Formatia`/`Formation`/`Audience` column values, standalone formation
+lines, and `gr.`/`sgr.`/`subgr.` prefixes before metadata is stripped. Inline prefixes apply to their own entry;
+unambiguous standalone metadata applies to entries in the same cell chunk. A bare subgroup number is retained
+without inventing a parent group. Absent or ambiguous formation metadata becomes `null`.
+
+Classification compares exact identifiers against source-specific metadata:
+
+1. A configured cohort identifier → `cohort`.
+2. An exact known group identifier → `group`.
+3. A known group followed by `/` and a numeric subgroup identifier → `subgroup`.
+4. All other values → `unknown`.
+
+Token patterns may locate formation candidates in unstructured cells, but never determine audience scope.
+Unrecognized values from explicit formation columns/prefixes remain in `formation` even when classification is unknown.
 
 ### 5.3 Room Legend Enrichment (`scripts/room_legend.py`)
 
@@ -203,9 +235,41 @@ Schema: `schemas/timetable.schema.json`
 
 Key fields:
 
+- `version`: `2` (timetable contract version)
 - `academicYear`, `programId`, `year`, `group`
 - `lastUpdatedAtSource` (ISO date from source `Last-Modified` header, nullable)
 - `days[]` with normalized entries
+
+Each entry requires an `audience` object with exactly these fields:
+
+| Field | Contract |
+| --- | --- |
+| `formation` | Source formation string, or `null` when missing/ambiguous |
+| `scope` | `cohort`, `group`, `subgroup`, or `unknown` |
+| `expectedScope` | `cohort` for lectures, `group` for seminars, `subgroup` for labs |
+| `isStandard` | `true` when scopes match or actual scope is `unknown`; otherwise `false` |
+
+Example of a group-wide lab:
+
+```json
+{
+  "time": "10–12",
+  "frequency": "weekly",
+  "course": "Data Structures",
+  "type": "lab",
+  "room": "L301",
+  "instructor": "Example Name",
+  "audience": {
+    "formation": "512",
+    "scope": "group",
+    "expectedScope": "subgroup",
+    "isStandard": false
+  }
+}
+```
+
+Clients can filter on `isStandard` when presenting cohort classes. Unknown metadata remains default-visible.
+The service does not expose inferred retake status, upper-year status, or UI preference fields.
 
 ### 6.3 `announcements.json`
 
@@ -278,6 +342,10 @@ Execution model:
 ## 10. Compatibility and Versioning
 
 - Payloads include `version` for contract evolution.
+- Timetable version 2 adds required `audience` metadata. The timetable schema validates version 2 specifically;
+  catalog, announcements, discounts, rooms, and scrape status retain version 1.
+- Successful scrapes and newly created empty fallbacks write version 2. Existing files retained after a failed
+  scrape are not rewritten or relabeled; a retained/cached version 1 file must be treated as default-visible by clients.
 - Schema changes should preserve backward compatibility unless coordinated with app release.
 - Enum values (`day`, `frequency`, `type`) are stable API surface and must not be changed casually.
 

@@ -16,7 +16,7 @@
   "properties": {
     "version": {
       "type": "integer",
-      "minimum": 1
+      "const": 2
     },
     "generatedAt": {
       "type": "string",
@@ -56,7 +56,7 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["time", "frequency", "course", "type", "room", "instructor"],
+              "required": ["time", "frequency", "course", "type", "room", "instructor", "audience"],
               "properties": {
                 "time": {
                   "type": "string",
@@ -82,6 +82,17 @@
                 },
                 "instructor": {
                   "type": "string"
+                },
+                "audience": {
+                  "type": "object",
+                  "required": ["formation", "scope", "expectedScope", "isStandard"],
+                  "properties": {
+                    "formation": {"type": ["string", "null"]},
+                    "scope": {"type": "string", "enum": ["cohort", "group", "subgroup", "unknown"]},
+                    "expectedScope": {"type": "string", "enum": ["cohort", "group", "subgroup"]},
+                    "isStandard": {"type": "boolean"}
+                  },
+                  "additionalProperties": false
                 }
               },
               "additionalProperties": false

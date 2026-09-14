@@ -39,7 +39,11 @@ jobs:
 
       - name: Install dependencies
         if: steps.cadence.outputs.skip != 'true'
-        run: pip install -r requirements.txt
+        run: pip install -r requirements-dev.txt
+
+      - name: Test parser and public contracts
+        if: steps.cadence.outputs.skip != 'true'
+        run: python -m unittest discover -s tests -v
 
       - name: Scrape timetable pages
         if: steps.cadence.outputs.skip != 'true'

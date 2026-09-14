@@ -14,6 +14,9 @@
         915,
         916,
         917
+      ],
+      "cohortFormations": [
+        "IE1"
       ]
     },
     {
@@ -29,6 +32,9 @@
         925,
         926,
         927
+      ],
+      "cohortFormations": [
+        "IE2"
       ]
     },
     {
@@ -44,6 +50,9 @@
         935,
         936,
         937
+      ],
+      "cohortFormations": [
+        "IE3"
       ]
     },
     {
@@ -54,6 +63,9 @@
       "groups": [
         711,
         712
+      ],
+      "cohortFormations": [
+        "IG1"
       ]
     },
     {
@@ -65,6 +77,9 @@
         721,
         722,
         723
+      ],
+      "cohortFormations": [
+        "IG2"
       ]
     },
     {
@@ -76,6 +91,9 @@
         731,
         732,
         733
+      ],
+      "cohortFormations": [
+        "IG3"
       ]
     },
     {
@@ -86,6 +104,9 @@
       "groups": [
         511,
         512
+      ],
+      "cohortFormations": [
+        "IM1"
       ]
     },
     {
@@ -97,6 +118,9 @@
         521,
         522,
         523
+      ],
+      "cohortFormations": [
+        "IM2"
       ]
     },
     {
@@ -109,6 +133,9 @@
         532,
         533,
         534
+      ],
+      "cohortFormations": [
+        "IM3"
       ]
     },
     {
@@ -124,6 +151,9 @@
         215,
         216,
         217
+      ],
+      "cohortFormations": [
+        "I1"
       ]
     },
     {
@@ -138,6 +168,9 @@
         224,
         225,
         226
+      ],
+      "cohortFormations": [
+        "I2"
       ]
     },
     {
@@ -153,6 +186,9 @@
         235,
         236,
         237
+      ],
+      "cohortFormations": [
+        "I3"
       ]
     },
     {
@@ -162,6 +198,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II1.html",
       "groups": [
         1311
+      ],
+      "cohortFormations": [
+        "II1"
       ]
     },
     {
@@ -172,6 +211,9 @@
       "groups": [
         1321,
         1322
+      ],
+      "cohortFormations": [
+        "II2"
       ]
     },
     {
@@ -181,6 +223,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II3.html",
       "groups": [
         1331
+      ],
+      "cohortFormations": [
+        "II3"
       ]
     },
     {
@@ -190,6 +235,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM1.html",
       "groups": [
         1411
+      ],
+      "cohortFormations": [
+        "IIM1"
       ]
     },
     {
@@ -199,6 +247,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM2.html",
       "groups": [
         1421
+      ],
+      "cohortFormations": [
+        "IIM2"
       ]
     },
     {
@@ -208,6 +259,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM3.html",
       "groups": [
         1431
+      ],
+      "cohortFormations": [
+        "IIM3"
       ]
     },
     {
@@ -218,6 +272,9 @@
       "groups": [
         1011,
         1012
+      ],
+      "cohortFormations": [
+        "IA1"
       ]
     },
     {
@@ -228,6 +285,9 @@
       "groups": [
         1021,
         1022
+      ],
+      "cohortFormations": [
+        "IA2"
       ]
     },
     {
@@ -238,6 +298,9 @@
       "groups": [
         1031,
         1032
+      ],
+      "cohortFormations": [
+        "IA3"
       ]
     },
     {
@@ -247,6 +310,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIMDS1.html",
       "groups": [
         1611
+      ],
+      "cohortFormations": [
+        "MIMDS1"
       ]
     },
     {
@@ -256,6 +322,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIDS1.html",
       "groups": [
         1511
+      ],
+      "cohortFormations": [
+        "MIDS1"
       ]
     },
     {
@@ -265,6 +334,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIE1.html",
       "groups": [
         811
+      ],
+      "cohortFormations": [
+        "MIE1"
       ]
     },
     {
@@ -275,6 +347,9 @@
       "groups": [
         821,
         822
+      ],
+      "cohortFormations": [
+        "MIE2"
       ]
     },
     {
@@ -285,6 +360,9 @@
       "groups": [
         831,
         832
+      ],
+      "cohortFormations": [
+        "MIE3"
       ]
     },
     {
@@ -294,6 +372,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIM2.html",
       "groups": [
         621
+      ],
+      "cohortFormations": [
+        "MIM2"
       ]
     },
     {
@@ -303,6 +384,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIM3.html",
       "groups": [
         631
+      ],
+      "cohortFormations": [
+        "MIM3"
       ]
     },
     {
@@ -312,6 +396,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MI1.html",
       "groups": [
         311
+      ],
+      "cohortFormations": [
+        "MI1"
       ]
     },
     {
@@ -323,6 +410,9 @@
         321,
         322,
         323
+      ],
+      "cohortFormations": [
+        "MI2"
       ]
     },
     {
@@ -334,6 +424,9 @@
         331,
         332,
         333
+      ],
+      "cohortFormations": [
+        "MI3"
       ]
     },
     {
@@ -343,6 +436,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM1.html",
       "groups": [
         411
+      ],
+      "cohortFormations": [
+        "MM1"
       ]
     },
     {
@@ -352,6 +448,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM2.html",
       "groups": [
         421
+      ],
+      "cohortFormations": [
+        "MM2"
       ]
     },
     {
@@ -361,6 +460,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM3.html",
       "groups": [
         431
+      ],
+      "cohortFormations": [
+        "MM3"
       ]
     },
     {
@@ -370,6 +472,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M1.html",
       "groups": [
         111
+      ],
+      "cohortFormations": [
+        "M1"
       ]
     },
     {
@@ -379,6 +484,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M2.html",
       "groups": [
         121
+      ],
+      "cohortFormations": [
+        "M2"
       ]
     },
     {
@@ -388,6 +496,9 @@
       "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M3.html",
       "groups": [
         131
+      ],
+      "cohortFormations": [
+        "M3"
       ]
     }
   ]
