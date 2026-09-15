@@ -1,0 +1,261 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-15T10:36:39Z",
+  "academicYear": "2025-2026",
+  "programId": "ingineria-informatiei-in-limba-engleza",
+  "year": 3,
+  "group": 1331,
+  "lastUpdatedAtSource": "2026-05-21",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lecture",
+          "room": "Ist_Blaga",
+          "instructor": "Lect. MIRCEA Ioan Gabriel",
+          "audience": {
+            "formation": "II3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 2 (str. Mihail Kog?lniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "C.d.asociat GABRIAN Andreea",
+          "audience": {
+            "formation": "1331/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Microcontroleri",
+          "type": "lecture",
+          "room": "Multimedia",
+          "instructor": "Conf. LIBAL Andras",
+          "audience": {
+            "formation": "II3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Microcontroleri",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Conf. LIBAL Andras",
+          "audience": {
+            "formation": "II3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Inteligenta artificiala",
+          "type": "lab",
+          "room": "StEur_103",
+          "instructor": "C.d.asociat GABRIAN Andreea",
+          "audience": {
+            "formation": "1331/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Facultatea de Studii Europene, str. A Iancu 19"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Inginerie software",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Conf. VESCAN Andreea",
+          "audience": {
+            "formation": "1331/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Instrumentatie virtuala",
+          "type": "lecture",
+          "room": "DC403",
+          "instructor": "C.d.asociat Olariu Eliza",
+          "audience": {
+            "formation": "II3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "11–13",
+          "frequency": "weekly",
+          "course": "Instrumentatie virtuala",
+          "type": "lab",
+          "room": "DC403",
+          "instructor": "C.d.asociat Olariu Eliza",
+          "audience": {
+            "formation": "1331/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "13–15",
+          "frequency": "weekly",
+          "course": "Instrumentatie virtuala",
+          "type": "lab",
+          "room": "DC403",
+          "instructor": "C.d.asociat Olariu Eliza",
+          "audience": {
+            "formation": "1331/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Prelucrarea digitala a semnalelor",
+          "type": "lab",
+          "room": "Fizica-215",
+          "instructor": "C.d.asociat NAGY Melinda",
+          "audience": {
+            "formation": "1331/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Laborator 215 (Facultatea de Fizica)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Prelucrarea digitala a semnalelor",
+          "type": "lecture",
+          "room": "AAM",
+          "instructor": "C.d.asociat LAZAR Zsolt-Iosif",
+          "audience": {
+            "formation": "II3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amf Augustin Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M Kogal"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Prelucrarea digitala a semnalelor",
+          "type": "lab",
+          "room": "Fizica-215",
+          "instructor": "C.d.asociat NAGY Melinda",
+          "audience": {
+            "formation": "1331/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Laborator 215 (Facultatea de Fizica)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Inginerie software",
+          "type": "lecture",
+          "room": "AVM",
+          "instructor": "Conf. VESCAN Andreea",
+          "audience": {
+            "formation": "II3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amf Victor Marian Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Inginerie software",
+          "type": "seminar",
+          "room": "AVM",
+          "instructor": "Conf. VESCAN Andreea",
+          "audience": {
+            "formation": "1331",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Amf Victor Marian Maior - Facultatea de Fizica, Clad Centrala UBB, Et 2 (str. M"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Inginerie software",
+          "type": "lab",
+          "room": "Fizica-233",
+          "instructor": "Conf. VESCAN Andreea",
+          "audience": {
+            "formation": "1331/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Laborator 233 (Facultatea de Fizica)"
+        }
+      ]
+    }
+  ]
+}

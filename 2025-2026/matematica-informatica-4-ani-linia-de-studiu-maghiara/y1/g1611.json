@@ -1,0 +1,261 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-15T10:36:39Z",
+  "academicYear": "2025-2026",
+  "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+  "year": 1,
+  "group": 1611,
+  "lastUpdatedAtSource": "2026-05-21",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Topologie",
+          "type": "seminar",
+          "room": "e",
+          "instructor": "Drd. BAJA Zsolt",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Algebra 2 (Structuri algebrice de baza)",
+          "type": "seminar",
+          "room": "C510",
+          "instructor": "C.d.asociat SCHEFLER Barna",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Structuri de date",
+          "type": "lab",
+          "room": "DC402",
+          "instructor": "Lect. PATCAS Csaba",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Metode avansate de rezolvare a problemelor de matematica si informatica",
+          "type": "lecture",
+          "room": "C512",
+          "instructor": "Lect. PATCAS Csaba",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Metode avansate de rezolvare a problemelor de matematica si informatica",
+          "type": "seminar",
+          "room": "A314",
+          "instructor": "Lect. LUKACS Andor",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Programare orientata obiect",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. DARVAY Zsolt",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Structuri de date",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. PATCAS Csaba",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algebra 2 (Structuri algebrice de baza)",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Prof. SZANTO Csaba-Lehel",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Topologie",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. LASZLO Tamas",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Programare orientata obiect",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Drd. KEPES Tamas",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Programare orientata obiect",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Lect. SZENKOVITS Annamaria",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential in R^n)",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Conf. FINTA Zoltan",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Analiza matematica 2 (Calcul diferential in R^n)",
+          "type": "seminar",
+          "room": "2/I",
+          "instructor": "Conf. FINTA Zoltan",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Structuri de date",
+          "type": "seminar",
+          "room": "lambda",
+          "instructor": "Lect. PATCAS Csaba",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Limba Engleza",
+          "type": "seminar",
+          "room": "Litere_Cosbuc",
+          "instructor": "C.d.asociat LEFERMAN Monika",
+          "audience": {
+            "formation": "MIMDS1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala Cosbuc (Facultatea de Litere)"
+        }
+      ]
+    }
+  ]
+}
