@@ -4,6 +4,8 @@ UBB FMI Timetable Service is the open-source data pipeline that powers the UBB F
 
 It retrieves public timetable pages from the Faculty of Mathematics and Computer Science (UBB), normalizes them into stable JSON contracts, and publishes static artifacts that the mobile client can fetch and cache.
 
+**[API Documentation](./API.md)**
+
 ## Why This Service Exists
 
 - Provide a reliable, low-cost backend for timetable delivery.
