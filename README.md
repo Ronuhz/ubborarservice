@@ -18,8 +18,6 @@ It retrieves public timetable pages from the Faculty of Mathematics and Computer
 The pipeline generates static JSON files under `dist/`:
 
 - `catalog.json`: available academic years, programs, years, and groups.
-- `announcements.json`: manual and auto-generated operational announcements.
-- `discounts.json`: app discount cards and color metadata.
 - `rooms.json`: room code to address mapping from the published legend page.
 - `/{academicYear}/{programId}/y{year}/g{group}.json`: per-group timetable payloads.
 - `.scrape-status.json`: pipeline status, warnings, and failures for operational use.
@@ -28,9 +26,7 @@ The pipeline generates static JSON files under `dist/`:
 
 1. `scripts/scrape.py` downloads and parses timetable sources, then writes per-group files.
 2. `scripts/build_catalog.py` builds the catalog from `config/sources.json` and optional scrape status overrides.
-3. `scripts/build_announcements.py` builds announcements and injects a warning notice when scraping fails.
-4. `scripts/build_discounts.py` validates and publishes discounts content.
-5. GitHub Actions publishes `dist/` to the `gh-pages` branch.
+3. GitHub Actions publishes `dist/` to the `gh-pages` branch.
 
 ## Repository Layout
 
@@ -56,8 +52,6 @@ pip install -r requirements.txt
 ```bash
 python scripts/scrape.py --config config/sources.json --out dist --soft-fail-empty
 python scripts/build_catalog.py --config config/sources.json --out dist --status dist/.scrape-status.json
-python scripts/build_announcements.py --out dist --announcements config/announcements.json --status dist/.scrape-status.json
-python scripts/build_discounts.py --out dist --discounts config/discounts.json
 ```
 
 ### 3) Validate with tests
@@ -122,8 +116,6 @@ Behavior:
 Expected public URLs:
 
 - `https://<user>.github.io/<repo>/catalog.json`
-- `https://<user>.github.io/<repo>/announcements.json`
-- `https://<user>.github.io/<repo>/discounts.json`
 - `https://<user>.github.io/<repo>/rooms.json`
 - `https://<user>.github.io/<repo>/<academicYear>/<programId>/y<year>/g<group>.json`
 
@@ -133,8 +125,6 @@ Public schemas are versioned in `schemas/`:
 
 - `schemas/catalog.schema.json`
 - `schemas/timetable.schema.json`
-- `schemas/announcements.schema.json`
-- `schemas/discounts.schema.json`
 - `schemas/rooms.schema.json`
 
 Timetable payloads use **version 2**. Every entry includes:
@@ -154,7 +144,7 @@ cohorts and configured/detected groups. Expected scopes are `lecture → cohort`
 and `lab → subgroup`. Known mismatches set `isStandard` to `false`; unknown formations always use
 `true` so clients keep them visible. The service exposes structural metadata; client UI wording is independent.
 
-Other payloads remain version 1. Cached or retained version 1 timetables have no guaranteed audience metadata;
+Cached or retained version 1 timetables have no guaranteed audience metadata;
 clients should default such entries to visible until a successful version 2 refresh.
 
 ## Failure Behavior
@@ -163,7 +153,6 @@ clients should default such entries to visible until a successful version 2 refr
 - Existing timetable files remain valid if a source fails.
 - With `--soft-fail-empty`, missing new files are created as empty payloads.
 - `dist/.scrape-status.json` records failures and warnings for downstream steps.
-- `build_announcements.py` can automatically publish a warning notice if failures occurred.
 
 ## License and Contributions
 
