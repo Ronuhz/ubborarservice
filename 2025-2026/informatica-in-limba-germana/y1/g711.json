@@ -1,0 +1,336 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-19T09:51:49Z",
+  "academicYear": "2025-2026",
+  "programId": "informatica-in-limba-germana",
+  "year": 1,
+  "group": 711,
+  "lastUpdatedAtSource": "2026-05-21",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Structuri de date si algoritmi",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Conf. CRISTEA Diana",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Comunicare in limba germana in industria IT 2",
+          "type": "seminar",
+          "room": "L001",
+          "instructor": "C.d.asociat PARASCA Maria",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Sisteme de operare",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Conf. AVRAM Sanda",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Sisteme de operare",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Conf. AVRAM Sanda",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Drd. TOLCIU Tudor",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Sisteme dinamice",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Conf. BOTA Monica Felicia",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "lab",
+          "room": "Platon",
+          "instructor": "Drd. DICU Madalina",
+          "audience": {
+            "formation": "711/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Sisteme dinamice",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Conf. BOTA Monica Felicia",
+          "audience": {
+            "formation": "711/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Geometrie",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. NECHITA Veronica",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Sisteme de operare",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Drd. DICU Madalina",
+          "audience": {
+            "formation": "711/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare orientata obiecte",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Drd. TOLCIU Tudor",
+          "audience": {
+            "formation": "711/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Sisteme dinamice",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Conf. BOTA Monica Felicia",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Geometrie",
+          "type": "seminar",
+          "room": "A313",
+          "instructor": "Lect. NECHITA Veronica",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Fundamentele pedagogiei",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Programare orientata obiecte",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Drd. TOLCIU Tudor",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Algoritmica grafelor",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. VIOREL Adrian",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Algoritmica grafelor",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Lect. VIOREL Adrian",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Structuri de date si algoritmi",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat SOLEA Victor",
+          "audience": {
+            "formation": "711/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Structuri de date si algoritmi",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "C.d.asociat SOLEA Victor",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    }
+  ]
+}
