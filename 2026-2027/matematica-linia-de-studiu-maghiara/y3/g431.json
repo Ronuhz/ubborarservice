@@ -1,0 +1,286 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "matematica-linia-de-studiu-maghiara",
+  "year": 3,
+  "group": 431,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Statistica matematica",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Asist. VAS Orsolya",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Statistica matematica",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Asist. VAS Orsolya",
+          "audience": {
+            "formation": "431",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "17–20",
+          "frequency": "weekly",
+          "course": "Practica pedagogica in invatamantul preuniversitar",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "C.d.asociat NAGY Ors",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Astronomie",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Asist. MESTER Agnes",
+          "audience": {
+            "formation": "431",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Analiza functionala",
+          "type": "lecture",
+          "room": "A311",
+          "instructor": "Asist. MESTER Agnes",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Analiza functionala",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Asist. MESTER Agnes",
+          "audience": {
+            "formation": "431",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Statistica matematica",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Asist. VAS Orsolya",
+          "audience": {
+            "formation": "431/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Complemente de geometrie sintetica",
+          "type": "lecture",
+          "room": "pi",
+          "instructor": "Lect. MEZEI Ildiko",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Complemente de geometrie sintetica",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Lect. MEZEI Ildiko",
+          "audience": {
+            "formation": "431",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Topologie si geometrie diferentiala",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. LASZLO Tamas",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Topologie si geometrie diferentiala",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Conf. LASZLO Tamas",
+          "audience": {
+            "formation": "431",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "17–19",
+          "frequency": "week2",
+          "course": "Instruire asistata de calculator",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "C.d.asociat NAGY Ors",
+          "audience": {
+            "formation": "431",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "17–19",
+          "frequency": "week1",
+          "course": "Instruire asistata de calculator",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "C.d.asociat NAGY Ors",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Metodologia documentarii si elaborarii unei lucrari stiintifice",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. LUKACS Andor",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Metodologia documentarii si elaborarii unei lucrari stiintifice",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. LUKACS Andor",
+          "audience": {
+            "formation": "431",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Astronomie",
+          "type": "lecture",
+          "room": "Obs",
+          "instructor": "C.d.asociat SZUCS-CSILLIK Iharka",
+          "audience": {
+            "formation": "MM3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Observatorul Astronomic (str. Ciresilor)"
+        },
+        {
+          "time": "18–19",
+          "frequency": "weekly",
+          "course": "Astronomie",
+          "type": "lab",
+          "room": "Obs",
+          "instructor": "C.d.asociat SZUCS-CSILLIK Iharka",
+          "audience": {
+            "formation": "431/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Observatorul Astronomic (str. Ciresilor)"
+        }
+      ]
+    }
+  ]
+}

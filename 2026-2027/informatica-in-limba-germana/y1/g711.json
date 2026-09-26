@@ -1,0 +1,276 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "informatica-in-limba-germana",
+  "year": 1,
+  "group": 711,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Fundamentele algebrice ale informaticii",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Conf. MODOI Gheorghe Ciprian",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Fundamentele algebrice ale informaticii",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Conf. MODOI Gheorghe Ciprian",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Drd. CEOBANU Madalina",
+          "audience": {
+            "formation": "711/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Logica computationala",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Conf. SACAREA Christian",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Logica computationala",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Conf. SACAREA Christian",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Introducere in programare",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. DRAGOS Radu",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–13",
+          "frequency": "weekly",
+          "course": "Calcul diferential si integral",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Conf. BRECKNER Brigitte",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lab",
+          "room": "Platon",
+          "instructor": "Drd. CEOBANU Madalina",
+          "audience": {
+            "formation": "711/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Calcul diferential si integral",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Conf. BRECKNER Brigitte",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Lect. RUSU Catalin",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. DRAGOS Radu",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "Lect. DRAGOS Radu",
+          "audience": {
+            "formation": "711",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Comunicare in limba germana in industria IT 1",
+          "type": "seminar",
+          "room": "L320",
+          "instructor": "C.d.asociat PARASCA Maria",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat MIC Bogdan",
+          "audience": {
+            "formation": "711/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat MIC Bogdan",
+          "audience": {
+            "formation": "711/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. RUSU Catalin",
+          "audience": {
+            "formation": "IG1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    }
+  ]
+}

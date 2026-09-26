@@ -1,0 +1,441 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "matematica-informatica-linia-de-studiu-romana",
+  "year": 3,
+  "group": 333,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Introducere in astronomie",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Conf. BLAGA Cristina",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Sofware matematic",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. PARAJDI LORAND",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Sofware matematic",
+          "type": "lab",
+          "room": "DC507",
+          "instructor": "Lect. PARAJDI LORAND",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Proiectarea interactiunii om-calculator",
+          "type": "lab",
+          "room": "DC501",
+          "instructor": "Conf. GURAN Adriana",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Bazele limbajelor formale si ale compilatoarelor",
+          "type": "lab",
+          "room": "DC502",
+          "instructor": "Conf. COJOCAR Grigoreta",
+          "audience": {
+            "formation": "333/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Bazele limbajelor formale si ale compilatoarelor",
+          "type": "lab",
+          "room": "DC502",
+          "instructor": "Conf. COJOCAR Grigoreta",
+          "audience": {
+            "formation": "333/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Principiile de functionare ale retelelor de calculatoare",
+          "type": "lab",
+          "room": "L321",
+          "instructor": "Lect. DRAGOS Radu",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Bazele limbajelor formale si ale compilatoarelor",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "Conf. GURAN Adriana",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Statistica matematica",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. ROSCA Natalia",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "15–17",
+          "frequency": "weekly",
+          "course": "Introducere in astronomie",
+          "type": "lab",
+          "room": "Obs",
+          "instructor": "Conf. BLAGA Cristina",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Observatorul Astronomic (str. Ciresilor)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Ecuatii cu derivate partiale",
+          "type": "seminar",
+          "room": "A310",
+          "instructor": "Drd. STAN Andrei",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Introducere in automatizarea proceselor de business",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. POP Andreea",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Statistica matematica",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "Conf. ROSCA Natalia",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Statistica matematica",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Conf. ROSCA Natalia",
+          "audience": {
+            "formation": "333/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Statistica matematica",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Conf. ROSCA Natalia",
+          "audience": {
+            "formation": "333/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Ecuatii cu derivate partiale",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Conf. BUICA Adriana",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Introducere in automatizarea proceselor de business",
+          "type": "lab",
+          "room": "DC503",
+          "instructor": "Lect. POP Andreea",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Proiectarea interactiunii om-calculator",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. GURAN Adriana",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Bazele limbajelor formale si ale compilatoarelor",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. GURAN Adriana",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–13",
+          "frequency": "weekly",
+          "course": "Practica pedagogica observativa",
+          "type": "seminar",
+          "room": "BOB-16",
+          "instructor": "Conf. MAGDAS Ioana",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Scoala Gimnaziala \"Ioan Bob\", Str. Episcop Ioan Bob 10"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Principiile de functionare ale retelelor de calculatoare",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. DRAGOS Radu",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Introducere in analiza functionala",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. BRECKNER Brigitte",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Proiect colectiv",
+          "type": "lab",
+          "room": "Catedra",
+          "instructor": "C.d.asociat Mentor Proiect Colectiv 8",
+          "audience": {
+            "formation": "333",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sediul unde are birou indrumatorul"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Proiect de cercetare in matematica",
+          "type": "lab",
+          "room": "7/I",
+          "instructor": "Prof. PETRUSEL Adrian",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Instruire asistata de calculator",
+          "type": "lecture",
+          "room": "DPPD-306",
+          "instructor": "Lect. MAIER Mariana",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala 306, Departamentul pentu Pregătirea Personalului Didactic"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Instruire asistata de calculator",
+          "type": "seminar",
+          "room": "DPPD-205",
+          "instructor": "Drd. DAVID Andra",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala 205, Departamentul Pentru Pregatirea Personalului didactic"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Introducere in analiza functionala",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Conf. BRECKNER Brigitte",
+          "audience": {
+            "formation": "MI3",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    }
+  ]
+}

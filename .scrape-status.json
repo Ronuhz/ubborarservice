@@ -1,0 +1,743 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "sourcesTotal": 39,
+  "sourcesSucceeded": 39,
+  "sourcesFailed": 0,
+  "timetableFilesWritten": 87,
+  "timetableFilesEmpty": 0,
+  "roomsInLegend": 78,
+  "failures": [],
+  "warnings": [],
+  "sources": [
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-in-limba-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IE1.html",
+      "configuredGroups": [
+        911,
+        912,
+        913,
+        914,
+        915,
+        916
+      ],
+      "detectedGroups": [
+        911,
+        912,
+        913,
+        914,
+        915,
+        916
+      ],
+      "groupsWritten": [
+        911,
+        912,
+        913,
+        914,
+        915,
+        916
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-in-limba-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IE2.html",
+      "configuredGroups": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926
+      ],
+      "detectedGroups": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926
+      ],
+      "groupsWritten": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-in-limba-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IE3.html",
+      "configuredGroups": [
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937
+      ],
+      "detectedGroups": [
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937
+      ],
+      "groupsWritten": [
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-in-limba-germana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IG1.html",
+      "configuredGroups": [
+        711,
+        712
+      ],
+      "detectedGroups": [
+        711,
+        712
+      ],
+      "groupsWritten": [
+        711,
+        712
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-in-limba-germana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IG2.html",
+      "configuredGroups": [
+        721
+      ],
+      "detectedGroups": [
+        721
+      ],
+      "groupsWritten": [
+        721
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-in-limba-germana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IG3.html",
+      "configuredGroups": [
+        731,
+        732,
+        733
+      ],
+      "detectedGroups": [
+        731,
+        732,
+        733
+      ],
+      "groupsWritten": [
+        731,
+        732,
+        733
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-linia-de-studiu-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IM1.html",
+      "configuredGroups": [
+        511
+      ],
+      "detectedGroups": [
+        511
+      ],
+      "groupsWritten": [
+        511
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-linia-de-studiu-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IM2.html",
+      "configuredGroups": [
+        521,
+        522
+      ],
+      "detectedGroups": [
+        521,
+        522
+      ],
+      "groupsWritten": [
+        521,
+        522
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-linia-de-studiu-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IM3.html",
+      "configuredGroups": [
+        531,
+        532,
+        533
+      ],
+      "detectedGroups": [
+        531,
+        532,
+        533
+      ],
+      "groupsWritten": [
+        531,
+        532,
+        533
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-linia-de-studiu-romana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/I1.html",
+      "configuredGroups": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "detectedGroups": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "groupsWritten": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-linia-de-studiu-romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/I2.html",
+      "configuredGroups": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "detectedGroups": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "groupsWritten": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "informatica-linia-de-studiu-romana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/I3.html",
+      "configuredGroups": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ],
+      "detectedGroups": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ],
+      "groupsWritten": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II1.html",
+      "configuredGroups": [
+        1311
+      ],
+      "detectedGroups": [
+        1311
+      ],
+      "groupsWritten": [
+        1311
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II2.html",
+      "configuredGroups": [
+        1321
+      ],
+      "detectedGroups": [
+        1321
+      ],
+      "groupsWritten": [
+        1321
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II3.html",
+      "configuredGroups": [
+        1331,
+        1332
+      ],
+      "detectedGroups": [
+        1331,
+        1332
+      ],
+      "groupsWritten": [
+        1331,
+        1332
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "year": 4,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II4.html",
+      "configuredGroups": [
+        1341
+      ],
+      "detectedGroups": [
+        1341
+      ],
+      "groupsWritten": [
+        1341
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM1.html",
+      "configuredGroups": [
+        1411
+      ],
+      "detectedGroups": [
+        1411
+      ],
+      "groupsWritten": [
+        1411
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM2.html",
+      "configuredGroups": [
+        1421
+      ],
+      "detectedGroups": [
+        1421
+      ],
+      "groupsWritten": [
+        1421
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM3.html",
+      "configuredGroups": [
+        1431
+      ],
+      "detectedGroups": [
+        1431
+      ],
+      "groupsWritten": [
+        1431
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "year": 4,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM4.html",
+      "configuredGroups": [
+        1441
+      ],
+      "detectedGroups": [
+        1441
+      ],
+      "groupsWritten": [
+        1441
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "inteligenta-artificiala-in-limba-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IA1.html",
+      "configuredGroups": [
+        1011,
+        1012,
+        1013
+      ],
+      "detectedGroups": [
+        1011,
+        1012,
+        1013
+      ],
+      "groupsWritten": [
+        1011,
+        1012,
+        1013
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "inteligenta-artificiala-in-limba-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IA2.html",
+      "configuredGroups": [
+        1021,
+        1022
+      ],
+      "detectedGroups": [
+        1021,
+        1022
+      ],
+      "groupsWritten": [
+        1021,
+        1022
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "inteligenta-artificiala-in-limba-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IA3.html",
+      "configuredGroups": [
+        1031,
+        1032
+      ],
+      "detectedGroups": [
+        1031,
+        1032
+      ],
+      "groupsWritten": [
+        1031,
+        1032
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIMDS1.html",
+      "configuredGroups": [
+        1611
+      ],
+      "detectedGroups": [
+        1611
+      ],
+      "groupsWritten": [
+        1611
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIMDS2.html",
+      "configuredGroups": [
+        1621
+      ],
+      "detectedGroups": [
+        1621
+      ],
+      "groupsWritten": [
+        1621
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-romana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIDS1.html",
+      "configuredGroups": [
+        1511,
+        1512,
+        1513
+      ],
+      "detectedGroups": [
+        1511,
+        1512,
+        1513
+      ],
+      "groupsWritten": [
+        1511,
+        1512,
+        1513
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIDS2.html",
+      "configuredGroups": [
+        1521
+      ],
+      "detectedGroups": [
+        1521
+      ],
+      "groupsWritten": [
+        1521
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-linia-de-studiu-engleza",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIE1.html",
+      "configuredGroups": [
+        811
+      ],
+      "detectedGroups": [
+        811
+      ],
+      "groupsWritten": [
+        811
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-linia-de-studiu-engleza",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIE2.html",
+      "configuredGroups": [
+        821
+      ],
+      "detectedGroups": [
+        821
+      ],
+      "groupsWritten": [
+        821
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-linia-de-studiu-engleza",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIE3.html",
+      "configuredGroups": [
+        831,
+        832
+      ],
+      "detectedGroups": [
+        831,
+        832
+      ],
+      "groupsWritten": [
+        831,
+        832
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-linia-de-studiu-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIM3.html",
+      "configuredGroups": [
+        631
+      ],
+      "detectedGroups": [
+        631
+      ],
+      "groupsWritten": [
+        631
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-linia-de-studiu-romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MI2.html",
+      "configuredGroups": [
+        321
+      ],
+      "detectedGroups": [
+        321
+      ],
+      "groupsWritten": [
+        321
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-informatica-linia-de-studiu-romana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MI3.html",
+      "configuredGroups": [
+        331,
+        332,
+        333
+      ],
+      "detectedGroups": [
+        331,
+        332,
+        333
+      ],
+      "groupsWritten": [
+        331,
+        332,
+        333
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-linia-de-studiu-maghiara",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MM1.html",
+      "configuredGroups": [
+        411
+      ],
+      "detectedGroups": [
+        411
+      ],
+      "groupsWritten": [
+        411
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-linia-de-studiu-maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MM2.html",
+      "configuredGroups": [
+        421
+      ],
+      "detectedGroups": [
+        421
+      ],
+      "groupsWritten": [
+        421
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-linia-de-studiu-maghiara",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MM3.html",
+      "configuredGroups": [
+        431
+      ],
+      "detectedGroups": [
+        431
+      ],
+      "groupsWritten": [
+        431
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-linia-de-studiu-romana",
+      "year": 1,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/M1.html",
+      "configuredGroups": [
+        111,
+        112
+      ],
+      "detectedGroups": [
+        111,
+        112
+      ],
+      "groupsWritten": [
+        111,
+        112
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-linia-de-studiu-romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/M2.html",
+      "configuredGroups": [
+        121
+      ],
+      "detectedGroups": [
+        121
+      ],
+      "groupsWritten": [
+        121
+      ]
+    },
+    {
+      "academicYear": "2026-2027",
+      "programId": "matematica-linia-de-studiu-romana",
+      "year": 3,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/M3.html",
+      "configuredGroups": [
+        131
+      ],
+      "detectedGroups": [
+        131
+      ],
+      "groupsWritten": [
+        131
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "informatica-linia-de-studiu-maghiara",
+  "year": 1,
+  "group": 511,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algoritmi fundamentali",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Lect. SANDOR Reka",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Algoritmi fundamentali",
+          "type": "seminar",
+          "room": "5/I",
+          "instructor": "Lect. SANDOR Reka",
+          "audience": {
+            "formation": "511",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Algoritmi fundamentali",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Lect. SANDOR Reka",
+          "audience": {
+            "formation": "511/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Algoritmi fundamentali",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Lect. SANDOR Reka",
+          "audience": {
+            "formation": "511/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Logica matematica si computationals",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Psihologia educatiei",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "Lect. GERGELY Roland",
+          "audience": {
+            "formation": "511",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Asist. SANDOR Csanad",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "seminar",
+          "room": "DC405",
+          "instructor": "Asist. SANDOR Csanad",
+          "audience": {
+            "formation": "511",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Asist. SANDOR Csanad",
+          "audience": {
+            "formation": "511/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Asist. SANDOR Csanad",
+          "audience": {
+            "formation": "511/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Fundamentele programarii",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Lect. MOLNAR Botond",
+          "audience": {
+            "formation": "511/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Fundamentele programarii",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Lect. MOLNAR Botond",
+          "audience": {
+            "formation": "511/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algebra",
+          "type": "lecture",
+          "room": "C512",
+          "instructor": "Lect. SZOLLOSI Istvan",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Psihologia educatiei",
+          "type": "lecture",
+          "room": "KuTi",
+          "instructor": "Lect. SULYOK Karmen",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Kulcsar Tibor - Facultatea de Psihologie (str. Sindicatelor, nr. 7)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Calcul diferential si integral",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. FINTA Zoltan",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Calcul diferential si integral",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Asist. SCHEFLER Barna",
+          "audience": {
+            "formation": "511",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Lect. MOLNAR Botond",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Algebra",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "Asist. SCHEFLER Barna",
+          "audience": {
+            "formation": "511",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Logica matematica si computationals",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "C.d.asociat MIHALY Sarolta",
+          "audience": {
+            "formation": "511",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Metode avansate de rezolvare a problemelor de informatica",
+          "type": "lecture",
+          "room": "Multimedia",
+          "instructor": "Lect. PATCAS Csaba",
+          "audience": {
+            "formation": "IM1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week1",
+          "course": "Metode avansate de rezolvare a problemelor de informatica",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Lect. PATCAS Csaba",
+          "audience": {
+            "formation": "511/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Metode avansate de rezolvare a problemelor de informatica",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Lect. PATCAS Csaba",
+          "audience": {
+            "formation": "511/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    }
+  ]
+}

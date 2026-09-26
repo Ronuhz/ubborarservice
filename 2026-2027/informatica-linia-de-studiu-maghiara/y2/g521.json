@@ -1,0 +1,471 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "informatica-linia-de-studiu-maghiara",
+  "year": 2,
+  "group": 521,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Probabilitati si statistica",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. SOOS Anna",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Probabilitati si statistica",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Conf. SOOS Anna",
+          "audience": {
+            "formation": "521",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Probabilitati si statistica",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Conf. SOOS Anna",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Limba engleza",
+          "type": "seminar",
+          "room": "A313",
+          "instructor": "C.d.asociat LEFERMAN Monika",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Probabilitati si statistica",
+          "type": "lab",
+          "room": "6/II",
+          "instructor": "Asist. VAS Orsolya",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Metode avansate de programare",
+          "type": "lab",
+          "room": "DC502",
+          "instructor": "Drd. KEPES Tamas",
+          "audience": {
+            "formation": "521/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Programare Web",
+          "type": "seminar",
+          "room": "DC401",
+          "instructor": "Drd. TASNADI Zoltan",
+          "audience": {
+            "formation": "521",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Programare Web",
+          "type": "lab",
+          "room": "DC505",
+          "instructor": "Drd. TASNADI Zoltan",
+          "audience": {
+            "formation": "521/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Metode avansate de programare",
+          "type": "seminar",
+          "room": "DC401",
+          "instructor": "Lect. SZENKOVITS Annamaria",
+          "audience": {
+            "formation": "521",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Programare Web",
+          "type": "lab",
+          "room": "DC505",
+          "instructor": "Drd. TASNADI Zoltan",
+          "audience": {
+            "formation": "521/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Metode avansate de programare",
+          "type": "lab",
+          "room": "DC508",
+          "instructor": "Lect. SZENKOVITS Annamaria",
+          "audience": {
+            "formation": "521/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Probabilitati si statistica",
+          "type": "lab",
+          "room": "DC506",
+          "instructor": "Asist. VAS Orsolya",
+          "audience": {
+            "formation": "521/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Programare logica si functionala",
+          "type": "lab",
+          "room": "DC507",
+          "instructor": "Drd. DOBAI-PATAKY Attila",
+          "audience": {
+            "formation": "521/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Algoritmica grafelor",
+          "type": "seminar",
+          "room": "DC401",
+          "instructor": "Conf. GASKO Noemi",
+          "audience": {
+            "formation": "521",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Programare logica si functionala",
+          "type": "seminar",
+          "room": "DC405",
+          "instructor": "Drd. DOBAI-PATAKY Attila",
+          "audience": {
+            "formation": "521",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Probabilitati si statistica",
+          "type": "lab",
+          "room": "DC505",
+          "instructor": "Asist. VAS Orsolya",
+          "audience": {
+            "formation": "521/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "lab",
+          "room": "DC506",
+          "instructor": "Drd. KEPES Tamas",
+          "audience": {
+            "formation": "521/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Programare logica si functionala",
+          "type": "lab",
+          "room": "DC507",
+          "instructor": "Drd. DOBAI-PATAKY Attila",
+          "audience": {
+            "formation": "521/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "lab",
+          "room": "DC506",
+          "instructor": "Drd. KEPES Tamas",
+          "audience": {
+            "formation": "521/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Metode avansate de programare",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Conf. DARVAY Zsolt",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algoritmica grafelor",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Conf. GASKO Noemi",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Programare logica si functionala",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Prof. CSATO Lehel",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Pedagogie: teorii si practici",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. ILLYES Magda",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Pedagogie: teorii si practici",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. ILLYES Magda",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lab",
+          "room": "DC503",
+          "instructor": "Asist. LAZAR-LORINCZ Beata",
+          "audience": {
+            "formation": "521/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lab",
+          "room": "DC503",
+          "instructor": "Asist. LAZAR-LORINCZ Beata",
+          "audience": {
+            "formation": "521/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "seminar",
+          "room": "DC403",
+          "instructor": "Asist. LAZAR-LORINCZ Beata",
+          "audience": {
+            "formation": "521",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Sisteme de gestiune a bazelor de date",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Asist. LAZAR-LORINCZ Beata",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Programare Web",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. SULYOK Csaba",
+          "audience": {
+            "formation": "IM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+  "year": 2,
+  "group": 1621,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "9–12",
+          "frequency": "weekly",
+          "course": "Functii reale",
+          "type": "lecture",
+          "room": "pi",
+          "instructor": "Lect. SZILAGYI Zsolt",
+          "audience": {
+            "formation": "MIMDS2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Functii reale",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Lect. SZILAGYI Zsolt",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Geometria curbelor si suprafe?elor",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Lect. MEZEI Ildiko",
+          "audience": {
+            "formation": "MIMDS2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Geometria curbelor si suprafe?elor",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. MEZEI Ildiko",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Asist. SANDOR Csanad",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Metode avansate de programare",
+          "type": "lab",
+          "room": "DC501",
+          "instructor": "Lect. SZENKOVITS Annamaria",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Asist. SANDOR Csanad",
+          "audience": {
+            "formation": "MIMDS2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "seminar",
+          "room": "DC405",
+          "instructor": "Asist. SANDOR Csanad",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "15–17",
+          "frequency": "week1",
+          "course": "Ecuatii diferentiale",
+          "type": "lab",
+          "room": "Multimedia",
+          "instructor": "Drd. TOTOS Gyorgy",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "17–19",
+          "frequency": "weekly",
+          "course": "Ecuatii diferentiale",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. ANDRAS Szilard",
+          "audience": {
+            "formation": "MIMDS2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Metode avansate de programare",
+          "type": "seminar",
+          "room": "DC404",
+          "instructor": "Drd. TASNADI Zoltan",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Algoritmica grafelor",
+          "type": "lab",
+          "room": "DC502",
+          "instructor": "Drd. KEPES Tamas",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Algoritmica grafelor",
+          "type": "seminar",
+          "room": "DC401",
+          "instructor": "Conf. GASKO Noemi",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Ecuatii diferentiale",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Drd. TOTOS Gyorgy",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Metode avansate de programare",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Conf. DARVAY Zsolt",
+          "audience": {
+            "formation": "MIMDS2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algoritmica grafelor",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Conf. GASKO Noemi",
+          "audience": {
+            "formation": "MIMDS2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Pedagogie: teorii si practici",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. ILLYES Magda",
+          "audience": {
+            "formation": "1621",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Pedagogie: teorii si practici",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. ILLYES Magda",
+          "audience": {
+            "formation": "MIMDS2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    }
+  ]
+}

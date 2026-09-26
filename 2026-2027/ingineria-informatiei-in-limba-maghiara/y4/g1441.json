@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "ingineria-informatiei-in-limba-maghiara",
+  "year": 4,
+  "group": 1441,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–12",
+          "frequency": "weekly",
+          "course": "Teoria sistemelor",
+          "type": "lecture",
+          "room": "Multimedia",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "audience": {
+            "formation": "IIM4",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–13",
+          "frequency": "weekly",
+          "course": "Teoria sistemelor",
+          "type": "seminar",
+          "room": "Multimedia",
+          "instructor": "Lect. KOLUMBAN Sandor",
+          "audience": {
+            "formation": "1441",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Introducere in criptografie",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. SZOLLOSI Istvan",
+          "audience": {
+            "formation": "IIM4",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "week2",
+          "course": "Introducere in criptografie",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "Lect. SZOLLOSI Istvan",
+          "audience": {
+            "formation": "1441",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Robotica si agenti inteligenti",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "Drd. DoctorandM",
+          "audience": {
+            "formation": "IIM4",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "10–14",
+          "frequency": "weekly",
+          "course": "Achizitia si prelucrarea datelor",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "Drd. DoctorandM",
+          "audience": {
+            "formation": "IIM4",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Robotica si agenti inteligenti",
+          "type": "lab",
+          "room": "neprecizat",
+          "instructor": "Drd. DoctorandM",
+          "audience": {
+            "formation": "1441",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "10–11",
+          "frequency": "weekly",
+          "course": "Achizitia si prelucrarea datelor",
+          "type": "seminar",
+          "room": "neprecizat",
+          "instructor": "Drd. DoctorandM",
+          "audience": {
+            "formation": "1441",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "ingineria-informatiei-in-limba-engleza",
+  "year": 1,
+  "group": 1311,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Grafica asistata de calculator 1",
+          "type": "lecture",
+          "room": "DC403",
+          "instructor": "C.d.asociat KORCA Zoltan-Iosif",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Grafica asistata de calculator 1",
+          "type": "lab",
+          "room": "DC403",
+          "instructor": "C.d.asociat KORCA Zoltan-Iosif",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Programarea calculatoarelor si limbaje de programare",
+          "type": "lab",
+          "room": "DC503",
+          "instructor": "Drd. CHIS Raluca",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Programarea calculatoarelor si limbaje de programare",
+          "type": "seminar",
+          "room": "DC503",
+          "instructor": "Drd. CHIS Raluca",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–11",
+          "frequency": "weekly",
+          "course": "Alg. lin., geom. anal. si dif. 1",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Conf. PELEA Cosmin",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "11–12",
+          "frequency": "weekly",
+          "course": "Alg. lin., geom. anal. si dif. 1",
+          "type": "seminar",
+          "room": "C335",
+          "instructor": "Conf. PELEA Cosmin",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Programarea calculatoarelor si limbaje de programare",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Asist. BRICIU Anamaria",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare in C",
+          "type": "lab",
+          "room": "S01",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–13",
+          "frequency": "weekly",
+          "course": "Analiza matematica 1 (Analiza pe R)",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. GRAD Anca",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "13–16",
+          "frequency": "weekly",
+          "course": "Fizica",
+          "type": "lecture",
+          "room": "243B",
+          "instructor": "C.d.asociat VASILESCU Mihai",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Laborator Fizica"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Analiza matematica 1 (Analiza pe R)",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Asist. GRIGORICIUC Eduard",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Fizica",
+          "type": "lab",
+          "room": "243B",
+          "instructor": "C.d.asociat VASILESCU Mihai",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Laborator Fizica"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Fizica",
+          "type": "seminar",
+          "room": "243B",
+          "instructor": "C.d.asociat VASILESCU Mihai",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Laborator Fizica"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Programare in C",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Chimie",
+          "type": "lab",
+          "room": "neprecizat",
+          "instructor": "C.d.asociat SEPTELEAN Raluca",
+          "audience": {
+            "formation": "1311",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Chimie",
+          "type": "lecture",
+          "room": "neprecizat",
+          "instructor": "C.d.asociat SEPTELEAN Raluca",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala neprecizata"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Psihologie educationala",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. DUMULESCU Daniela",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Psihologie educationala",
+          "type": "seminar",
+          "room": "2/I",
+          "instructor": "Lect. DUMULESCU Daniela",
+          "audience": {
+            "formation": "II1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    }
+  ]
+}

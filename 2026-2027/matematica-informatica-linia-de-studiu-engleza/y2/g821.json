@@ -1,0 +1,411 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "matematica-informatica-linia-de-studiu-engleza",
+  "year": 2,
+  "group": 821,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Proiectarea bazelor de date",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. POP Emilia",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Topologie",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. NICOLAE Adriana",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Topologie",
+          "type": "seminar",
+          "room": "6/II",
+          "instructor": "Conf. NICOLAE Adriana",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Limba engleza",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Asist. PAVLENKO Sonia",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Arhitectura sistemelor de calcul si limbajul de asamblare",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Prof. CRET Octavian",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Ecuatii diferentiale",
+          "type": "lab",
+          "room": "MOS-S16",
+          "instructor": "Drd. PIRVUCEANU Daniel",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "S16 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Ecuatii diferentiale",
+          "type": "seminar",
+          "room": "A312",
+          "instructor": "Drd. PIRVUCEANU Daniel",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Aplicatii ale geometriei",
+          "type": "lab",
+          "room": "MOS-S15",
+          "instructor": "Drd. ARON Mihai Alexandru",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "S15 - Centrul de Modelare, Optimizare si Simulare, Clad Centrala UBB, demisol (s"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Demonstrarea teoremelor in Lean",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Lect. SIMION Iulian",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Aplicatii ale geometriei",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. BLAGA Paul",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Analiza complexa",
+          "type": "lecture",
+          "room": "9/I",
+          "instructor": "Lect. IANCU Mihai",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Ecuatii diferentiale",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Conf. SERBAN Marcel",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Analiza complexa",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. IANCU Mihai",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Demonstrarea teoremelor in Lean",
+          "type": "seminar",
+          "room": "DC401",
+          "instructor": "Lect. SIMION Iulian",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare in C",
+          "type": "lab",
+          "room": "S01",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Metode avansate de programarea aplicatiilor software",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Conf. BOCICOR Maria Iuliana",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul si limbajul de asamblare",
+          "type": "lecture",
+          "room": "L001",
+          "instructor": "Prof. CRET Octavian",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Metode avansate de programarea aplicatiilor software",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Conf. BOCICOR Maria Iuliana",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Metode avansate de programarea aplicatiilor software",
+          "type": "seminar",
+          "room": "L001",
+          "instructor": "Conf. BOCICOR Maria Iuliana",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Programare in C",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Proiectarea bazelor de date",
+          "type": "seminar",
+          "room": "DC401",
+          "instructor": "Asist. COSTE Claudia Ioana",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Proiectarea bazelor de date",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "Asist. COSTE Claudia Ioana",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Arhitectura sistemelor de calcul si limbajul de asamblare",
+          "type": "seminar",
+          "room": "DC401",
+          "instructor": "C.d.asociat POP Diana Irena",
+          "audience": {
+            "formation": "821",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Teoria si metodologia instruirii. Teoria si metodologia evaluarii",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Lect. CATALANO Constantina",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Teoria si metodologia instruirii. Teoria si metodologia evaluarii",
+          "type": "seminar",
+          "room": "6/II",
+          "instructor": "C.d.asociat Coste Monica",
+          "audience": {
+            "formation": "MIE2",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        }
+      ]
+    }
+  ]
+}

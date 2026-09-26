@@ -1,0 +1,306 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "informatica-linia-de-studiu-romana",
+  "year": 1,
+  "group": 212,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lab",
+          "room": "DC506",
+          "instructor": "C.d.asociat SALCEDO-CABANILLAS BELLA-TERES",
+          "audience": {
+            "formation": "212/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "lab",
+          "room": "L001",
+          "instructor": "Asist. BRICIU Anamaria",
+          "audience": {
+            "formation": "212/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Drd. SIRBU Alexandru-Gabriel",
+          "audience": {
+            "formation": "212/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lab",
+          "room": "L002",
+          "instructor": "C.d.asociat PETEC Razvan",
+          "audience": {
+            "formation": "212/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Logica computationala",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Lect. POP Andreea",
+          "audience": {
+            "formation": "212",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "seminar",
+          "room": "C510",
+          "instructor": "Drd. BOTA Daniel",
+          "audience": {
+            "formation": "212",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Algebra",
+          "type": "seminar",
+          "room": "DC405",
+          "instructor": "Conf. PELEA Cosmin",
+          "audience": {
+            "formation": "212",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Analiza matematica",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Lect. BERINDE Stefan",
+          "audience": {
+            "formation": "212",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Analiza matematica",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. BERINDE Stefan",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Arhitectura sistemelor de calcul",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. VANCEA Alexandru",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Algebra",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Conf. MODOI Gheorghe Ciprian",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Prof. CZIBULA Istvan",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Logica computationala",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Lect. POP Andreea",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Fundamentele programarii",
+          "type": "seminar",
+          "room": "C512",
+          "instructor": "Asist. BRICIU Anamaria",
+          "audience": {
+            "formation": "212",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Programare in C",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Programare in C",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Psihologie educationala",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. DUMULESCU Daniela",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Psihologie educationala",
+          "type": "seminar",
+          "room": "2/I",
+          "instructor": "Lect. DUMULESCU Daniela",
+          "audience": {
+            "formation": "I1",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    }
+  ]
+}

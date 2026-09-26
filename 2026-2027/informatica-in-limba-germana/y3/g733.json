@@ -1,0 +1,336 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "informatica-in-limba-germana",
+  "year": 3,
+  "group": 733,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "seminar",
+          "room": "Platon",
+          "instructor": "C.d.asociat DOHMEN Klaus",
+          "audience": {
+            "formation": "733",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Managementul firmei",
+          "type": "seminar",
+          "room": "DC404",
+          "instructor": "C.d.asociat PARASCA Maria",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat DOHMEN Klaus",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Introducere in tehnologii ERP",
+          "type": "lab",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat FUGACIU Radu",
+          "audience": {
+            "formation": "733/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Introducere in tehnologii ERP",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat FUGACIU Radu",
+          "audience": {
+            "formation": "733/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Introducere in robotica",
+          "type": "lab",
+          "room": "Platon",
+          "instructor": "C.d.asociat HANDMANN Uwe",
+          "audience": {
+            "formation": "733",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Managementul firmei",
+          "type": "lecture",
+          "room": "L404",
+          "instructor": "C.d.asociat PARASCA Maria",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Fundamentele instruirii automate",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat SOLEA Victor",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Programare pentru dispozitive mobile",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "Lect. BENTA Iulian",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "lab",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat DOHMEN Klaus",
+          "audience": {
+            "formation": "733/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week1",
+          "course": "Programare pentru dispozitive mobile",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Lect. BENTA Iulian",
+          "audience": {
+            "formation": "733/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "week2",
+          "course": "Programare pentru dispozitive mobile",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "Lect. BENTA Iulian",
+          "audience": {
+            "formation": "733/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat DOHMEN Klaus",
+          "audience": {
+            "formation": "733/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Introducere in robotica",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat SABOU Florin",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Calcul afectiv",
+          "type": "lecture",
+          "room": "C512",
+          "instructor": "Lect. BENTA Iulian",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Calcul afectiv",
+          "type": "lab",
+          "room": "L439",
+          "instructor": "Lect. BENTA Iulian",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Fundamentele instruirii automate",
+          "type": "lab",
+          "room": "Saturn",
+          "instructor": "C.d.asociat SOLEA Victor",
+          "audience": {
+            "formation": "733",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sala laborator Saturn - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Introducere in tehnologii ERP",
+          "type": "lecture",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat FUGACIU Radu",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Proiect colectiv",
+          "type": "lab",
+          "room": "NTTSocrate",
+          "instructor": "C.d.asociat KOVACS Karoly",
+          "audience": {
+            "formation": "IG3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Amfiteatrul Socrate - NTT Data, parter (str. Constanta, nr. 19-21)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Proiect de cercetare",
+          "type": "lab",
+          "room": "Platon",
+          "instructor": "C.d.asociat SOLEA Victor",
+          "audience": {
+            "formation": "733",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Sala seminar Platon - NTT Data, parter (str. Constanta, nr. 19-21)"
+        }
+      ]
+    }
+  ]
+}

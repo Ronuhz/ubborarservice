@@ -1,0 +1,666 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "informatica-in-limba-engleza",
+  "year": 3,
+  "group": 937,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "week2",
+          "course": "Programare pentru dispozitive mobile",
+          "type": "lab",
+          "room": "DC506",
+          "instructor": "C.d.asociat SIRBU Alexandru-Paul",
+          "audience": {
+            "formation": "937/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Metode inteligente de rezolvare a problemelor reale",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Prof. DIOSAN Laura",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Interactiunea om-calculator",
+          "type": "lab",
+          "room": "DC508",
+          "instructor": "Conf. COJOCAR Grigoreta",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "lab",
+          "room": "DC509",
+          "instructor": "Drd. STUPINEAN Ciprian",
+          "audience": {
+            "formation": "937/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Programare pentru dispozitive mobile",
+          "type": "lab",
+          "room": "DC508",
+          "instructor": "C.d.asociat SIRBU Alexandru-Paul",
+          "audience": {
+            "formation": "937/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Aplicatii ale geometriei in informatica",
+          "type": "lab",
+          "room": "L402",
+          "instructor": "Drd. ARON Mihai Alexandru",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Programare pentru dispozitive mobile",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. COJOCAR Dan",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Arhitectura aplicatiilor cloud",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Lect. GREBLA Horea",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Metode inteligente de rezolvare a problemelor reale",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Prof. DIOSAN Laura",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Criptografie cu cheie publica",
+          "type": "lab",
+          "room": "S01",
+          "instructor": "Drd. CHIRU Iulia",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "lab",
+          "room": "L404",
+          "instructor": "C.d.asociat BUI THU Hang",
+          "audience": {
+            "formation": "937/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Lab IoT - Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Programare paralela si distribuita",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. NICULESCU Virginia",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week2",
+          "course": "Principiile implementarii orientate spre performanta",
+          "type": "lab",
+          "room": "DC508",
+          "instructor": "C.d.asociat ZACHMAN-TISCA Roxana",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Demonstrarea teoremelor in Lean",
+          "type": "lecture",
+          "room": "5/I",
+          "instructor": "Lect. SIMION Iulian",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Tiberiu Popoviciu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu, nr."
+        },
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Aplicatii ale geometriei in informatica",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. BLAGA Paul",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Principiile implementarii orientate spre performanta",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "C.d.asociat VLEJU Boris",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Criptografie cu cheie publica",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Prof. CRIVEI Septimiu",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Automatizarea proceselor de business",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. POP Andreea",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week1",
+          "course": "Demonstrarea teoremelor in Lean",
+          "type": "lab",
+          "room": "DC508",
+          "instructor": "Lect. SIMION Iulian",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Automatizarea proceselor de business",
+          "type": "lab",
+          "room": "L320",
+          "instructor": "Lect. POP Andreea",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "lecture",
+          "room": "C036",
+          "instructor": "Prof. MOTOGNA Simona",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Amfiteatru Cladirea FSEGA (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "week1",
+          "course": "Arhitectura aplicatiilor cloud",
+          "type": "lab",
+          "room": "DC504",
+          "instructor": "C.d.asociat STEFANIE Andrei",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Interactiunea om-calculator",
+          "type": "lecture",
+          "room": "6/II",
+          "instructor": "Conf. GURAN Adriana",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Gheorghe Calugareanu - Cladirea Centrala UBB, Etaj 2 (str. M Kogalniceanu,"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Intelegerea si implementarea de modele lingvistice mari (LLMs)",
+          "type": "lab",
+          "room": "DC505",
+          "instructor": "Lect. MURSA Bogdan",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "DevOps: Automatizari in cloud",
+          "type": "lab",
+          "room": "DC506",
+          "instructor": "- Necunoscut",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Realitate virtuala",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Conf. BOIAN Rares",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Calcul afectiv",
+          "type": "lecture",
+          "room": "C512",
+          "instructor": "Lect. BENTA Iulian",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 5 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Roboti inteligenti",
+          "type": "lecture",
+          "room": "DC402",
+          "instructor": "Lect. MURESAN Horea",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "DevOps: Automatizari in cloud",
+          "type": "lecture",
+          "room": "C310",
+          "instructor": "Lect. RUSU Catalin",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Intelegerea si implementarea de modele lingvistice mari (LLMs)",
+          "type": "lecture",
+          "room": "C335",
+          "instructor": "Lect. MURSA Bogdan",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Roboti inteligenti",
+          "type": "lab",
+          "room": "DC508",
+          "instructor": "Lect. MURESAN Horea",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week2",
+          "course": "Realitate virtuala",
+          "type": "lab",
+          "room": "L321",
+          "instructor": "Conf. BOIAN Rares",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 3 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Calcul afectiv",
+          "type": "lab",
+          "room": "L439",
+          "instructor": "Lect. BENTA Iulian",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Proiect de cercetare",
+          "type": "lab",
+          "room": "L439",
+          "instructor": "Prof. CZIBULA Istvan",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, etaj 4 (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Proiectarea produselor inovative",
+          "type": "lab",
+          "room": "S01",
+          "instructor": "C.d.asociat ROJA Alexandru",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Cladirea FSEGA, demisol (str. Teodor Mihali, nr. 58-60)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Programare paralela si distribuita",
+          "type": "lab",
+          "room": "DC508",
+          "instructor": "C.d.asociat MIHIS Alin",
+          "audience": {
+            "formation": "937/2",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Programare paralela si distribuita",
+          "type": "lab",
+          "room": "DC509",
+          "instructor": "C.d.asociat GIOSAN George",
+          "audience": {
+            "formation": "937/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 5 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "8–10",
+          "frequency": "week1",
+          "course": "Instruire asistata de calculator",
+          "type": "lecture",
+          "room": "DPPD-306",
+          "instructor": "Lect. MAIER Mariana",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala 306, Departamentul pentu Pregătirea Personalului Didactic"
+        },
+        {
+          "time": "10–12",
+          "frequency": "week2",
+          "course": "Instruire asistata de calculator",
+          "type": "seminar",
+          "room": "DPPD-205",
+          "instructor": "Drd. DAVID Andra",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala 205, Departamentul Pentru Pregatirea Personalului didactic"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Limbaje formale si tehnici de compilare",
+          "type": "seminar",
+          "room": "DC404",
+          "instructor": "Drd. PATCAS Rares",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Univ Dimitrie Cantemir, etaj 4 (str. Teodor Mihali nr. 56)"
+        },
+        {
+          "time": "12–15",
+          "frequency": "weekly",
+          "course": "Practica pedagogica observativa",
+          "type": "seminar",
+          "room": "DPPD-205",
+          "instructor": "Drd. DAVID Andra",
+          "audience": {
+            "formation": "IE3",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "Sala 205, Departamentul Pentru Pregatirea Personalului didactic"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Proiect colectiv",
+          "type": "lab",
+          "room": "Virtual",
+          "instructor": "C.d.asociat Mentor Proiect Colectiv 2",
+          "audience": {
+            "formation": "937",
+            "scope": "group",
+            "expectedScope": "subgroup",
+            "isStandard": false
+          },
+          "roomAddress": "Virtual"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "version": 2,
+  "generatedAt": "2026-09-26T15:26:56Z",
+  "academicYear": "2026-2027",
+  "programId": "matematica-linia-de-studiu-maghiara",
+  "year": 2,
+  "group": 421,
+  "lastUpdatedAtSource": "2026-09-26",
+  "days": [
+    {
+      "day": "monday",
+      "entries": [
+        {
+          "time": "9–12",
+          "frequency": "weekly",
+          "course": "Functii reale",
+          "type": "lecture",
+          "room": "pi",
+          "instructor": "Lect. SZILAGYI Zsolt",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Functii reale",
+          "type": "seminar",
+          "room": "pi",
+          "instructor": "Lect. SZILAGYI Zsolt",
+          "audience": {
+            "formation": "421",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, parter (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Geometria curbelor si suprafe?elor",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Lect. MEZEI Ildiko",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Geometria curbelor si suprafe?elor",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Lect. MEZEI Ildiko",
+          "audience": {
+            "formation": "421",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "18–20",
+          "frequency": "weekly",
+          "course": "Limba engleza",
+          "type": "seminar",
+          "room": "A314",
+          "instructor": "C.d.asociat LEFERMAN Monika",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "group",
+            "isStandard": false
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "week1",
+          "course": "Ecuatii diferentiale",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Drd. TOTOS Gyorgy",
+          "audience": {
+            "formation": "421/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Probleme de numarare si probabilitati clasice",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. ANDRAS Szilard",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "16–17",
+          "frequency": "weekly",
+          "course": "Probleme de numarare si probabilitati clasice",
+          "type": "seminar",
+          "room": "gamma",
+          "instructor": "Conf. ANDRAS Szilard",
+          "audience": {
+            "formation": "421",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "17–19",
+          "frequency": "weekly",
+          "course": "Ecuatii diferentiale",
+          "type": "lecture",
+          "room": "gamma",
+          "instructor": "Conf. ANDRAS Szilard",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "entries": [
+        {
+          "time": "9–11",
+          "frequency": "weekly",
+          "course": "Analiza numerica",
+          "type": "lecture",
+          "room": "e",
+          "instructor": "Lect. SOMOGYI Ildiko",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "11–12",
+          "frequency": "weekly",
+          "course": "Analiza numerica",
+          "type": "seminar",
+          "room": "e",
+          "instructor": "Lect. SOMOGYI Ildiko",
+          "audience": {
+            "formation": "421",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica, Etaj 1 (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Ecuatii diferentiale",
+          "type": "seminar",
+          "room": "A311",
+          "instructor": "Drd. TOTOS Gyorgy",
+          "audience": {
+            "formation": "421",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "cladirea Avram Iancu, etaj 3 (Str. A. Iancu)"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "entries": [
+        {
+          "time": "12–14",
+          "frequency": "weekly",
+          "course": "Analiza numerica",
+          "type": "lab",
+          "room": "lambda",
+          "instructor": "Lect. SOMOGYI Ildiko",
+          "audience": {
+            "formation": "421/1",
+            "scope": "subgroup",
+            "expectedScope": "subgroup",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Mathematica (str. Ploiesti, nr. 23-25)"
+        },
+        {
+          "time": "14–16",
+          "frequency": "weekly",
+          "course": "Pedagogie: teorii si practici",
+          "type": "seminar",
+          "room": "9/I",
+          "instructor": "Lect. ILLYES Magda",
+          "audience": {
+            "formation": "421",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Cladirea Centrala UBB, Etaj 1 (str. Mihail Kogalniceanu, nr. 1)"
+        },
+        {
+          "time": "16–18",
+          "frequency": "weekly",
+          "course": "Pedagogie: teorii si practici",
+          "type": "lecture",
+          "room": "2/I",
+          "instructor": "Lect. ILLYES Magda",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala Nicolae Iorga - Cladirea Centrala UBB, Etaj 1 (str. M Kogalniceanu, nr. 1)"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "entries": [
+        {
+          "time": "8–10",
+          "frequency": "weekly",
+          "course": "Sisteme dinamice discrete",
+          "type": "lecture",
+          "room": "7/I",
+          "instructor": "Asist. MESTER Agnes",
+          "audience": {
+            "formation": "MM2",
+            "scope": "cohort",
+            "expectedScope": "cohort",
+            "isStandard": true
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        },
+        {
+          "time": "10–12",
+          "frequency": "weekly",
+          "course": "Sisteme dinamice discrete",
+          "type": "seminar",
+          "room": "7/I",
+          "instructor": "Asist. MESTER Agnes",
+          "audience": {
+            "formation": "421",
+            "scope": "group",
+            "expectedScope": "group",
+            "isStandard": true
+          },
+          "roomAddress": "Sala D.V. Ionescu, Cladirea Centrala, etaj 1 (Str. M. Kogalniceanu)"
+        }
+      ]
+    }
+  ]
+}
