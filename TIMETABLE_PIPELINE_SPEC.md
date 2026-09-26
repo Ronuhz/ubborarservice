@@ -34,7 +34,7 @@ The service is intentionally static-first:
 2. Fetch and parse timetable pages into canonical records.
 3. Optionally enrich room codes with addresses from the legend page.
 4. Emit per-group timetable JSON files.
-5. Build aggregate/supporting payloads (`catalog.json`, `announcements.json`, `discounts.json`, `rooms.json`).
+5. Build aggregate/supporting payloads (`catalog.json`, `announcements.json`, `rooms.json`).
 6. Publish `dist/` to GitHub Pages.
 
 ## 3. Design Objectives
@@ -91,17 +91,7 @@ Expected shape:
 }
 ```
 
-### 4.3 Discounts Configuration (`config/discounts.json`)
-
-Input for `scripts/build_discounts.py`.
-
-Each discount item requires:
-
-- `id`, `title`, `subtitle`, `badge`, `url`, `symbolName`
-- `topColor`, `bottomColor`, `accentColor`
-- Color channels `red|green|blue` in `[0, 1]`
-
-### 4.4 Optional Source Discovery
+### 4.3 Optional Source Discovery
 
 `scripts/generate_sources.py` can crawl an index page and generate `config/sources.json`, with optional:
 
@@ -202,12 +192,6 @@ Automatic warning TTL:
 - Starts at run date 00:00:00Z
 - Ends at +2 days
 
-### 5.6 Discounts Builder (`scripts/build_discounts.py`)
-
-Outputs `discounts.json` after strict field and color validation.
-
-Duplicate `id` values are deduplicated first-win.
-
 ## 6. Output Contracts
 
 All public payload schemas live in `schemas/`.
@@ -278,20 +262,13 @@ Schema: `schemas/announcements.schema.json`
 - `items[]` with `id`, `title`, `message`, `severity`
 - Optional `symbolName`, `startsAt`, `endsAt`
 
-### 6.4 `discounts.json`
-
-Schema: `schemas/discounts.schema.json`
-
-- Presentation metadata for in-app offers
-- Strict color validation (`0..1` channel values)
-
-### 6.5 `rooms.json`
+### 6.4 `rooms.json`
 
 Schema: `schemas/rooms.schema.json`
 
 - `rooms[]` entries with `code` and `address`
 
-### 6.6 `.scrape-status.json` (Operational)
+### 6.5 `.scrape-status.json` (Operational)
 
 Internal operational payload used by downstream build steps.
 
@@ -308,7 +285,6 @@ Published endpoints are static files on GitHub Pages:
 
 - `GET /catalog.json`
 - `GET /announcements.json`
-- `GET /discounts.json`
 - `GET /rooms.json`
 - `GET /{academicYear}/{programId}/y{year}/g{group}.json`
 
@@ -343,7 +319,7 @@ Execution model:
 
 - Payloads include `version` for contract evolution.
 - Timetable version 2 adds required `audience` metadata. The timetable schema validates version 2 specifically;
-  catalog, announcements, discounts, rooms, and scrape status retain version 1.
+  catalog, announcements, rooms, and scrape status retain version 1.
 - Successful scrapes and newly created empty fallbacks write version 2. Existing files retained after a failed
   scrape are not rewritten or relabeled; a retained/cached version 1 file must be treated as default-visible by clients.
 - Schema changes should preserve backward compatibility unless coordinated with app release.

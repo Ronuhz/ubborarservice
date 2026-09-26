@@ -1,19 +1,18 @@
 {
-  "academicYear": "2025-2026",
+  "academicYear": "2026-2027",
   "programs": [
     {
       "programId": "informatica-in-limba-engleza",
       "title": "Informatica - in limba engleza",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IE1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IE1.html",
       "groups": [
         911,
         912,
         913,
         914,
         915,
-        916,
-        917
+        916
       ],
       "cohortFormations": [
         "IE1"
@@ -23,15 +22,14 @@
       "programId": "informatica-in-limba-engleza",
       "title": "Informatica - in limba engleza",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IE2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IE2.html",
       "groups": [
         921,
         922,
         923,
         924,
         925,
-        926,
-        927
+        926
       ],
       "cohortFormations": [
         "IE2"
@@ -41,7 +39,7 @@
       "programId": "informatica-in-limba-engleza",
       "title": "Informatica - in limba engleza",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IE3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IE3.html",
       "groups": [
         931,
         932,
@@ -59,7 +57,7 @@
       "programId": "informatica-in-limba-germana",
       "title": "Informatica - in limba germana",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IG1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IG1.html",
       "groups": [
         711,
         712
@@ -72,11 +70,9 @@
       "programId": "informatica-in-limba-germana",
       "title": "Informatica - in limba germana",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IG2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IG2.html",
       "groups": [
-        721,
-        722,
-        723
+        721
       ],
       "cohortFormations": [
         "IG2"
@@ -86,7 +82,7 @@
       "programId": "informatica-in-limba-germana",
       "title": "Informatica - in limba germana",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IG3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IG3.html",
       "groups": [
         731,
         732,
@@ -100,10 +96,9 @@
       "programId": "informatica-linia-de-studiu-maghiara",
       "title": "Informatica - linia de studiu maghiara",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IM1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IM1.html",
       "groups": [
-        511,
-        512
+        511
       ],
       "cohortFormations": [
         "IM1"
@@ -113,11 +108,10 @@
       "programId": "informatica-linia-de-studiu-maghiara",
       "title": "Informatica - linia de studiu maghiara",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IM2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IM2.html",
       "groups": [
         521,
-        522,
-        523
+        522
       ],
       "cohortFormations": [
         "IM2"
@@ -127,12 +121,11 @@
       "programId": "informatica-linia-de-studiu-maghiara",
       "title": "Informatica - linia de studiu maghiara",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IM3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IM3.html",
       "groups": [
         531,
         532,
-        533,
-        534
+        533
       ],
       "cohortFormations": [
         "IM3"
@@ -142,15 +135,14 @@
       "programId": "informatica-linia-de-studiu-romana",
       "title": "Informatica - linia de studiu romana",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/I1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/I1.html",
       "groups": [
         211,
         212,
         213,
         214,
         215,
-        216,
-        217
+        216
       ],
       "cohortFormations": [
         "I1"
@@ -160,7 +152,7 @@
       "programId": "informatica-linia-de-studiu-romana",
       "title": "Informatica - linia de studiu romana",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/I2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/I2.html",
       "groups": [
         221,
         222,
@@ -177,15 +169,14 @@
       "programId": "informatica-linia-de-studiu-romana",
       "title": "Informatica - linia de studiu romana",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/I3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/I3.html",
       "groups": [
         231,
         232,
         233,
         234,
         235,
-        236,
-        237
+        236
       ],
       "cohortFormations": [
         "I3"
@@ -195,7 +186,7 @@
       "programId": "ingineria-informatiei-in-limba-engleza",
       "title": "Ingineria Informatiei in limba engleza",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II1.html",
       "groups": [
         1311
       ],
@@ -207,10 +198,9 @@
       "programId": "ingineria-informatiei-in-limba-engleza",
       "title": "Ingineria Informatiei in limba engleza",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II2.html",
       "groups": [
-        1321,
-        1322
+        1321
       ],
       "cohortFormations": [
         "II2"
@@ -220,19 +210,32 @@
       "programId": "ingineria-informatiei-in-limba-engleza",
       "title": "Ingineria Informatiei in limba engleza",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/II3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II3.html",
       "groups": [
-        1331
+        1331,
+        1332
       ],
       "cohortFormations": [
         "II3"
       ]
     },
     {
+      "programId": "ingineria-informatiei-in-limba-engleza",
+      "title": "Ingineria Informatiei in limba engleza",
+      "year": 4,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/II4.html",
+      "groups": [
+        1341
+      ],
+      "cohortFormations": [
+        "II4"
+      ]
+    },
+    {
       "programId": "ingineria-informatiei-in-limba-maghiara",
       "title": "Ingineria Informatiei in limba maghiara",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM1.html",
       "groups": [
         1411
       ],
@@ -244,7 +247,7 @@
       "programId": "ingineria-informatiei-in-limba-maghiara",
       "title": "Ingineria Informatiei in limba maghiara",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM2.html",
       "groups": [
         1421
       ],
@@ -256,7 +259,7 @@
       "programId": "ingineria-informatiei-in-limba-maghiara",
       "title": "Ingineria Informatiei in limba maghiara",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IIM3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM3.html",
       "groups": [
         1431
       ],
@@ -265,13 +268,26 @@
       ]
     },
     {
+      "programId": "ingineria-informatiei-in-limba-maghiara",
+      "title": "Ingineria Informatiei in limba maghiara",
+      "year": 4,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IIM4.html",
+      "groups": [
+        1441
+      ],
+      "cohortFormations": [
+        "IIM4"
+      ]
+    },
+    {
       "programId": "inteligenta-artificiala-in-limba-engleza",
       "title": "Inteligenta Artificiala in limba engleza",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IA1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IA1.html",
       "groups": [
         1011,
-        1012
+        1012,
+        1013
       ],
       "cohortFormations": [
         "IA1"
@@ -281,7 +297,7 @@
       "programId": "inteligenta-artificiala-in-limba-engleza",
       "title": "Inteligenta Artificiala in limba engleza",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IA2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IA2.html",
       "groups": [
         1021,
         1022
@@ -294,7 +310,7 @@
       "programId": "inteligenta-artificiala-in-limba-engleza",
       "title": "Inteligenta Artificiala in limba engleza",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/IA3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/IA3.html",
       "groups": [
         1031,
         1032
@@ -307,7 +323,7 @@
       "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
       "title": "Matematica-Informatica 4 ani - linia de studiu maghiara",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIMDS1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIMDS1.html",
       "groups": [
         1611
       ],
@@ -316,22 +332,48 @@
       ]
     },
     {
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-maghiara",
+      "title": "Matematica-Informatica 4 ani - linia de studiu maghiara",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIMDS2.html",
+      "groups": [
+        1621
+      ],
+      "cohortFormations": [
+        "MIMDS2"
+      ]
+    },
+    {
       "programId": "matematica-informatica-4-ani-linia-de-studiu-romana",
       "title": "Matematica-Informatica 4 ani - linia de studiu romana",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIDS1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIDS1.html",
       "groups": [
-        1511
+        1511,
+        1512,
+        1513
       ],
       "cohortFormations": [
         "MIDS1"
       ]
     },
     {
+      "programId": "matematica-informatica-4-ani-linia-de-studiu-romana",
+      "title": "Matematica-Informatica 4 ani - linia de studiu romana",
+      "year": 2,
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIDS2.html",
+      "groups": [
+        1521
+      ],
+      "cohortFormations": [
+        "MIDS2"
+      ]
+    },
+    {
       "programId": "matematica-informatica-linia-de-studiu-engleza",
       "title": "Matematica informatica - linia de studiu engleza",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIE1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIE1.html",
       "groups": [
         811
       ],
@@ -343,10 +385,9 @@
       "programId": "matematica-informatica-linia-de-studiu-engleza",
       "title": "Matematica informatica - linia de studiu engleza",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIE2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIE2.html",
       "groups": [
-        821,
-        822
+        821
       ],
       "cohortFormations": [
         "MIE2"
@@ -356,7 +397,7 @@
       "programId": "matematica-informatica-linia-de-studiu-engleza",
       "title": "Matematica informatica - linia de studiu engleza",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIE3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIE3.html",
       "groups": [
         831,
         832
@@ -368,20 +409,8 @@
     {
       "programId": "matematica-informatica-linia-de-studiu-maghiara",
       "title": "Matematica informatica - linia de studiu maghiara",
-      "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIM2.html",
-      "groups": [
-        621
-      ],
-      "cohortFormations": [
-        "MIM2"
-      ]
-    },
-    {
-      "programId": "matematica-informatica-linia-de-studiu-maghiara",
-      "title": "Matematica informatica - linia de studiu maghiara",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MIM3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MIM3.html",
       "groups": [
         631
       ],
@@ -392,24 +421,10 @@
     {
       "programId": "matematica-informatica-linia-de-studiu-romana",
       "title": "Matematica informatica - linia de studiu romana",
-      "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MI1.html",
-      "groups": [
-        311
-      ],
-      "cohortFormations": [
-        "MI1"
-      ]
-    },
-    {
-      "programId": "matematica-informatica-linia-de-studiu-romana",
-      "title": "Matematica informatica - linia de studiu romana",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MI2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MI2.html",
       "groups": [
-        321,
-        322,
-        323
+        321
       ],
       "cohortFormations": [
         "MI2"
@@ -419,7 +434,7 @@
       "programId": "matematica-informatica-linia-de-studiu-romana",
       "title": "Matematica informatica - linia de studiu romana",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MI3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MI3.html",
       "groups": [
         331,
         332,
@@ -433,7 +448,7 @@
       "programId": "matematica-linia-de-studiu-maghiara",
       "title": "Matematica - linia de studiu maghiara",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MM1.html",
       "groups": [
         411
       ],
@@ -445,7 +460,7 @@
       "programId": "matematica-linia-de-studiu-maghiara",
       "title": "Matematica - linia de studiu maghiara",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MM2.html",
       "groups": [
         421
       ],
@@ -457,7 +472,7 @@
       "programId": "matematica-linia-de-studiu-maghiara",
       "title": "Matematica - linia de studiu maghiara",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/MM3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/MM3.html",
       "groups": [
         431
       ],
@@ -469,9 +484,10 @@
       "programId": "matematica-linia-de-studiu-romana",
       "title": "Matematica - linia de studiu romana",
       "year": 1,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M1.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/M1.html",
       "groups": [
-        111
+        111,
+        112
       ],
       "cohortFormations": [
         "M1"
@@ -481,7 +497,7 @@
       "programId": "matematica-linia-de-studiu-romana",
       "title": "Matematica - linia de studiu romana",
       "year": 2,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M2.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/M2.html",
       "groups": [
         121
       ],
@@ -493,7 +509,7 @@
       "programId": "matematica-linia-de-studiu-romana",
       "title": "Matematica - linia de studiu romana",
       "year": 3,
-      "url": "https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/M3.html",
+      "url": "https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/M3.html",
       "groups": [
         131
       ],

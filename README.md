@@ -92,8 +92,8 @@ You can generate `config/sources.json` from the official timetable index:
 
 ```bash
 python scripts/generate_sources.py \
-  --index-url https://www.cs.ubbcluj.ro/files/orar/2025-2/tabelar/index.html \
-  --academic-year 2025-2026 \
+  --index-url https://www.cs.ubbcluj.ro/files/orar/2026-1/tabelar/index.html \
+  --academic-year 2026-2027 \
   --program-map config/program-map.example.json \
   --out config/sources.json
 ```
