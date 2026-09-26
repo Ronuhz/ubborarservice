@@ -19,6 +19,7 @@ The pipeline generates static JSON files under `dist/`:
 
 - `catalog.json`: available academic years, programs, years, and groups.
 - `rooms.json`: room code to address mapping from the published legend page.
+- `academic-calendar.json`: teaching and vacation dates from the faculty's academic-year structure.
 - `/{academicYear}/{programId}/y{year}/g{group}.json`: per-group timetable payloads.
 - `.scrape-status.json`: pipeline status, warnings, and failures for operational use.
 
@@ -52,6 +53,7 @@ pip install -r requirements.txt
 ```bash
 python scripts/scrape.py --config config/sources.json --out dist --soft-fail-empty
 python scripts/build_catalog.py --config config/sources.json --out dist --status dist/.scrape-status.json
+python scripts/build_academic_calendar.py --config config/academic-calendar.json --out dist
 ```
 
 ### 3) Validate with tests
@@ -117,6 +119,7 @@ Expected public URLs:
 
 - `https://<user>.github.io/<repo>/catalog.json`
 - `https://<user>.github.io/<repo>/rooms.json`
+- `https://<user>.github.io/<repo>/academic-calendar.json`
 - `https://<user>.github.io/<repo>/<academicYear>/<programId>/y<year>/g<group>.json`
 
 ## Data Contracts
@@ -126,6 +129,7 @@ Public schemas are versioned in `schemas/`:
 - `schemas/catalog.schema.json`
 - `schemas/timetable.schema.json`
 - `schemas/rooms.schema.json`
+- `schemas/academic-calendar.schema.json`
 
 Timetable payloads use **version 2**. Every entry includes:
 

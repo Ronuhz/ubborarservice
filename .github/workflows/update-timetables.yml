@@ -1,9 +1,6 @@
 name: Update Timetables
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
@@ -59,6 +56,10 @@ jobs:
       - name: Build announcements
         if: steps.cadence.outputs.skip != 'true'
         run: python scripts/build_announcements.py --out dist --announcements config/announcements.json --status dist/.scrape-status.json
+
+      - name: Build academic calendar
+        if: steps.cadence.outputs.skip != 'true'
+        run: python scripts/build_academic_calendar.py --config config/academic-calendar.json --out dist
 
       - name: Publish JSON files to gh-pages
         if: steps.cadence.outputs.skip != 'true'

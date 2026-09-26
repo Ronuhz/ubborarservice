@@ -34,7 +34,7 @@ The service is intentionally static-first:
 2. Fetch and parse timetable pages into canonical records.
 3. Optionally enrich room codes with addresses from the legend page.
 4. Emit per-group timetable JSON files.
-5. Build aggregate/supporting payloads (`catalog.json`, `announcements.json`, `rooms.json`).
+5. Build aggregate/supporting payloads (`catalog.json`, `announcements.json`, `academic-calendar.json`, `rooms.json`).
 6. Publish `dist/` to GitHub Pages.
 
 ## 3. Design Objectives
@@ -102,6 +102,12 @@ Expected shape:
 Discovery retains reviewed `cohortFormations` from an existing output configuration only for an exact match on
 `(academicYear, programId, year, url)`. New sources receive an empty list and require explicit configuration
 after verifying their cohort identifiers. Neither filenames nor global naming patterns define cohort scope.
+
+### 4.4 Academic Calendar Configuration (`config/academic-calendar.json`)
+
+Reviewed teaching and vacation periods from the faculty's academic-year structure page, split by teaching
+language and terminal/nonterminal study year. The date ranges are inclusive. Update this configuration
+when the faculty revises the calendar.
 
 ## 5. Pipeline Components
 
@@ -192,6 +198,11 @@ Automatic warning TTL:
 - Starts at run date 00:00:00Z
 - Ends at +2 days
 
+### 5.6 Academic Calendar Builder (`scripts/build_academic_calendar.py`)
+
+Validates date ranges and derives the first and last teaching dates for each semester before writing
+`academic-calendar.json`.
+
 ## 6. Output Contracts
 
 All public payload schemas live in `schemas/`.
@@ -279,6 +290,13 @@ Primary fields include:
 - `roomsInLegend`
 - `failures[]`, `warnings[]`, `sources[]`
 
+### 6.6 `academic-calendar.json`
+
+Schema: `schemas/academic-calendar.schema.json`
+
+- `calendars[]` selects teaching language and terminal/nonterminal study year.
+- Each semester contains inclusive teaching and vacation periods plus its first and last teaching dates.
+
 ## 7. Static Endpoint Model
 
 Published endpoints are static files on GitHub Pages:
@@ -286,6 +304,7 @@ Published endpoints are static files on GitHub Pages:
 - `GET /catalog.json`
 - `GET /announcements.json`
 - `GET /rooms.json`
+- `GET /academic-calendar.json`
 - `GET /{academicYear}/{programId}/y{year}/g{group}.json`
 
 Behavior expectations for consumers:
@@ -319,7 +338,7 @@ Execution model:
 
 - Payloads include `version` for contract evolution.
 - Timetable version 2 adds required `audience` metadata. The timetable schema validates version 2 specifically;
-  catalog, announcements, rooms, and scrape status retain version 1.
+  catalog, announcements, academic calendar, rooms, and scrape status retain version 1.
 - Successful scrapes and newly created empty fallbacks write version 2. Existing files retained after a failed
   scrape are not rewritten or relabeled; a retained/cached version 1 file must be treated as default-visible by clients.
 - Schema changes should preserve backward compatibility unless coordinated with app release.

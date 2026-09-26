@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Academic Calendar",
+  "type": "object",
+  "required": ["version", "generatedAt", "academicYear", "sourceUrl", "calendars"],
+  "properties": {
+    "version": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "academicYear": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{4}$" },
+    "sourceUrl": { "type": "string", "format": "uri" },
+    "calendars": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["languages", "studyYearKind", "semesters"],
+        "properties": {
+          "languages": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "enum": ["ro", "en", "hu", "de"] }
+          },
+          "studyYearKind": { "type": "string", "enum": ["terminal", "nonterminal"] },
+          "semesters": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "object",
+              "required": ["semester", "teachingStartsOn", "teachingEndsOn", "periods"],
+              "properties": {
+                "semester": { "type": "integer", "enum": [1, 2] },
+                "teachingStartsOn": { "type": "string", "format": "date" },
+                "teachingEndsOn": { "type": "string", "format": "date" },
+                "periods": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": ["type", "startDate", "endDate"],
+                    "properties": {
+                      "type": { "type": "string", "enum": ["teaching", "vacation"] },
+                      "startDate": { "type": "string", "format": "date" },
+                      "endDate": { "type": "string", "format": "date" },
+                      "name": { "type": "string", "minLength": 1 }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
