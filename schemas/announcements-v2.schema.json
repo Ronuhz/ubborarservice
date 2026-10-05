@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/schemas/announcements.schema.json",
-  "title": "Timetable Announcements",
+  "$id": "https://example.com/schemas/announcements-v2.schema.json",
+  "title": "Bilingual Timetable Announcements",
   "type": "object",
   "required": [
     "version",
@@ -11,7 +11,7 @@
   "properties": {
     "version": {
       "type": "integer",
-      "const": 1
+      "const": 2
     },
     "generatedAt": {
       "type": "string",
@@ -33,12 +33,40 @@
             "minLength": 1
           },
           "title": {
-            "type": "string",
-            "minLength": 1
+            "type": "object",
+            "required": [
+              "en",
+              "ro"
+            ],
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1
+              },
+              "ro": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
           },
           "message": {
-            "type": "string",
-            "minLength": 1
+            "type": "object",
+            "required": [
+              "en",
+              "ro"
+            ],
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1
+              },
+              "ro": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
           },
           "severity": {
             "type": "string",

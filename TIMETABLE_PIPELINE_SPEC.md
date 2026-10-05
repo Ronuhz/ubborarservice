@@ -83,8 +83,8 @@ Expected shape:
   "items": [
     {
       "id": "string",
-      "title": "string",
-      "message": "string",
+      "title": {"en": "English title", "ro": "Titlu în română"},
+      "message": {"en": "English message", "ro": "Mesaj în română"},
       "severity": "info | warning | critical"
     }
   ]
@@ -186,7 +186,11 @@ If `--status` is provided and contains detected groups, those group values overr
 
 ### 5.5 Announcements Builder (`scripts/build_announcements.py`)
 
-Outputs `announcements.json`.
+Outputs `announcements.json` (v1 plain strings) and `announcements-v2.json`
+(v2 bilingual `title` and `message` objects with required `en` and `ro` strings).
+Both feeds share IDs, dates, severity and generation timestamp. Config-only
+`legacyLanguage` selects the existing v1 text language, defaulting to English.
+Missing or empty translations fail the build before either feed is written.
 
 Combines:
 
@@ -273,6 +277,14 @@ Schema: `schemas/announcements.schema.json`
 - `items[]` with `id`, `title`, `message`, `severity`
 - Optional `symbolName`, `startsAt`, `endsAt`
 
+### 6.3.1 `announcements-v2.json`
+
+Schema: `schemas/announcements-v2.schema.json`
+
+- `version` is 2; legacy `announcements.json` remains version 1.
+- `title` and `message` contain required non-empty `en` and `ro` strings.
+- Clients select their app language and fall back to English for other languages.
+
 ### 6.4 `rooms.json`
 
 Schema: `schemas/rooms.schema.json`
@@ -303,6 +315,7 @@ Published endpoints are static files on GitHub Pages:
 
 - `GET /catalog.json`
 - `GET /announcements.json`
+- `GET /announcements-v2.json`
 - `GET /rooms.json`
 - `GET /academic-calendar.json`
 - `GET /{academicYear}/{programId}/y{year}/g{group}.json`
@@ -338,7 +351,8 @@ Execution model:
 
 - Payloads include `version` for contract evolution.
 - Timetable version 2 adds required `audience` metadata. The timetable schema validates version 2 specifically;
-  catalog, announcements, academic calendar, rooms, and scrape status retain version 1.
+  catalog, legacy announcements, academic calendar, rooms, and scrape status retain version 1;
+  bilingual announcements use version 2.
 - Successful scrapes and newly created empty fallbacks write version 2. Existing files retained after a failed
   scrape are not rewritten or relabeled; a retained/cached version 1 file must be treated as default-visible by clients.
 - Schema changes should preserve backward compatibility unless coordinated with app release.
@@ -356,4 +370,4 @@ Execution model:
 - Real-time backend API with dynamic query execution
 - In-app scraping/parsing of source HTML
 - Paid hosting dependencies or vendor lock-in
-- Localization layer inside service payload generation
+- Automatic translation of service content (announcement translations are manually supplied)

@@ -6,12 +6,12 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-from pipeline_utils import VERSION, read_json, utc_now_iso, write_json
+from pipeline_utils import read_json, utc_now_iso, write_json
 
 
 def _parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build announcements.json for the timetable app.")
-    parser.add_argument("--out", required=True, help="Output directory where announcements.json is written.")
+    parser = argparse.ArgumentParser(description="Build legacy and bilingual v2 announcements for the timetable app.")
+    parser.add_argument("--out", required=True, help="Output directory for announcements.json and announcements-v2.json.")
     parser.add_argument(
         "--announcements",
         default="config/announcements.json",
@@ -61,11 +61,20 @@ def _auto_failure_announcement(status: dict[str, Any]) -> dict[str, Any] | None:
     ends_at = run_date + timedelta(days=2)
     return {
         "id": f"refresh-delayed-{run_date.date().isoformat()}",
-        "title": "Timetable refresh delayed",
-        "message": (
-            f"Latest refresh failed for {len(failures)} source(s). "
-            "Showing the most recent successful timetable where available."
-        ),
+        "title": {
+            "en": "Timetable refresh delayed",
+            "ro": "Actualizarea orarului întârzie",
+        },
+        "message": {
+            "en": (
+                f"Latest refresh failed for {len(failures)} source(s). "
+                "Showing the most recent successful timetable where available."
+            ),
+            "ro": (
+                f"Ultima actualizare a eșuat pentru {len(failures)} surse. "
+                "Afișăm cel mai recent orar actualizat cu succes, acolo unde este disponibil."
+            ),
+        },
         "severity": "warning",
         "symbolName": "exclamationmark.triangle.fill",
         "startsAt": run_date.isoformat().replace("+00:00", "Z"),
@@ -87,6 +96,33 @@ def _dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return deduped
 
 
+def _build_payloads(items: list[dict[str, Any]]) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Derive both feeds from one bilingual source without changing v1's shape."""
+    legacy_items = []
+    bilingual_items = []
+    for item in _dedupe_items(items):
+        legacy_language = item.get("legacyLanguage", "en")
+        if legacy_language not in ("en", "ro"):
+            raise ValueError(f"{item['id']}: legacyLanguage must be en or ro.")
+        localized = {key: value for key, value in item.items() if key != "legacyLanguage"}
+        legacy = dict(localized)
+        for field in ("title", "message"):
+            text = item.get(field)
+            if not isinstance(text, dict) or set(text) != {"en", "ro"}:
+                raise ValueError(f"{item['id']}: {field} must contain en and ro translations.")
+            if any(not isinstance(value, str) or not value.strip() for value in text.values()):
+                raise ValueError(f"{item['id']}: {field} translations must be non-empty strings.")
+            localized[field] = dict(text)
+            legacy[field] = text[legacy_language]
+        legacy_items.append(legacy)
+        bilingual_items.append(localized)
+    generated_at = utc_now_iso()
+    return (
+        {"version": 1, "generatedAt": generated_at, "items": legacy_items},
+        {"version": 2, "generatedAt": generated_at, "items": bilingual_items},
+    )
+
+
 def main() -> int:
     args = _parse_args()
     out_dir = Path(args.out)
@@ -101,13 +137,10 @@ def main() -> int:
         all_items.append(auto_item)
     all_items = _dedupe_items(all_items)
 
-    payload = {
-        "version": VERSION,
-        "generatedAt": utc_now_iso(),
-        "items": all_items,
-    }
-    write_json(out_dir / "announcements.json", payload)
-    print(f"Wrote {len(all_items)} announcements.")
+    legacy, bilingual = _build_payloads(all_items)
+    write_json(out_dir / "announcements.json", legacy)
+    write_json(out_dir / "announcements-v2.json", bilingual)
+    print(f"Wrote {len(all_items)} announcements in v1 and v2.")
     return 0
 
 

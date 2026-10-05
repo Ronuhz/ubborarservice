@@ -2,10 +2,17 @@
   "items": [
     {
       "id": "schedule-updated-2026-10-05",
-      "title": "Orarul a fost actualizat",
-      "message": "Orarul a fost modificat. Aplicația afișează deja noul orar și este la zi.",
+      "title": {
+        "en": "Timetable updated",
+        "ro": "Orarul a fost actualizat"
+      },
+      "message": {
+        "en": "The timetable has changed. The app already shows the new timetable and is up to date.",
+        "ro": "Orarul a fost modificat. Aplicația afișează deja noul orar și este la zi."
+      },
       "severity": "info",
-      "symbolName": "calendar"
+      "symbolName": "calendar",
+      "legacyLanguage": "ro"
     }
   ]
 }
