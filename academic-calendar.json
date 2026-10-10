@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-10T11:30:20Z",
+  "academicYear": "2026-2027",
+  "sourceUrl": "https://www.cs.ubbcluj.ro/invatamant/structura-anului-universitar/",
+  "calendars": [
+    {
+      "languages": [
+        "ro",
+        "en"
+      ],
+      "studyYearKind": "nonterminal",
+      "semesters": [
+        {
+          "semester": 1,
+          "teachingStartsOn": "2026-09-28",
+          "teachingEndsOn": "2027-01-17",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2026-09-28",
+              "endDate": "2026-12-20"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2026-12-21",
+              "endDate": "2027-01-02",
+              "name": "Christmas"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-01-04",
+              "endDate": "2027-01-17"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-02-08",
+              "endDate": "2027-02-14",
+              "name": "Winter"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "teachingStartsOn": "2027-02-22",
+          "teachingEndsOn": "2027-06-06",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2027-02-22",
+              "endDate": "2027-05-02"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-05-03",
+              "endDate": "2027-05-09",
+              "name": "Easter"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-05-10",
+              "endDate": "2027-06-06"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-06-28",
+              "endDate": "2027-07-04",
+              "name": "Summer"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-08-02",
+              "endDate": "2027-10-03",
+              "name": "Summer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "languages": [
+        "ro",
+        "en"
+      ],
+      "studyYearKind": "terminal",
+      "semesters": [
+        {
+          "semester": 1,
+          "teachingStartsOn": "2026-09-28",
+          "teachingEndsOn": "2027-01-17",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2026-09-28",
+              "endDate": "2026-12-20"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2026-12-21",
+              "endDate": "2027-01-02",
+              "name": "Christmas"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-01-04",
+              "endDate": "2027-01-17"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-02-08",
+              "endDate": "2027-02-14",
+              "name": "Winter"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "teachingStartsOn": "2027-02-22",
+          "teachingEndsOn": "2027-05-23",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2027-02-22",
+              "endDate": "2027-05-02"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-05-03",
+              "endDate": "2027-05-09",
+              "name": "Easter"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-05-10",
+              "endDate": "2027-05-23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "languages": [
+        "hu",
+        "de"
+      ],
+      "studyYearKind": "nonterminal",
+      "semesters": [
+        {
+          "semester": 1,
+          "teachingStartsOn": "2026-09-28",
+          "teachingEndsOn": "2027-01-17",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2026-09-28",
+              "endDate": "2026-12-20"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2026-12-21",
+              "endDate": "2027-01-02",
+              "name": "Christmas"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-01-04",
+              "endDate": "2027-01-17"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-02-08",
+              "endDate": "2027-02-14",
+              "name": "Winter"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "teachingStartsOn": "2027-02-22",
+          "teachingEndsOn": "2027-06-06",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2027-02-22",
+              "endDate": "2027-03-28"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-03-29",
+              "endDate": "2027-04-04",
+              "name": "Easter"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-04-05",
+              "endDate": "2027-06-06"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-06-28",
+              "endDate": "2027-07-04",
+              "name": "Summer"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-08-02",
+              "endDate": "2027-10-03",
+              "name": "Summer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "languages": [
+        "hu",
+        "de"
+      ],
+      "studyYearKind": "terminal",
+      "semesters": [
+        {
+          "semester": 1,
+          "teachingStartsOn": "2026-09-28",
+          "teachingEndsOn": "2027-01-17",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2026-09-28",
+              "endDate": "2026-12-20"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2026-12-21",
+              "endDate": "2027-01-02",
+              "name": "Christmas"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-01-04",
+              "endDate": "2027-01-17"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-02-08",
+              "endDate": "2027-02-14",
+              "name": "Winter"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "teachingStartsOn": "2027-02-22",
+          "teachingEndsOn": "2027-06-27",
+          "periods": [
+            {
+              "type": "teaching",
+              "startDate": "2027-02-22",
+              "endDate": "2027-03-28"
+            },
+            {
+              "type": "vacation",
+              "startDate": "2027-03-29",
+              "endDate": "2027-04-04",
+              "name": "Easter"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-04-05",
+              "endDate": "2027-05-23"
+            },
+            {
+              "type": "teaching",
+              "startDate": "2027-06-14",
+              "endDate": "2027-06-27",
+              "name": "Final exam preparation (teaching activity)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
