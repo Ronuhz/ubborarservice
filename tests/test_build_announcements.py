@@ -14,11 +14,23 @@ from build_announcements import _auto_failure_announcement, _build_payloads
 
 
 class BuildAnnouncementsTest(unittest.TestCase):
-    def test_cli_preserves_live_feed_and_publishes_translations(self) -> None:
+    def test_cli_preserves_legacy_feed_and_publishes_translations(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
+            announcements = Path(directory) / "manual-announcements.json"
+            announcements.write_text(json.dumps({"items": [{
+                "id": "schedule-updated-2026-10-05",
+                "title": {"en": "Timetable updated", "ro": "Orarul a fost actualizat"},
+                "message": {
+                    "en": "The timetable has changed. The app already shows the new timetable and is up to date.",
+                    "ro": "Orarul a fost modificat. Aplicația afișează deja noul orar și este la zi.",
+                },
+                "severity": "info",
+                "symbolName": "calendar",
+                "legacyLanguage": "ro",
+            }]}), encoding="utf-8")
             subprocess.run(
                 [sys.executable, str(ROOT / "scripts/build_announcements.py"),
-                 "--out", directory, "--announcements", str(ROOT / "config/announcements.json"),
+                 "--out", directory, "--announcements", str(announcements),
                  "--status", str(Path(directory) / "missing-status.json")],
                 check=True, capture_output=True,
             )
