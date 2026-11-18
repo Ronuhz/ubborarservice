@@ -1,17 +1,3 @@
 {
-  "items": [
-    {
-      "id": "missing-class-frequencies-2026-11",
-      "title": {
-        "en": "Timetable may be inaccurate",
-        "ro": "Orarul poate fi inexact"
-      },
-      "message": {
-        "en": "The university's published timetable doesn't list class frequencies (odd/even weeks), so some classes may show in the wrong weeks. This is out of our control and needs to be fixed by the university.",
-        "ro": "Orarul publicat de universitate nu indică frecvența orelor (săptămâni pare/impare), așa că unele ore pot apărea în săptămâni greșite. Nu depinde de noi, remedierea trebuie făcută de universitate."
-      },
-      "severity": "warning",
-      "symbolName": "exclamationmark.triangle.fill"
-    }
-  ]
+  "items": []
 }
